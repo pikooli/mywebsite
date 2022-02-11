@@ -1,0 +1,129 @@
+{
+  "errors": {
+    "signin": {
+      "badcredential": "Mauvais email ou mot de passe"
+    },
+    "rule": {
+      "name": {
+        "required": "Un nom est obligatoire",
+        "empty": "Un nom est obligatoire"
+      },
+      "object": {
+        "required": "Un objet est obligatoire",
+        "empty": "Un objet est obligatoire"
+      },
+      "description": {
+        "required": "Une déscription est obligatoire",
+        "empty": "Une déscription est obligatoire"
+      }
+    },
+    "manual": {
+      "name": {
+        "required": "Un nom est obligatoire",
+        "empty": "Un nom est obligatoire"
+      },
+      "object": {
+        "required": "Un objet est obligatoire",
+        "empty": "Un objet est obligatoire"
+      },
+      "description": {
+        "required": "Une déscription est obligatoire",
+        "empty": "Une déscription est obligatoire"
+      }
+    },
+    "process": {
+      "name": {
+        "required": "Un nom est obligatoire",
+        "empty": "Un nom est obligatoire"
+      },
+      "object": {
+        "required": "Un objet est obligatoire",
+        "empty": "Un objet est obligatoire"
+      },
+      "applied_at": {
+        "required": "Une date est obligatoire",
+        "empty": "Une date est obligatoire"
+      },
+      "application": {
+        "required": "Une déscription de l'application est obligatoire",
+        "empty": "Une déscription de l'application est obligatoire"
+      },
+      "derogation": {
+        "required": "Une dérogation est obligatoire",
+        "empty": "Une dérogation est obligatoire"
+      },
+      "description": {
+        "required": "Une déscription est obligatoire",
+        "empty": "Une déscription est obligatoire"
+      }
+    },
+    "typeincident": {
+      "name": {
+        "required": "Un nom est obligatoire",
+        "empty": "Un nom est obligatoire"
+      }
+    },
+    "incident": {
+      "name": {
+        "required": "Un nom est obligatoire",
+        "empty": "Un nom est obligatoire"
+      },
+      "applied_at": {
+        "required": "Une date est obligatoire",
+        "empty": "Une date est obligatoire",
+        "applied_at": "Une date est obligatoire"
+      },
+      "description": {
+        "required": "Une déscription est obligatoire",
+        "empty": "Une déscription est obligatoire"
+      }
+    },
+    "solution": {
+      "name": {
+        "required": "Un nom est obligatoire",
+        "empty": "Un nom est obligatoire"
+      },
+      "applied_at": {
+        "required": "Une date est obligatoire",
+        "empty": "Une date est obligatoire",
+        "applied_at": "Une date est obligatoire"
+      },
+      "description": {
+        "required": "Une déscription est obligatoire",
+        "empty": "Une déscription est obligatoire"
+      }
+    },
+    "company": {
+      "name": {
+        "required": "Un nom est obligatoire",
+        "empty": "Un nom est obligatoire"
+      },
+      "activity": {
+        "required": "Une activiter est obligatoire",
+        "empty": "Une activiter est obligatoire"
+      }
+    },
+    "user": {
+      "firstname": {
+        "required": "Un prénom est obligatoire",
+        "empty": "Un prénom est obligatoire"
+      },
+      "lastname": {
+        "required": "Un nom est obligatoire",
+        "empty": "Un nom est obligatoire"
+      },
+      "email": {
+        "required": "Un email est obligatoire",
+        "empty": "Un email est obligatoire"
+      },
+      "password": {
+        "required": "Un mot de passe est obligatoire",
+        "empty": "Un mot de passe est obligatoire"
+      },
+      "re_password": {
+        "required": "Une vérification du mot de passe est obligatoire",
+        "empty": "Une vérification du mot de passe est obligatoire"
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "tooltip": {
+    "user": {
+      "new": "Ajouter un utilisateur",
+      "add": "Ajouter un utilisateur",
+      "edit": "Éditer un utilisateur",
+      "delete": "Supprimer un utilisateur"
+    },
+    "company": {
+      "new": "Ajouter une company",
+      "add": "Ajouter une entreprise",
+      "edit": "Éditer une entreprise",
+      "delete": "Supprimer une entreprise"
+    },
+    "manual": {
+      "add": "Ajouter un manuel",
+      "edit": "Éditer un manuel",
+      "delete": "Supprimer un manuel"
+    },
+    "rule": {
+      "add": "Ajouter une régle",
+      "edit": "Éditer une régle",
+      "delete": "Supprimer une régle"
+    },
+    "process": {
+      "add": "Ajouter une procédure",
+      "edit": "Éditer une procédure",
+      "delete": "Supprimer une procédure"
+    },
+    "typeincident": {
+      "add": "Ajouter un type d'incident",
+      "edit": "Éditer un type d'incident",
+      "delete": "Supprimer un type d'incident"
+    },
+    "incident": {
+      "add": "Ajouter un incident",
+      "edit": "Éditer un incident",
+      "delete": "Supprimer un incident"
+    },
+    "solution": {
+      "add": "Ajouter une solution",
+      "edit": "Éditer une solution",
+      "delete": "Supprimer une solution"
+    }
+  }
+}

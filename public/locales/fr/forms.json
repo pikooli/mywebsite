@@ -1,0 +1,39 @@
+{
+  "label": {
+    "name": "Nom",
+    "firstname": "Prénom",
+    "lastname": "Nom",
+    "email": "Email",
+    "password": "Mot de passe",
+    "re_password": "Vérification de mot de passe",
+    "nameprocess": "Nom de procédure",
+    "object": "Objet",
+    "role": "Role",
+    "application": "Application",
+    "derogation": "Dérogation",
+    "applied_at": "Date d'application",
+    "description": "Description",
+    "select": "Séléctionner",
+    "companyId": "Entreprise",
+    "activity": "Activiter"
+
+  },
+  "placeholder": {
+    "name": "Nom",
+    "firstname": "Prénom",
+    "lastname": "Nom",
+    "email": "Email",
+    "password": "Mot de passe",
+    "re_password": "Vérification de mot de passe",
+    "nameprocess": "Nom de procédure",
+    "object": "Objet",
+    "role": "Role",
+    "application": "Application",
+    "derogation": "Dérogation",
+    "applied_at": "Date d'application",
+    "description": "Description",
+    "select": "Séléctionner",
+    "companyId": "Entreprise",
+    "activity": "Activiter"
+  }
+}

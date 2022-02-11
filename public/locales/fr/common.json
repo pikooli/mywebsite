@@ -1,0 +1,23 @@
+{
+  "hello": "Bienvenue, sur ce boiletplate",
+  "hellotoabout": "Bienvenue sur About",
+  "todayis": "Aujourd'hui nous somme le",
+  "firstname": "Prénom",
+  "lastname": "Nom",
+  "email": "Email",
+  "password": "Mot de passe",
+  "re_password": "Confirmation de mot de passe",
+  "createdat": "Crée le ",
+  "manuals": "Manuels",
+  "processes": "Procédures",
+  "rules": "Réglements et plans",
+  "typesincident": "Types d'incident",
+  "incidents": "Incidents",
+  "company": "Entreprise",
+  "users": "Utilisateurs",
+  "user": "Utilisateur",
+  "admin": "Admin",
+
+  "new": "Nouveau",
+  "edit": "Edit"
+}
