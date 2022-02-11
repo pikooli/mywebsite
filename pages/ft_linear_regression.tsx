@@ -1,7 +1,6 @@
-import { useEffect, useState, useMemo } from "react";
-import type { NextPage, GetServerSideProps } from "next";
+import { useEffect, useState } from "react";
+import type { NextPage, GetStaticProps } from "next";
 
-import i18n from "lib/i18n";
 import readFile from "utils/ft_linear_regression/readFile";
 import Datas from "model/ft_linear_regression/Datas";
 import Layout from "components/Layout";
@@ -13,18 +12,16 @@ import MainPart from "components/ft_linear_regression/MainPart";
 import Presentation from "components/ft_linear_regression/text/Presentation";
 import Explanation from "components/ft_linear_regression/text/Explanation";
 
-export const getServerSideProps: GetServerSideProps = i18n.getTranslations(
-  async ({ req }) => {
-    const content = readFile("public/ressource/ft_linear_regression/data.csv");
-    let error = "";
-    if (typeof content === "string") {
-      error = content;
-    }
-    return {
-      props: { content: error ? [] : content, error },
-    };
+export const getStaticProps: GetStaticProps = async () => {
+  const content = readFile("public/ressource/ft_linear_regression/data.csv");
+  let error = "";
+  if (typeof content === "string") {
+    error = content;
   }
-);
+  return {
+    props: { content: error ? [] : content, error },
+  };
+};
 
 type Props = {
   content: string[][];
@@ -57,7 +54,7 @@ export const Home: NextPage<Props> = ({ content, error }) => {
   }, [datas]);
 
   return (
-    <Layout className="ft_linear_regression">
+    <Layout className="ft_linear_regression" title="ft_linear_regression">
       <Title2 className="text-uppercase  mb-5" title="ft_linear_regression" />
       {error}
       <Presentation />

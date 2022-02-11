@@ -13,7 +13,7 @@ const Layout = ({
 }) => {
   return (
     <div className={className}>
-      <Header title={title} />
+      <Header title={`Pascal Zhang ${!title ? "" : `- ${title}`}`} />
       <main>
         <Navbar />
         <div className={`container mt-3`}>{children}</div>
