@@ -1,7 +1,11 @@
 import { useEffect } from "react";
-import "../styles/globals.scss";
-import "bootstrap/dist/css/bootstrap.min.css";
 import type { AppProps } from "next/app";
+import "bootstrap/dist/css/bootstrap.min.css";
+
+import "../styles/globals.scss";
+import fontawersome from "lib/fontawersome";
+
+fontawersome();
 
 function MyApp({ Component, pageProps }: AppProps) {
   useEffect(() => {

@@ -16,6 +16,7 @@ type Props = {
   toolTipPosition?: string;
   datacy?: string;
   target?: string;
+  passHref?: boolean;
 };
 
 const CustomLink: React.FC<Props> = ({
@@ -30,14 +31,14 @@ const CustomLink: React.FC<Props> = ({
   toolTipPosition,
   datacy,
   target,
+  passHref,
 }) => {
   const [showToolTip, setShowToolTip] = useState(false);
   const [refElement, setRefElement] = useState<HTMLAnchorElement | null>(null);
   const onMouseEnter = () => setShowToolTip((prev) => true);
   const onMouseLeave = () => setShowToolTip((prev) => false);
-
   return (
-    <Link href={href || ""}>
+    <Link href={href || ""} passHref={passHref}>
       <a
         target={target}
         data-cy={datacy}
