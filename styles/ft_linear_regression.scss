@@ -5,7 +5,7 @@ $background: #f5f5f5;
   .card {
     background-color: $background;
   }
-  input {
+  input.form-control {
     background-color: $background !important;
   }
 }

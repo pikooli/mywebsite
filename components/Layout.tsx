@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useContext } from "react";
 import Header from "components/Header";
 import Navbar from "components/Navbar";
+import AppContext from "components/AppContext";
 
 const Layout = ({
   children,
@@ -11,8 +12,10 @@ const Layout = ({
   title?: string;
   className?: string;
 }) => {
+  const value = useContext(AppContext);
+
   return (
-    <div className={className}>
+    <div className={`${value?.theme} ${className || ""}`}>
       <Header title={`Pascal Zhang ${!title ? "" : `- ${title}`}`} />
       <main>
         <Navbar />

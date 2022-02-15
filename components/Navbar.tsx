@@ -1,7 +1,17 @@
+import React, { useContext } from "react";
 import { Link } from "components/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import AppContext from "components/AppContext";
 
 export default function Navbar() {
+  const value = useContext(AppContext);
+
+  const changeTheme = () => {
+    value?.setTheme((prev: string) =>
+      prev === "theme-light" ? "theme-dark" : "theme-light"
+    );
+  };
+
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid">
@@ -58,6 +68,22 @@ export default function Navbar() {
               >
                 <FontAwesomeIcon icon={["fab", "linkedin"]} />
               </a>
+            </li>
+            <li className="nav-item pe-2">
+              <div className="form-check form-switch">
+                <input
+                  className="form-check-input"
+                  type="checkbox"
+                  role="switch"
+                  onChange={changeTheme}
+                />
+                <label
+                  className="form-check-label"
+                  htmlFor="flexSwitchCheckChecked"
+                >
+                  Checked switch checkbox input
+                </label>
+              </div>
             </li>
           </ul>
         </div>
