@@ -41,8 +41,8 @@ This will give you θ0 :
   src="/ressource/ft_linear_regression/equation1.png"
   alt="equation1"
   className="ms-3"
-  width=360
-  height=55
+  width=270
+  height=30
 />
 
 This will give you θ1 :
@@ -51,8 +51,8 @@ This will give you θ1 :
   src="/ressource/ft_linear_regression/equation2.png"
   alt="equation2"
   className="ms-3"
-  width=470
-  height=65
+  width=270
+  height=30
 />
 
 A default dataset is provided
