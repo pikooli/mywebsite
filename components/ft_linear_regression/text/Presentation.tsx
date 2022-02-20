@@ -8,8 +8,6 @@ const markdown = `
 
 ### Description
 
-The lift coefficient ($C_L$) is a dimensionless coefficient.
-
 Machine learning is more and more use in today word, from creating
 image to weather forcast, passing by creating bots that beat humain
 in chess game.
@@ -28,9 +26,7 @@ formula of linear regression:
 <img
   src="/ressource/ft_linear_regression/equation.png"
   alt="equation"
-  className="ms-3"
-  width=270
-  height=30
+  className="equation"
 />
 
 You have to use these mathematics fomulars to get both θ.
@@ -40,9 +36,7 @@ This will give you θ0 :
 <img
   src="/ressource/ft_linear_regression/equation1.png"
   alt="equation1"
-  className="ms-3"
-  width=270
-  height=30
+  className="equation1"
 />
 
 This will give you θ1 :
@@ -50,9 +44,7 @@ This will give you θ1 :
 <img
   src="/ressource/ft_linear_regression/equation2.png"
   alt="equation2"
-  className="ms-3"
-  width=270
-  height=30
+  className="equation1"
 />
 
 A default dataset is provided
