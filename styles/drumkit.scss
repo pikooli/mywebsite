@@ -1,0 +1,58 @@
+.drumkit {
+  background-color: #283149;
+  text-align: center;
+  color: white;
+  h1 {
+    font-size: 5rem;
+    text-shadow: 3px 0 #da0463;
+    font-family: "Arvo", cursive;
+    color: #dbedf3;
+  }
+
+  .set {
+    margin: 10% auto;
+  }
+
+  .drum {
+    display: inline-block;
+    font-family: "Arvo", cursive;
+    text-shadow: 3px 0 #dbedf3;
+    color: #da0463;
+    font-weight: 900;
+    font-size: 5rem;
+    outline: none;
+    border: 10px solid #404b69;
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    background-color: white;
+  }
+
+  .w {
+    background-image: url("../public/drumkit/images/tom1.png");
+  }
+
+  .a {
+    background-image: url("../public/drumkit/images/tom2.png");
+  }
+  .s {
+    background-image: url("../public/drumkit/images/tom3.png");
+  }
+  .d {
+    background-image: url("../public/drumkit/images/tom4.png");
+  }
+  .j {
+    background-image: url("../public/drumkit/images/snare.png");
+  }
+  .k {
+    background-image: url("../public/drumkit/images/kick.png");
+  }
+  .l {
+    background-image: url("../public/drumkit/images/crash.png");
+  }
+
+  .drumSelect {
+    border: 10px solid #e73538;
+  }
+}
