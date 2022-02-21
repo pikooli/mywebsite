@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import Datas from "model/ft_linear_regression/Datas";
 import Title2 from "components/text/Title3";
@@ -42,7 +43,15 @@ export const Ft_linear_regression: React.FC<Props> = ({ content, error }) => {
 
   return (
     <div>
-      <Title2 className="text-uppercase  mb-5" title="ft_linear_regression" />
+      <div className="d-flex">
+        <Title2
+          className="text-uppercase mb-5 me-2"
+          title="ft_linear_regression"
+        />
+        <a href="https://github.com/pikooli/ft_linear_regression">
+          <FontAwesomeIcon icon={["fab", "github"]} />
+        </a>
+      </div>
       {error}
       <SendEth />
       <Presentation />
