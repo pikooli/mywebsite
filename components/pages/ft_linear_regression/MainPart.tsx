@@ -1,5 +1,5 @@
-import EstimatePrice from "components/ft_linear_regression/EstimatePrice";
-import DisplayInput from "components/ft_linear_regression/DatasetInput";
+import EstimatePrice from "components/pages/ft_linear_regression/EstimatePrice";
+import DisplayInput from "components/pages/ft_linear_regression/DatasetInput";
 import Calculation from "model/ft_linear_regression/Calculation";
 
 export default function MainPart({

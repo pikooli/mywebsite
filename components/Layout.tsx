@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import Header from "components/Header";
-import Navbar from "components/Navbar";
+import Navbar from "components/navbar/Navbar";
+import SideBar from "components/navbar/SideBar";
 import AppContext from "components/AppContext";
 
 const Layout = ({
@@ -19,7 +20,10 @@ const Layout = ({
       <Header title={`Pascal Zhang ${!title ? "" : `- ${title}`}`} />
       <main>
         <Navbar />
-        <div className={`container mt-3`}>{children}</div>
+        <div className="d-flex">
+          <SideBar />
+          <div className={`container mt-3`}>{children}</div>
+        </div>
       </main>
     </div>
   );

@@ -1,7 +1,7 @@
 import type { NextPage, GetServerSideProps } from "next";
 
 import Layout from "components/Layout";
-import Me from "components/me/Me";
+import Me from "components/pages/me/Me";
 
 type Props = {};
 

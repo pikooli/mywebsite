@@ -1,0 +1,28 @@
+.sidenavbar {
+  min-height: calc(100vh - var(--navbarHeight));
+  background-color: var(--navbarbgcolor);
+  a {
+    text-decoration: none;
+    color: var(--navbarcolor) !important;
+    display: block;
+    // border: 1px solid gray;
+    &.active {
+      // border-color: var(--navbarcolorhover) !important;
+      color: var(--navbarcolorhover) !important;
+    }
+    &:hover {
+      // border-color: var(--navbarcolorhover) !important;
+      color: var(--navbarcolorhover) !important;
+    }
+    &.disabled {
+      color: var(--colorSideLinkDisabled) !important;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .sidenavbar {
+    min-height: 0px;
+    display: none;
+  }
+}

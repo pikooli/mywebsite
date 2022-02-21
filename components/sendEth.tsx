@@ -4,7 +4,7 @@ import Web3 from "web3";
 
 const ETHPUBLIC = "0x343901374AdF3AFAc8EA1eC1Fb00a75F904eD48E";
 const sendEth =
-  "if you this this is userfull, you can support me by sending some eth";
+  "If you thing this is usefull, you can support me by sending some eth";
 
 const transactionParameters = {
   to: ETHPUBLIC,
