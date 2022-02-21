@@ -15,7 +15,7 @@ in chess game.
 **Ft_linear_regression** is a 42 project that introduct you to machine
 learning.
 
-You have to predict the price of a car 🚗 with the km as input.
+You have to predict the price of a car 🚗  with the km as input.
 
 It let you discover the power of linear regression and gradient
 descent.

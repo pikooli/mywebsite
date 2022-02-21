@@ -6,11 +6,12 @@ import {
   faFacebook,
   faGithub,
   faLinkedin,
+  faEthereum,
 } from "@fortawesome/free-brands-svg-icons";
 
 const Fontawersome = () => {
   config.autoAddCss = false;
-  library.add(fab, faCoffee, faFacebook, faGithub, faLinkedin);
+  library.add(fab, faCoffee, faFacebook, faGithub, faLinkedin, faEthereum);
   return <></>;
 };
 

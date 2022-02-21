@@ -11,6 +11,7 @@ import Calculation from "model/ft_linear_regression/Calculation";
 import MainPart from "components/ft_linear_regression/MainPart";
 import Presentation from "components/ft_linear_regression/text/Presentation";
 import Explanation from "components/ft_linear_regression/text/Explanation";
+import SendEth from "components/sendEth";
 
 export const getStaticProps: GetStaticProps = async () => {
   const content = readFile("public/ressource/ft_linear_regression/data.csv");
@@ -57,6 +58,7 @@ export const Home: NextPage<Props> = ({ content, error }) => {
     <Layout className="ft_linear_regression" title="ft_linear_regression">
       <Title2 className="text-uppercase  mb-5" title="ft_linear_regression" />
       {error}
+      <SendEth />
       <Presentation />
       <Explanation />
       <MainPart calculation={calculation} datas={datas} setDatas={setDatas} />
