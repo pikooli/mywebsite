@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+
 import tom1 from "public/drumkit/sounds/tom-1.mp3";
 import tom2 from "public/drumkit/sounds/tom-2.mp3";
 import tom3 from "public/drumkit/sounds/tom-3.mp3";
