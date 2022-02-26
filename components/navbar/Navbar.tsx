@@ -6,8 +6,10 @@ import NavLink from "components/navbar/NavLink";
 
 const NavbarTools = ({
   changeTheme,
+  theme,
 }: {
   changeTheme: React.ChangeEventHandler<HTMLInputElement>;
+  theme?: string;
 }) => {
   return (
     <ul className="navbar-nav flex-row ms-auto">
@@ -42,6 +44,7 @@ const NavbarTools = ({
               className="form-check-input"
               type="checkbox"
               role="switch"
+              checked={theme === "dark-theme"}
               onChange={changeTheme}
             />
           </div>
@@ -75,10 +78,11 @@ const CollapseNavbar = () => {
 
 export default function Navbar() {
   const value = useContext(AppContext);
+  const theme = value?.theme;
 
   const changeTheme = () => {
     value?.setTheme((prev: string) =>
-      prev === "theme-light" ? "theme-dark" : "theme-light"
+      prev === "light-theme" ? "dark-theme" : "light-theme"
     );
   };
 
@@ -90,7 +94,7 @@ export default function Navbar() {
           text="Pascal Zhang"
           className="navbar-brand text-uppercase"
         />
-        <NavbarTools changeTheme={changeTheme} />
+        <NavbarTools changeTheme={changeTheme} theme={theme} />
         <CollapseNavbar />
       </div>
     </nav>

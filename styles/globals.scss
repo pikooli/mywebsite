@@ -2,6 +2,7 @@
 @import "ft_linear_regression.scss";
 @import "navbar.scss";
 @import "drumkit.scss";
+@import "dark-theme.scss";
 
 html,
 body {
@@ -11,6 +12,9 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+.container {
+  min-height: calc(100vh - var(--navbarHeight));
+}
 a {
   color: inherit;
   text-decoration: none;

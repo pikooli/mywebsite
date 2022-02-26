@@ -11,7 +11,7 @@ type Props = {
 
 //
 export const AppProvider: React.FC<Props> = ({ children }) => {
-  const [theme, setTheme]: [string, Function] = useState("theme-light");
+  const [theme, setTheme]: [string, Function] = useState("light-theme");
 
   return (
     <AppContext.Provider

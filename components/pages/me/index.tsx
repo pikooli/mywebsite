@@ -1,5 +1,5 @@
 import React from "react";
-import Drumkit from "components/pages/me/drumkit";
+import Iam from "components/pages/me/Iam";
 
 type Props = {};
 
@@ -8,19 +8,15 @@ const Me: React.FC<Props> = () => {
     <div>
       <div className="d-flex flex-wrap">
         <img
-          src="/pascal_zhang.jpg"
+          src="/cat.jpg"
           className="rounded me-3"
           width={300}
           height={300}
-          alt="pascal zhang"
+          alt="cat"
         />
-        <p>
-          Who i am ? a vampire ? a chinese guy ? a developper ? all this ?
-          Maybeeeeee ???
-        </p>
-        <p>This webside is still ongoing :D</p>
+        <Iam />
       </div>
-      <Drumkit />
+      <p>This webside is still ongoing :D</p>
     </div>
   );
 };

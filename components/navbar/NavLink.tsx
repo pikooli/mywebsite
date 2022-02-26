@@ -41,10 +41,26 @@ export default function NavLink() {
     );
   };
 
+  const Other = () => {
+    return (
+      <>
+        <hr className="text-white" />
+        <li className="nav-item ps-2">
+          <Link
+            href="/pixijs"
+            text="pixijs"
+            className={`nav-link ${active["pixijs"]}`}
+          />
+        </li>
+      </>
+    );
+  };
+
   return (
     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
       <Project42 />
       <Web3 />
+      <Other />
     </ul>
   );
 }
