@@ -1,7 +1,7 @@
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { library, config } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
-import { faCoffee } from "@fortawesome/free-solid-svg-icons";
+import { faCoffee, faSun, faMoon } from "@fortawesome/free-solid-svg-icons";
 import {
   faFacebook,
   faGithub,
@@ -11,7 +11,16 @@ import {
 
 const Fontawersome = () => {
   config.autoAddCss = false;
-  library.add(fab, faCoffee, faFacebook, faGithub, faLinkedin, faEthereum);
+  library.add(
+    fab,
+    faSun,
+    faMoon,
+    faCoffee,
+    faFacebook,
+    faGithub,
+    faLinkedin,
+    faEthereum
+  );
   return <></>;
 };
 

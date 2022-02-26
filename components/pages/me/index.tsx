@@ -6,7 +6,7 @@ type Props = {};
 const Me: React.FC<Props> = () => {
   return (
     <div>
-      <div className="d-flex">
+      <div className="d-flex flex-wrap">
         <img
           src="/pascal_zhang.jpg"
           className="rounded me-3"
@@ -18,6 +18,7 @@ const Me: React.FC<Props> = () => {
           Who i am ? a vampire ? a chinese guy ? a developper ? all this ?
           Maybeeeeee ???
         </p>
+        <p>This webside is still ongoing :D</p>
       </div>
       <Drumkit />
     </div>

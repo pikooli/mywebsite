@@ -10,7 +10,7 @@ const NavbarTools = ({
   changeTheme: React.ChangeEventHandler<HTMLInputElement>;
 }) => {
   return (
-    <ul className="navbar-nav flex-row">
+    <ul className="navbar-nav flex-row ms-auto">
       <li className="nav-item pe-2">
         <a
           href="https://www.instagram.com/whitepikl/"
@@ -34,14 +34,18 @@ const NavbarTools = ({
           <FontAwesomeIcon icon={["fab", "linkedin"]} />
         </a>
       </li>
-      <li className="nav-item pe-2">
-        <div className="form-check form-switch">
-          <input
-            className="form-check-input"
-            type="checkbox"
-            role="switch"
-            onChange={changeTheme}
-          />
+      <li className="nav-item pe-2 pt-2">
+        <div className="d-flex align-items-center">
+          <FontAwesomeIcon className="text-white me-2" icon="sun" />
+          <div className="form-check form-switch">
+            <input
+              className="form-check-input"
+              type="checkbox"
+              role="switch"
+              onChange={changeTheme}
+            />
+          </div>
+          <FontAwesomeIcon className="text-white" icon="moon" />
         </div>
       </li>
       <li>
