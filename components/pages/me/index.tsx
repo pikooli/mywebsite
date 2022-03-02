@@ -8,7 +8,7 @@ const Me: React.FC<Props> = () => {
     <div>
       <div className="d-flex flex-wrap">
         <img
-          src="/cat.jpg"
+          src="/cat.png"
           className="rounded me-3"
           width={300}
           height={300}

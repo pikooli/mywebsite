@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from "react";
+import React, { useState } from "react";
 import { Stage, Text } from "@inlet/react-pixi";
 import { Texture } from "@pixi/core";
 import { TextStyle } from "pixi.js";
@@ -10,8 +10,12 @@ import Map from "components/pages/pixiJs/bunnyGame/Map";
 import Rock from "components/pages/pixiJs/bunnyGame/Rock";
 import Explanation from "components/pages/pixiJs/bunnyGame/Explaination";
 import Arrow from "components/pages/pixiJs/bunnyGame/Arrows";
+import { GithubIcon } from "components/icon/index";
 
-const spritesheet = "/bunny/Bunny.json";
+const GITHUB =
+  "https://github.com/pikooli/mywebsite/tree/main/components/pages/pixiJs/bunnyGame";
+
+const spritesheet = "/bunny/bunny.json";
 
 const LIMITUP = 2;
 const LIMITRIGHT = map[0].length - 2;
@@ -61,20 +65,6 @@ const BunnyGame = () => {
             renderOnComponentChange={true}
             options={{ backgroundAlpha: 0 }}
           >
-            <Text
-              text={`SCORE`}
-              anchor={[0.5, 0]}
-              x={(map[0].length / 2 - 1) * BLOCKSIZE}
-              y={BLOCKSIZE}
-              style={style as TextStyle}
-            />
-            <Text
-              text={`${score}`}
-              anchor={[0.5, 0]}
-              x={(map[0].length / 2 - 1) * BLOCKSIZE}
-              y={BLOCKSIZE * 3}
-              style={style as TextStyle}
-            />
             <Textures spritesheet={spritesheet} textureChain={true}>
               {(textures: Texture[]) => (
                 <>
@@ -94,9 +84,26 @@ const BunnyGame = () => {
                 </>
               )}
             </Textures>
+            <Text
+              text={`SCORE`}
+              anchor={[0.5, 0]}
+              zIndex={100}
+              x={(map[0].length / 2) * BLOCKSIZE}
+              y={BLOCKSIZE}
+              style={style as TextStyle}
+            />
+            <Text
+              text={`${score}`}
+              anchor={[0.5, 0]}
+              zIndex={100}
+              x={(map[0].length / 2) * BLOCKSIZE}
+              y={BLOCKSIZE * 3}
+              style={style as TextStyle}
+            />
           </Stage>
           <Arrow setArrowDown={setArrowDown} />
         </div>
+        <GithubIcon href={GITHUB} className="text-decoration-none" />
       </div>
     </div>
   );

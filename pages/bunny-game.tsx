@@ -6,10 +6,9 @@ const BunnyGameComponentWithNoSSR = dynamic(
   { ssr: false }
 );
 
-export default function PixiJs() {
+export default function BunnyGame() {
   return (
     <Layout className="pixijs" title="PixiJs">
-      {/* <Canvas /> */}
       <BunnyGameComponentWithNoSSR />
     </Layout>
   );

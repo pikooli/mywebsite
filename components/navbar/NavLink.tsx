@@ -45,11 +45,14 @@ export default function NavLink() {
     return (
       <>
         <hr className="text-white" />
+        <li className="nav-item">
+          <a className="nav-link disabled fw-bold">PixiJs</a>
+        </li>
         <li className="nav-item ps-2">
           <Link
-            href="/pixijs"
-            text="pixijs"
-            className={`nav-link ${active["pixijs"]}`}
+            href="/bunny-game"
+            text="bunny-game"
+            className={`nav-link ${active["bunny-game"]}`}
           />
         </li>
       </>
