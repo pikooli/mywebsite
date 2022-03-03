@@ -7,6 +7,7 @@ const Arrow = ({ setArrowDown }: { setArrowDown: Function }) => {
 
   const preventMenu = (e: MouseEvent) => {
     e.preventDefault();
+    return false;
   };
 
   useEffect(() => {
