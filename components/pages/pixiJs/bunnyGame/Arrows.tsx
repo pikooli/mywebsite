@@ -11,7 +11,7 @@ const Arrow = ({ setArrowDown }: { setArrowDown: Function }) => {
   };
 
   useEffect(() => {
-    div.current?.addEventListener("contextmenu", preventMenu);
+    div.current?.addEventListener("contextmenu", preventMenu, true);
     return () => div.current?.removeEventListener("contextmenu", preventMenu);
   });
 

@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import Iam from "components/pages/me/Iam";
 
 type Props = {};
@@ -7,7 +8,7 @@ const Me: React.FC<Props> = () => {
   return (
     <div>
       <div className="d-flex flex-wrap">
-        <img
+        <Image
           src="/cat.png"
           className="rounded me-3"
           width={300}
