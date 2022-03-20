@@ -4,16 +4,14 @@ import rehypeRaw from "rehype-raw";
 
 type Props = {};
 const markdown = `
-**Loom**
+**MintNFT**
 
-Loom is a blockchain that can interact with other blockchain.
+Minting a NFT mean that you create the NFT, it will put the NFT on the blockchain.
 
-It more cheaper and faster than Ethereum, as it model is proof of state.
-
-Check it out at **[Loom](https://loomx.io/)**
+E.g: If you get a NFT on a website, it will be the act of purchasing it.
 `;
 
-const Loom: React.FC<Props> = () => {
+const MintNFT: React.FC<Props> = () => {
   return (
     <div className="card mb-3">
       <div className="card-body">
@@ -23,4 +21,4 @@ const Loom: React.FC<Props> = () => {
   );
 };
 
-export default Loom;
+export default MintNFT;

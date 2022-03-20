@@ -4,16 +4,14 @@ import rehypeRaw from "rehype-raw";
 
 type Props = {};
 const markdown = `
-**Loom**
+**NFT**
 
-Loom is a blockchain that can interact with other blockchain.
+A NFT is a **Non-fungible token**.
 
-It more cheaper and faster than Ethereum, as it model is proof of state.
-
-Check it out at **[Loom](https://loomx.io/)**
+A token that, when create, cannot change value later.
 `;
 
-const Loom: React.FC<Props> = () => {
+const NFT: React.FC<Props> = () => {
   return (
     <div className="card mb-3">
       <div className="card-body">
@@ -23,4 +21,4 @@ const Loom: React.FC<Props> = () => {
   );
 };
 
-export default Loom;
+export default NFT;

@@ -4,16 +4,16 @@ import rehypeRaw from "rehype-raw";
 
 type Props = {};
 const markdown = `
-**Loom**
+**OpenZeppelin**
 
-Loom is a blockchain that can interact with other blockchain.
+OpenZeppelin provides secure code for descentralized aoplications.
 
-It more cheaper and faster than Ethereum, as it model is proof of state.
+It have base code for token, NFT and more.
 
-Check it out at **[Loom](https://loomx.io/)**
+Check it out at **[OpenZeppelin](https://openzeppelin.com/)**
 `;
 
-const Loom: React.FC<Props> = () => {
+const OpenZeppelin: React.FC<Props> = () => {
   return (
     <div className="card mb-3">
       <div className="card-body">
@@ -23,4 +23,4 @@ const Loom: React.FC<Props> = () => {
   );
 };
 
-export default Loom;
+export default OpenZeppelin;

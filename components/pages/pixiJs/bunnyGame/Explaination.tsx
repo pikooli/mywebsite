@@ -11,7 +11,7 @@ A little game using <a className="text-decoration-none text-dark fw-bold" target
 
 The goal is to take the rock that apear on the map.
 
-Use arrow keys of the keyboard to play or **click on the arrows on the left**.
+Use arrow keys of the keyboard to play or **click on the arrows on the right**.
 `;
 
 const Explanation: React.FC<Props> = () => {
