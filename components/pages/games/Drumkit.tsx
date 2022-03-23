@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useCallback } from "react";
 
 import tom1 from "public/drumkit/sounds/tom-1.mp3";
 import tom2 from "public/drumkit/sounds/tom-2.mp3";
@@ -7,17 +7,23 @@ import tom4 from "public/drumkit/sounds/tom-4.mp3";
 import snare from "public/drumkit/sounds/snare.mp3";
 import kickBass from "public/drumkit/sounds/kick-bass.mp3";
 import crash from "public/drumkit/sounds/crash.mp3";
-import Title2 from "components/text/Title3";
+import Title3 from "components/text/Title3";
 
 type Props = {};
+
 const Drumkit: React.FC<Props> = () => {
+  const listener = useCallback((e: KeyboardEvent) => {
+    const element: HTMLElement = document.getElementsByClassName(
+      e.key
+    )[0] as HTMLElement;
+    if (element) element.click();
+  }, []);
+
   useEffect(() => {
-    window.document.addEventListener("keydown", (e) => {
-      const element: HTMLElement = document.getElementsByClassName(
-        e.key
-      )[0] as HTMLElement;
-      if (element) element.click();
-    });
+    window.document.addEventListener("keydown", listener);
+    return () => {
+      window.document.removeEventListener("keydown", listener);
+    };
   }, []);
 
   function playSound(e: React.MouseEvent<HTMLButtonElement, MouseEvent>) {
@@ -61,7 +67,7 @@ const Drumkit: React.FC<Props> = () => {
   return (
     <div className="drumkit">
       <div className="set py-2">
-        <Title2 title="Here a little drum kit to pass time. 🥁" />
+        <Title3 title="Here a little drum kit to pass time. 🥁" />
         <p>You can click on it or use the keyboard. 👍</p>
         <button className="w drum" onClick={(e) => playSound(e)}>
           w

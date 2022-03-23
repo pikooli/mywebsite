@@ -67,6 +67,7 @@ const BunnyGame = () => {
           width={map[0].length * BLOCKSIZE}
           height={map.length * BLOCKSIZE}
           renderOnComponentChange={true}
+          className="mx-auto lg:mx-0"
           options={{ backgroundAlpha: 0 }}
         >
           <Textures spritesheet={spritesheet} textureChain={true}>
@@ -90,7 +91,7 @@ const BunnyGame = () => {
           </Textures>
           <Text
             text={`SCORE`}
-            anchor={[0.5, 0]}
+            anchor={[0.4, 0]}
             zIndex={100}
             x={(map[0].length / 2) * BLOCKSIZE}
             y={BLOCKSIZE}
@@ -98,7 +99,7 @@ const BunnyGame = () => {
           />
           <Text
             text={`${score}`}
-            anchor={[0.5, 0]}
+            anchor={[0.4, 0]}
             zIndex={100}
             x={(map[0].length / 2) * BLOCKSIZE}
             y={BLOCKSIZE * 3}

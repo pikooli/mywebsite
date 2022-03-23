@@ -55,6 +55,16 @@ export default function NavLink() {
             className={`nav-link ${active["bunny-game"]}`}
           />
         </li>
+        <li>
+          <a className="nav-link">Games</a>
+        </li>
+        <li className="pl-2">
+          <Link
+            href="/drum-kit"
+            text="Drum-kit"
+            className={`nav-link ${active["drum-kit"]}`}
+          />
+        </li>
       </>
     );
   };
