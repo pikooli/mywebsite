@@ -23,7 +23,7 @@ const Iam: React.FC<Props> = () => {
     return () => clearTimeout(timer);
   });
 
-  return <h1>I am a {adjective}</h1>;
+  return <h1 className="text-3xl font-bold">I am a {adjective}</h1>;
 };
 
 export default Iam;

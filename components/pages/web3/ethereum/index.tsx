@@ -14,14 +14,14 @@ const Ethereum: React.FC<Props> = () => {
   return (
     <div>
       <div className="mb-3">
-        <Title2 title="Vocabulary :" />
-        <div className="ms-3">
+        <Title2 title="Vocabulary :" className="mb-3" />
+        <div className="ml-3">
           <Vocabulary />
         </div>
       </div>
       <div className="mb-3">
-        <Title2 title="Tools :" />
-        <div className="ms-3">
+        <Title2 title="Tools :" className="mb-3" />
+        <div className="ml-3">
           <Truffle />
           <Loom />
           <Ganache />
@@ -29,8 +29,8 @@ const Ethereum: React.FC<Props> = () => {
         </div>
       </div>
       <div className="mb-3">
-        <Title2 title="Eth transaction :" />
-        <div className="ms-3">
+        <Title2 title="Eth transaction :" className="mb-3" />
+        <div className="ml-3">
           <Nonce />
         </div>
       </div>

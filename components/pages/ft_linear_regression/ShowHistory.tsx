@@ -34,15 +34,11 @@ const ShowHistory = ({ calculation }: { calculation: Calculation }) => {
 
   return (
     <div className="card p-3 mb-3">
-      <div className="card-body">
-        <h4>Graph history</h4>
-        <div className="row">
-          {datas.map((data, i) => (
-            <div className="col-md-6" key={i}>
-              <ScatterChart datas={data} />
-            </div>
-          ))}
-        </div>
+      <h4>Graph history</h4>
+      <div className="grid grid-cols-2">
+        {datas.map((data, i) => (
+          <ScatterChart datas={data} key={i} />
+        ))}
       </div>
     </div>
   );

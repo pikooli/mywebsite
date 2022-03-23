@@ -9,9 +9,9 @@ export default function ShowTheta({
 }) {
   return (
     <div>
-      {text && <span className="me-3">{text}</span>}
+      {text && <span className="mr-3">{text}</span>}
       <span>T0 : {calculation.theta0}</span>
-      <span className="ms-3">T1 : {calculation.theta1}</span>
+      <span className="ml-3">T1 : {calculation.theta1}</span>
     </div>
   );
 }

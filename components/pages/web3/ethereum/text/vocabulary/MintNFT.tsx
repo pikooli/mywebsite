@@ -14,9 +14,7 @@ E.g: If you get a NFT on a website, it will be the act of purchasing it.
 const MintNFT: React.FC<Props> = () => {
   return (
     <div className="card mb-3">
-      <div className="card-body">
-        <ReactMarkdown rehypePlugins={[rehypeRaw]}>{markdown}</ReactMarkdown>
-      </div>
+      <ReactMarkdown rehypePlugins={[rehypeRaw]}>{markdown}</ReactMarkdown>
     </div>
   );
 };

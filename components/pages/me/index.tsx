@@ -7,10 +7,10 @@ type Props = {};
 const Me: React.FC<Props> = () => {
   return (
     <div>
-      <div className="d-flex flex-wrap">
+      <div className="flex flex-wrap">
         <Image
           src="/cat.png"
-          className="rounded me-3"
+          className="rounded"
           width={300}
           height={300}
           alt="cat"

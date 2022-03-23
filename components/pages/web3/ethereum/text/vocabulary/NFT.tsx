@@ -14,9 +14,7 @@ A token that, when create, cannot change value later.
 const NFT: React.FC<Props> = () => {
   return (
     <div className="card mb-3">
-      <div className="card-body">
-        <ReactMarkdown rehypePlugins={[rehypeRaw]}>{markdown}</ReactMarkdown>
-      </div>
+      <ReactMarkdown rehypePlugins={[rehypeRaw]}>{markdown}</ReactMarkdown>
     </div>
   );
 };

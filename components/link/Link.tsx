@@ -43,7 +43,8 @@ const CustomLink: React.FC<Props> = ({
         target={target}
         data-cy={datacy}
         ref={setRefElement}
-        className={`${className || ""} link  ${disabled ? "disabled" : ""}`}
+        className={`${className || ""}`}
+        style={disabled ? style : undefined}
         onMouseEnter={toolTipText ? onMouseEnter : undefined}
         onMouseLeave={toolTipText ? onMouseLeave : undefined}
       >
@@ -63,3 +64,9 @@ const CustomLink: React.FC<Props> = ({
 };
 
 export default CustomLink;
+
+const style = {
+  color: "rgba(255, 255, 255, 0.25) !important",
+  cursor: "default",
+  pointerEvents: "none" as "none",
+};

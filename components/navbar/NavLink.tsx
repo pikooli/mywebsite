@@ -10,13 +10,13 @@ export default function NavLink() {
   const Project42 = () => {
     return (
       <>
-        <li className="nav-item">
-          <a className="nav-link disabled fw-bold">42 Projects</a>
+        <li>
+          <a className="nav-link">42 Projects</a>
         </li>
-        <li className="nav-item ps-2">
+        <li className="pl-2">
           <Link
             href="/ft_linear_regression"
-            text="ft_linear_regression"
+            text="Ft_linear_regression"
             className={`nav-link ${active["ft_linear_regression"]}`}
           />
         </li>
@@ -27,10 +27,10 @@ export default function NavLink() {
   const Web3 = () => {
     return (
       <>
-        <li className="nav-item">
-          <a className="nav-link disabled fw-bold">Web3</a>
+        <li>
+          <a className="nav-link">Web3</a>
         </li>
-        <li className="nav-item ps-2">
+        <li className="pl-2">
           <Link
             href="/ethereum"
             text="Ethereum"
@@ -45,13 +45,13 @@ export default function NavLink() {
     return (
       <>
         <hr className="text-white" />
-        <li className="nav-item">
-          <a className="nav-link disabled fw-bold">PixiJs</a>
+        <li>
+          <a className="nav-link">PixiJs</a>
         </li>
-        <li className="nav-item ps-2">
+        <li className="pl-2">
           <Link
             href="/bunny-game"
-            text="bunny-game"
+            text="Bunny-game"
             className={`nav-link ${active["bunny-game"]}`}
           />
         </li>
@@ -60,7 +60,7 @@ export default function NavLink() {
   };
 
   return (
-    <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+    <ul className="mb-2 mb-lg-0">
       <Project42 />
       <Web3 />
       <Other />

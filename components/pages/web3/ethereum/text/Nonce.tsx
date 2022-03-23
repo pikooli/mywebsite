@@ -16,9 +16,7 @@ That means that transactions are always processed in order for a given account, 
 const Nonce: React.FC<Props> = () => {
   return (
     <div className="card mb-3">
-      <div className="card-body">
-        <ReactMarkdown rehypePlugins={[rehypeRaw]}>{markdown}</ReactMarkdown>
-      </div>
+      <ReactMarkdown rehypePlugins={[rehypeRaw]}>{markdown}</ReactMarkdown>
     </div>
   );
 };

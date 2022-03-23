@@ -43,9 +43,9 @@ export const Ft_linear_regression: React.FC<Props> = ({ content, error }) => {
 
   return (
     <div>
-      <div className="d-flex">
+      <div className="flex">
         <Title2
-          className="text-uppercase mb-5 me-2"
+          className="capitalize font-bold mb-5 mr-2"
           title="ft_linear_regression"
         />
         <a href="https://github.com/pikooli/ft_linear_regression">

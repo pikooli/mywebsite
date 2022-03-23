@@ -42,12 +42,13 @@ export default function SendEth() {
 
   const onClick = async (e: React.MouseEvent<HTMLElement>) => {
     e.preventDefault();
+
     let currentAccount = account;
     if (!currentAccount) {
       const accounts = await provider.request({
         method: "eth_requestAccounts",
       });
-      if (!accounts.length) {
+      if (!accounts.length || Number(input) <= 0) {
         return;
       }
       setAccount(accounts[0]);
@@ -73,22 +74,17 @@ export default function SendEth() {
           <label className="mb-3">
             {sendEth} <FontAwesomeIcon icon={["fab", "ethereum"]} />
           </label>
-          <div className="row">
-            <div className="col-6">
-              <input
-                type="number"
-                className="form-control"
-                value={input}
-                min={0}
-                onChange={(e) => setInput(e.target.value)}
-                placeholder="0.001"
-              />
-            </div>
-            <div className="col">
-              <button className="btn btn-primary" onClick={onClick}>
-                <FontAwesomeIcon icon={["fab", "ethereum"]} />
-              </button>
-            </div>
+          <div className="flex mt-2">
+            <input
+              type="number"
+              value={input}
+              min={0}
+              onChange={(e) => setInput(e.target.value)}
+              placeholder="0.001"
+            />
+            <button className="btn btn-primary" onClick={onClick}>
+              <FontAwesomeIcon icon={["fab", "ethereum"]} />
+            </button>
           </div>
         </form>
         <TxHash />

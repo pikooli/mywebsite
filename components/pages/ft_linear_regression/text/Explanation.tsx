@@ -4,7 +4,7 @@ import rehypeRaw from "rehype-raw";
 
 type Props = {};
 const markdown = `
-### Explanation
+### **Explanation**
 
 Machine learning work amost everytime with normalized data.
 
@@ -13,7 +13,7 @@ that is more easy to work*
 
 ***e.g : set all values between 0-1***
 
-You can check more information on <a className="text-decoration-none text-dark fw-bold" target="tab" href="https://www.delftstack.com/howto/python/normalize-a-list-of-numbers-in-python/">Normalize</a>
+You can check more information on <a className="font-bold" target="tab" href="https://www.delftstack.com/howto/python/normalize-a-list-of-numbers-in-python/">Normalize</a>
 
 When your dataset is normalized you can work on it to find θ values.
 
@@ -23,7 +23,7 @@ possible of both θ.
 *Gradient descent is a first-order iterative optimization algorithm
 for finding a local minimum of a differentiable function.*
 
-For more information on <a className="text-decoration-none text-dark fw-bold" target="tab" href="https://towardsdatascience.com/linear-regression-using-gradient-descent-97a6c8700931/" >Gradient descent</a>
+For more information on <a className="font-bold" target="tab" href="https://towardsdatascience.com/linear-regression-using-gradient-descent-97a6c8700931/" >Gradient descent</a>
 
 We will iterate n number of time over the values in the dataset, to
 calculate the derivation.

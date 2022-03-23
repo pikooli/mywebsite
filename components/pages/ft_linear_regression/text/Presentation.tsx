@@ -6,7 +6,8 @@ type Props = {};
 
 const markdown = `
 
-### Description
+### **Description**
+
 
 Machine learning is more and more use in today word, from creating
 image to weather forcast, passing by creating bots that beat humain

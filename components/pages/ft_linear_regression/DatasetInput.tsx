@@ -1,4 +1,5 @@
 import React, { ChangeEvent } from "react";
+import { FloatingInput } from "components/inputs";
 
 export default function DatasetInput({
   datas,
@@ -21,16 +22,12 @@ export default function DatasetInput({
 
   const input = (value: string, range: number, i: number) => {
     return (
-      <div className="form-floating mb-3">
-        <input
-          type="number"
-          className="form-control"
-          value={value}
-          onChange={(e) => onChange(e, range, i)}
-          placeholder="1000"
-        />
-        <label htmlFor="floatingInput">{range === 0 ? "km" : "price"}</label>
-      </div>
+      <FloatingInput
+        type="number"
+        value={value}
+        onChange={(e) => onChange(e, range, i)}
+        label={range === 0 ? "Km" : "Price"}
+      />
     );
   };
 
@@ -38,11 +35,9 @@ export default function DatasetInput({
     const res = [];
     for (let i = 1; i < datas[0]?.length; i++) {
       res.push(
-        <div className="col-md-6" key={i}>
-          <div className="d-flex">
-            {input(datas[0][i], 0, i)}
-            {input(datas[1][i], 1, i)}
-          </div>
+        <div className="flex" key={i}>
+          {input(datas[0][i], 0, i)}
+          {input(datas[1][i], 1, i)}
         </div>
       );
       res.push();
@@ -52,10 +47,8 @@ export default function DatasetInput({
 
   return (
     <div className="card">
-      <div className="card-body">
-        <h4>Dataset</h4>
-        <div className="row">{inputs()}</div>
-      </div>
+      <h4>Dataset</h4>
+      <div className="grid grid-cols-2">{inputs()}</div>
     </div>
   );
 }

@@ -3,6 +3,7 @@ import { Stage, Text } from "@inlet/react-pixi";
 import { Texture } from "@pixi/core";
 import { TextStyle } from "pixi.js";
 
+import Title3 from "components/text/Title3";
 import Textures from "components/pixijs/Texture";
 import { map, BLOCKSIZE } from "components/pages/pixiJs/bunnyGame/utils";
 import Bunny from "components/pages/pixiJs/bunnyGame/Bunny";
@@ -56,54 +57,55 @@ const BunnyGame = () => {
 
   return (
     <div className="card bunny-game">
-      <div className="card-body">
-        <Explanation />
-        <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-          <Stage
-            width={map[0].length * BLOCKSIZE}
-            height={map.length * BLOCKSIZE}
-            renderOnComponentChange={true}
-            options={{ backgroundAlpha: 0 }}
-          >
-            <Textures spritesheet={spritesheet} textureChain={true}>
-              {(textures: Texture[]) => (
-                <>
-                  {Map(textures)}
-                  <Bunny
-                    textures={textures}
-                    posi={bunnyPosi}
-                    arrowDown={arrowDow}
-                    setPosi={setBunnyPosi}
-                    checkCollision={checkCollisionBunny}
-                  />
-                  <Rock
-                    textures={textures}
-                    posi={rockPosi}
-                    setPosi={setRockPosi}
-                  />
-                </>
-              )}
-            </Textures>
-            <Text
-              text={`SCORE`}
-              anchor={[0.5, 0]}
-              zIndex={100}
-              x={(map[0].length / 2) * BLOCKSIZE}
-              y={BLOCKSIZE}
-              style={style as TextStyle}
-            />
-            <Text
-              text={`${score}`}
-              anchor={[0.5, 0]}
-              zIndex={100}
-              x={(map[0].length / 2) * BLOCKSIZE}
-              y={BLOCKSIZE * 3}
-              style={style as TextStyle}
-            />
-          </Stage>
-          <Arrow setArrowDown={setArrowDown} />
-        </div>
-        <GithubIcon href={GITHUB} className="text-decoration-none" />
+      <div className="flex">
+        <Title3 className="capitalize font-bold mb-5 mr-2" title="Bunny Game" />
+        <GithubIcon href={GITHUB} />
+      </div>
+      <Explanation />
+      <div className="flex flex-wrap">
+        <Stage
+          width={map[0].length * BLOCKSIZE}
+          height={map.length * BLOCKSIZE}
+          renderOnComponentChange={true}
+          options={{ backgroundAlpha: 0 }}
+        >
+          <Textures spritesheet={spritesheet} textureChain={true}>
+            {(textures: Texture[]) => (
+              <>
+                {Map(textures)}
+                <Bunny
+                  textures={textures}
+                  posi={bunnyPosi}
+                  arrowDown={arrowDow}
+                  setPosi={setBunnyPosi}
+                  checkCollision={checkCollisionBunny}
+                />
+                <Rock
+                  textures={textures}
+                  posi={rockPosi}
+                  setPosi={setRockPosi}
+                />
+              </>
+            )}
+          </Textures>
+          <Text
+            text={`SCORE`}
+            anchor={[0.5, 0]}
+            zIndex={100}
+            x={(map[0].length / 2) * BLOCKSIZE}
+            y={BLOCKSIZE}
+            style={style as TextStyle}
+          />
+          <Text
+            text={`${score}`}
+            anchor={[0.5, 0]}
+            zIndex={100}
+            x={(map[0].length / 2) * BLOCKSIZE}
+            y={BLOCKSIZE * 3}
+            style={style as TextStyle}
+          />
+        </Stage>
+        <Arrow setArrowDown={setArrowDown} />
       </div>
     </div>
   );

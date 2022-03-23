@@ -78,47 +78,36 @@ const ShowGraphs = ({ calculation }: { calculation: Calculation }) => {
 
   return (
     <div className="card p-3 mb-3">
-      <div className="card-body">
-        <div className="d-flex justify-content-between">
-          <h4>Graph datas</h4>
-          <button
-            className="btn btn-primary"
-            onClick={() => setNormalize((prev) => !prev)}
-          >
-            {!normalize ? "Normalize" : "Raw data"}
-          </button>
-        </div>
-
-        <div className="row">
-          <div className="col-md-6">
-            <LineChart
-              labels={datas.x}
-              datas={[datas.y]}
-              title="Dataset prices / km"
-            />
-          </div>
-          <div className="col-md-6">
-            <LineChart
-              labels={order.x}
-              datas={[order.y]}
-              title="Prices / km, Ordered by km"
-            />
-          </div>
-          <div className="col-md-6">
-            <LineChart
-              labels={prediction.x}
-              datas={[prediction.y]}
-              title="Prediction prices / km"
-            />
-          </div>
-          <div className="col-md-6">
-            <LineChart
-              labels={order_prediction.x}
-              datas={[order_prediction.y]}
-              title="Prediction prices / km, Ordered by km"
-            />
-          </div>
-        </div>
+      <div className="flex justify-between">
+        <h4>Graph datas</h4>
+        <button
+          className="btn btn-primary"
+          onClick={() => setNormalize((prev) => !prev)}
+        >
+          {!normalize ? "Normalize" : "Raw data"}
+        </button>
+      </div>
+      <div className="grid grid-cols-2">
+        <LineChart
+          labels={datas.x}
+          datas={[datas.y]}
+          title="Dataset prices / km"
+        />
+        <LineChart
+          labels={order.x}
+          datas={[order.y]}
+          title="Prices / km, Ordered by km"
+        />
+        <LineChart
+          labels={prediction.x}
+          datas={[prediction.y]}
+          title="Prediction prices / km"
+        />
+        <LineChart
+          labels={order_prediction.x}
+          datas={[order_prediction.y]}
+          title="Prediction prices / km, Ordered by km"
+        />
       </div>
     </div>
   );

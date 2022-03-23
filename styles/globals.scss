@@ -1,3 +1,4 @@
+@import "tailwind.scss";
 @import "variable.scss";
 @import "ft_linear_regression.scss";
 @import "navbar.scss";
@@ -16,6 +17,7 @@ body {
 .container {
   min-height: calc(100vh - var(--navbarHeight));
 }
+
 a {
   color: inherit;
   text-decoration: none;

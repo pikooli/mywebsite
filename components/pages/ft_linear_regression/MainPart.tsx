@@ -12,13 +12,9 @@ export default function MainPart({
   setDatas: Function;
 }) {
   return (
-    <div className="row mb-3">
-      <div className="col-md-6 mb-3">
-        <EstimatePrice calculation={calculation} />
-      </div>
-      <div className="col-md-6">
-        <DisplayInput datas={datas} setDatas={setDatas} />
-      </div>
+    <div className="grid grid-cols-2 mb-3">
+      <EstimatePrice calculation={calculation} />
+      <DisplayInput datas={datas} setDatas={setDatas} />
     </div>
   );
 }

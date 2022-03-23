@@ -16,7 +16,10 @@ const Arrow = ({ setArrowDown }: { setArrowDown: Function }) => {
   });
 
   return (
-    <div className="ms-3 mt-3 mt-lg-0 text-center me-auto me-lg-0" ref={div}>
+    <div
+      className="text-center ml-auto mt-3 sm:mr-auto sm:mt-0 sm:ml-3"
+      ref={div}
+    >
       <Image
         src="/bunny/arrow.png"
         width={64}

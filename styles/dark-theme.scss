@@ -1,8 +1,8 @@
 .dark-theme {
   color: gray !important;
-  background-color: black !important;
+  background-color: var(--colordark);
   .card {
     border-color: gray;
-    background-color: black;
+    background-color: var(--colordark);
   }
 }
