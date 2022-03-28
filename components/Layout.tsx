@@ -22,7 +22,7 @@ const Layout = ({
         <Navbar />
         <div className="flex">
           <SideBar />
-          <div className="container px-3 mx-auto mt-3">{children}</div>
+          <div className="container px-3  mt-3">{children}</div>
         </div>
       </main>
     </div>

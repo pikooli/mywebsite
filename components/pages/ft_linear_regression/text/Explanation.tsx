@@ -41,9 +41,7 @@ loss will stabilise.
 const Explanation: React.FC<Props> = () => {
   return (
     <div className="card mb-3">
-      <div className="card-body">
-        <ReactMarkdown rehypePlugins={[rehypeRaw]}>{markdown}</ReactMarkdown>
-      </div>
+      <ReactMarkdown rehypePlugins={[rehypeRaw]}>{markdown}</ReactMarkdown>
     </div>
   );
 };

@@ -3,9 +3,7 @@ import { Link } from "components/link";
 
 export default function NavLink() {
   const router = useRouter();
-
-  const slug = router.pathname.split("/")[1];
-  const active = { [slug as string]: "active" };
+  const active = { [router.pathname as string]: "active" };
 
   const Project42 = () => {
     return (
@@ -17,7 +15,7 @@ export default function NavLink() {
           <Link
             href="/ft_linear_regression"
             text="Ft_linear_regression"
-            className={`nav-link ${active["ft_linear_regression"]}`}
+            className={`nav-link ${active["/ft_linear_regression"]}`}
           />
         </li>
       </>
@@ -27,6 +25,7 @@ export default function NavLink() {
   const Web3 = () => {
     return (
       <>
+        <hr className="text-white" />
         <li>
           <a className="nav-link">Web3</a>
         </li>
@@ -34,14 +33,14 @@ export default function NavLink() {
           <Link
             href="/ethereum"
             text="Ethereum"
-            className={`nav-link ${active["ethereum"]}`}
+            className={`nav-link ${active["/ethereum"]}`}
           />
         </li>
       </>
     );
   };
 
-  const Other = () => {
+  const PixiJS = () => {
     return (
       <>
         <hr className="text-white" />
@@ -52,9 +51,49 @@ export default function NavLink() {
           <Link
             href="/bunny-game"
             text="Bunny-game"
-            className={`nav-link ${active["bunny-game"]}`}
+            className={`nav-link ${active["/bunny-game"]}`}
           />
         </li>
+      </>
+    );
+  };
+
+  const TreeJs = () => {
+    return (
+      <>
+        <hr className="text-white" />
+        <li>
+          <a className="nav-link">Treejs</a>
+        </li>
+        <li className="pl-2">
+          <Link
+            href="/treejs"
+            text="What is Treejs?"
+            className={`nav-link ${active["/treejs"]}`}
+          />
+        </li>
+        <li className="pl-2">
+          <Link
+            href="/treejs/cube"
+            text="Cube"
+            className={`nav-link ${active["/treejs/cube"]}`}
+          />
+        </li>
+        <li className="pl-2">
+          <Link
+            href="/treejs/galaxy"
+            text="Galaxy"
+            className={`nav-link ${active["/treejs/galaxy"]}`}
+          />
+        </li>
+      </>
+    );
+  };
+
+  const Games = () => {
+    return (
+      <>
+        <hr className="text-white" />
         <li>
           <a className="nav-link">Games</a>
         </li>
@@ -62,7 +101,7 @@ export default function NavLink() {
           <Link
             href="/drum-kit"
             text="Drum-kit"
-            className={`nav-link ${active["drum-kit"]}`}
+            className={`nav-link ${active["/drum-kit"]}`}
           />
         </li>
       </>
@@ -73,7 +112,9 @@ export default function NavLink() {
     <ul className="mb-2 mb-lg-0">
       <Project42 />
       <Web3 />
-      <Other />
+      <PixiJS />
+      <TreeJs />
+      <Games />
     </ul>
   );
 }
