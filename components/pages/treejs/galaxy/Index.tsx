@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
+import { useRouter } from "next/router";
 import * as THREE from "three";
 import ReactMarkdown from "react-markdown";
 import rehypeRaw from "rehype-raw";
@@ -25,6 +26,7 @@ function Group(props: { children: React.ReactNode; positionX?: number }) {
 }
 
 const Index: React.FC<Props> = () => {
+  const router = useRouter();
   const [gui, setGrui] = useState<any>();
   const [state, setState] = useState({
     sunGrid: false,
@@ -32,24 +34,31 @@ const Index: React.FC<Props> = () => {
     moonGrid: false,
   });
 
-  // const myObject = {
-  //   sungrid: () => setState((prev) => ({ ...prev, sunGrid: !prev.sunGrid })),
-  //   earthgrid: () =>
-  //     setState((prev) => ({ ...prev, earthGrid: !prev.earthGrid })),
-  //   moongrid: () => setState((prev) => ({ ...prev, moonGrid: !prev.moonGrid })),
-  // };
+  const myObject = {
+    sungrid: () => setState((prev) => ({ ...prev, sunGrid: !prev.sunGrid })),
+    earthgrid: () =>
+      setState((prev) => ({ ...prev, earthGrid: !prev.earthGrid })),
+    moongrid: () => setState((prev) => ({ ...prev, moonGrid: !prev.moonGrid })),
+  };
 
-  // useEffect(() => {
-  //   if (!gui) setGrui(new GUI());
-  // }, []);
+  useEffect(() => {
+    if (!gui) setGrui(new GUI());
+  }, []);
 
-  // useEffect(() => {
-  //   if (gui) {
-  //     gui.add(myObject, "sungrid");
-  //     gui.add(myObject, "earthgrid");
-  //     gui.add(myObject, "moongrid");
-  //   }
-  // }, [gui]);
+  useEffect(() => {
+    const quiPage = () => {
+      gui?.destroy();
+    };
+    if (gui) {
+      gui.add(myObject, "sungrid");
+      gui.add(myObject, "earthgrid");
+      gui.add(myObject, "moongrid");
+      router.events.on("routeChangeStart", quiPage);
+      return () => {
+        router.events.off("routeChangeStart", quiPage);
+      };
+    }
+  }, [gui]);
 
   return (
     <div className="galaxy h-96 lg:w-2/3 ">
