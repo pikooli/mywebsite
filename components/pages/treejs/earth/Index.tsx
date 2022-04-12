@@ -9,7 +9,7 @@ import CameraController from "components/pages/treejs/earth/Camera";
 const markdown = `
 ### **Earth**
 
-I live on earth so i did a earth :D, you can rotate it.
+I live on earth so i create an earth 👽, you can rotate it.
 `;
 
 type Props = {};
