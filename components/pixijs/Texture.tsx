@@ -1,6 +1,5 @@
 import React from "react";
-import { Sprite, AnimatedSprite } from "@inlet/react-pixi";
-import useTextures from "lib/PixiJs/useTexture";
+import { useTextures } from "lib/PixiJs/useTexture";
 
 const Textures = ({
   spritesheet,

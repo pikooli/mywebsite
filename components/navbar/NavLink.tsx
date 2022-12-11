@@ -54,6 +54,13 @@ export default function NavLink() {
             className={`nav-link ${active["/bunny-game"]}`}
           />
         </li>
+        <li className="pl-2">
+          <Link
+            href="/la_belle_aurore"
+            text="La_belle_aurore"
+            className={`nav-link ${active["/la_belle_aurore"]}`}
+          />
+        </li>
       </>
     );
   };

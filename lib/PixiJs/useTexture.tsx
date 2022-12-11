@@ -9,7 +9,7 @@ const getTextures = (textures: any, asTextureChain: boolean) => {
 
 // thanks AdrienLemaire 👇
 // use a hook to load spritesheet textures
-export default function useTextures(
+export function useTextures(
   spriteSheetPath: any,
   asTextureChain: boolean = false
 ) {
@@ -27,9 +27,10 @@ export default function useTextures(
 
     // else load
     app.loader.add(spriteSheetPath).load((_, resource) => {
-      setTextures(
-        getTextures(resource[spriteSheetPath].textures, asTextureChain)
-      );
+      resource[spriteSheetPath]?.textures &&
+        setTextures(
+          getTextures(resource[spriteSheetPath].textures, asTextureChain)
+        );
     });
   }, [app.loader, spriteSheetPath]);
 

@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect } from "react";
 import { Sprite, useTick } from "@inlet/react-pixi";
 import { Texture } from "@pixi/core";
 
