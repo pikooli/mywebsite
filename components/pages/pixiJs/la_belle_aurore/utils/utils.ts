@@ -1,6 +1,8 @@
 export const BLOCKSIZE = 24;
-export const SPRITE_SHEET = "/la_belle_aurore/tiny_wonder_sprites.png";
-export const SPRITE_SHEET_JSON = "/la_belle_aurore/tiny_wonder_sprites.json";
+export const KIGURUMI_SPRITE_SHEET = "/la_belle_aurore/kigurumi.png";
+export const KIGURUMI_SPRITE_SHEET_JSON = "/la_belle_aurore/kigurumi.json";
+export const TILEMAP_SPRITE_SHEET = "/la_belle_aurore/tilemap.png";
+export const TILEMAP_SPRITE_SHEET_JSON = "/la_belle_aurore/tilemap.json";
 
 export const KEY: { [key: string]: { x: number; y: number } } = {
   ArrowUp: { x: 0, y: -1 },

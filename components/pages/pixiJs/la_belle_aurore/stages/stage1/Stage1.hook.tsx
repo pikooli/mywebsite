@@ -1,5 +1,5 @@
 import { useMemo } from "react";
-import { spriteSheet } from "../../utils/spriteSheet";
+import { spriteSheetMap } from "../stages.spriteSheetMap";
 import { Texture } from "@pixi/core";
 
 export type UseStage1Props = {
@@ -13,7 +13,7 @@ export function useStage1(props: UseStage1Props) {
     return textures.find(
       (texture) =>
         texture.textureCacheIds[0] ===
-        spriteSheet["spring tilemap"]["spring tilemap-0"]
+        spriteSheetMap["spring tilemap"]["spring tilemap-0"]
     );
   }, []);
 
@@ -21,7 +21,7 @@ export function useStage1(props: UseStage1Props) {
     return textures.find(
       (texture) =>
         texture.textureCacheIds[0] ===
-        spriteSheet["spring tilemap"]["spring tilemap-1"]
+        spriteSheetMap["spring tilemap"]["spring tilemap-1"]
     );
   }, []);
 

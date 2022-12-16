@@ -1,17 +1,27 @@
 import React from "react";
-import { useTextures } from "lib/PixiJs/useTexture";
+import { useTextures, UseTexturesProps } from "lib/PixiJs/useTexture";
 
-const Textures = ({
-  spritesheet,
-  textureChain = false,
-  children,
-}: {
-  spritesheet: string;
-  textureChain: boolean;
+interface TexturesProps extends UseTexturesProps {
   children: Function;
-}) => {
-  const textures = useTextures(spritesheet, textureChain);
-  return <>{textures && children(textures)}</>;
+}
+
+const Textures = (props: TexturesProps) => {
+  const {
+    spriteSheetPath,
+    spriteSheetPaths,
+    asTextureChain = false,
+    children,
+  } = props;
+  const textures = useTextures({
+    spriteSheetPath,
+    spriteSheetPaths,
+    asTextureChain,
+  });
+  console.log(textures, spriteSheetPath);
+  if (spriteSheetPaths?.length === textures.length) {
+    return children(textures);
+  }
+  return textures[0] ? children(textures[0]) : null;
 };
 
 export default Textures;

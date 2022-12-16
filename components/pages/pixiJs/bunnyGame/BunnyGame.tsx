@@ -70,7 +70,7 @@ const BunnyGame = () => {
           className="mx-auto lg:mx-0"
           options={{ backgroundAlpha: 0 }}
         >
-          <Textures spritesheet={spritesheet} textureChain={true}>
+          <Textures spriteSheetPath={spritesheet} asTextureChain={true}>
             {(textures: Texture[]) => (
               <>
                 {Map(textures)}

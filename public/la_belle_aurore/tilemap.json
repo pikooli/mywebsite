@@ -1,0 +1,4462 @@
+{
+  "frames": {
+    "autumn tilemap-0.png": {
+      "frame": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-1.png": {
+      "frame": { "x": 16, "y": 0, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-2.png": {
+      "frame": { "x": 32, "y": 0, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-3.png": {
+      "frame": { "x": 48, "y": 0, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-4.png": {
+      "frame": { "x": 0, "y": 16, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-5.png": {
+      "frame": { "x": 16, "y": 16, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-6.png": {
+      "frame": { "x": 32, "y": 16, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-7.png": {
+      "frame": { "x": 48, "y": 16, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-8.png": {
+      "frame": { "x": 0, "y": 32, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-9.png": {
+      "frame": { "x": 16, "y": 32, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-10.png": {
+      "frame": { "x": 32, "y": 32, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-11.png": {
+      "frame": { "x": 48, "y": 32, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-12.png": {
+      "frame": { "x": 0, "y": 48, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-13.png": {
+      "frame": { "x": 16, "y": 48, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-14.png": {
+      "frame": { "x": 32, "y": 48, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-15.png": {
+      "frame": { "x": 48, "y": 48, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-16.png": {
+      "frame": { "x": 0, "y": 64, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-17.png": {
+      "frame": { "x": 16, "y": 64, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-18.png": {
+      "frame": { "x": 32, "y": 64, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-19.png": {
+      "frame": { "x": 48, "y": 64, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-20.png": {
+      "frame": { "x": 0, "y": 80, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-21.png": {
+      "frame": { "x": 16, "y": 80, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-22.png": {
+      "frame": { "x": 32, "y": 80, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-23.png": {
+      "frame": { "x": 48, "y": 80, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-24.png": {
+      "frame": { "x": 0, "y": 96, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-25.png": {
+      "frame": { "x": 16, "y": 96, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-26.png": {
+      "frame": { "x": 32, "y": 96, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-27.png": {
+      "frame": { "x": 48, "y": 96, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-28.png": {
+      "frame": { "x": 0, "y": 112, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-29.png": {
+      "frame": { "x": 16, "y": 112, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-30.png": {
+      "frame": { "x": 32, "y": 112, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-31.png": {
+      "frame": { "x": 48, "y": 112, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-32.png": {
+      "frame": { "x": 0, "y": 128, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-33.png": {
+      "frame": { "x": 16, "y": 128, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-34.png": {
+      "frame": { "x": 32, "y": 128, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-35.png": {
+      "frame": { "x": 48, "y": 128, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-36.png": {
+      "frame": { "x": 0, "y": 144, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-37.png": {
+      "frame": { "x": 16, "y": 144, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-38.png": {
+      "frame": { "x": 32, "y": 144, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-39.png": {
+      "frame": { "x": 48, "y": 144, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-40.png": {
+      "frame": { "x": 0, "y": 160, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-41.png": {
+      "frame": { "x": 16, "y": 160, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-42.png": {
+      "frame": { "x": 32, "y": 160, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-43.png": {
+      "frame": { "x": 48, "y": 160, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-44.png": {
+      "frame": { "x": 0, "y": 176, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-45.png": {
+      "frame": { "x": 16, "y": 176, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-46.png": {
+      "frame": { "x": 32, "y": 176, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-47.png": {
+      "frame": { "x": 48, "y": 176, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-48.png": {
+      "frame": { "x": 0, "y": 192, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-49.png": {
+      "frame": { "x": 16, "y": 192, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-50.png": {
+      "frame": { "x": 32, "y": 192, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-51.png": {
+      "frame": { "x": 48, "y": 192, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-52.png": {
+      "frame": { "x": 0, "y": 208, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-53.png": {
+      "frame": { "x": 16, "y": 208, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-54.png": {
+      "frame": { "x": 32, "y": 208, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-55.png": {
+      "frame": { "x": 48, "y": 208, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-56.png": {
+      "frame": { "x": 0, "y": 224, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-57.png": {
+      "frame": { "x": 16, "y": 224, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-58.png": {
+      "frame": { "x": 32, "y": 224, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-59.png": {
+      "frame": { "x": 48, "y": 224, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-60.png": {
+      "frame": { "x": 0, "y": 240, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-61.png": {
+      "frame": { "x": 16, "y": 240, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-62.png": {
+      "frame": { "x": 32, "y": 240, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-63.png": {
+      "frame": { "x": 48, "y": 240, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-64.png": {
+      "frame": { "x": 0, "y": 256, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-65.png": {
+      "frame": { "x": 16, "y": 256, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-66.png": {
+      "frame": { "x": 32, "y": 256, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-67.png": {
+      "frame": { "x": 48, "y": 256, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-68.png": {
+      "frame": { "x": 0, "y": 272, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-69.png": {
+      "frame": { "x": 16, "y": 272, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-70.png": {
+      "frame": { "x": 32, "y": 272, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-71.png": {
+      "frame": { "x": 48, "y": 272, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-72.png": {
+      "frame": { "x": 0, "y": 288, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-73.png": {
+      "frame": { "x": 16, "y": 288, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-74.png": {
+      "frame": { "x": 32, "y": 288, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-75.png": {
+      "frame": { "x": 48, "y": 288, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-76.png": {
+      "frame": { "x": 0, "y": 304, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-77.png": {
+      "frame": { "x": 16, "y": 304, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-78.png": {
+      "frame": { "x": 32, "y": 304, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-79.png": {
+      "frame": { "x": 48, "y": 304, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-80.png": {
+      "frame": { "x": 0, "y": 320, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-81.png": {
+      "frame": { "x": 16, "y": 320, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-82.png": {
+      "frame": { "x": 32, "y": 320, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-83.png": {
+      "frame": { "x": 48, "y": 320, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-84.png": {
+      "frame": { "x": 0, "y": 336, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-85.png": {
+      "frame": { "x": 16, "y": 336, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-86.png": {
+      "frame": { "x": 32, "y": 336, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-87.png": {
+      "frame": { "x": 48, "y": 336, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-88.png": {
+      "frame": { "x": 0, "y": 352, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-89.png": {
+      "frame": { "x": 16, "y": 352, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-90.png": {
+      "frame": { "x": 32, "y": 352, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-91.png": {
+      "frame": { "x": 48, "y": 352, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-92.png": {
+      "frame": { "x": 0, "y": 368, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-93.png": {
+      "frame": { "x": 16, "y": 368, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-94.png": {
+      "frame": { "x": 32, "y": 368, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-95.png": {
+      "frame": { "x": 48, "y": 368, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-96.png": {
+      "frame": { "x": 0, "y": 384, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-97.png": {
+      "frame": { "x": 16, "y": 384, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-98.png": {
+      "frame": { "x": 32, "y": 384, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-99.png": {
+      "frame": { "x": 48, "y": 384, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-100.png": {
+      "frame": { "x": 0, "y": 400, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-101.png": {
+      "frame": { "x": 16, "y": 400, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-102.png": {
+      "frame": { "x": 32, "y": 400, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-103.png": {
+      "frame": { "x": 48, "y": 400, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-104.png": {
+      "frame": { "x": 0, "y": 416, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-105.png": {
+      "frame": { "x": 16, "y": 416, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-106.png": {
+      "frame": { "x": 32, "y": 416, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-107.png": {
+      "frame": { "x": 48, "y": 416, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "autumn tilemap-108.png": {
+      "frame": { "x": 0, "y": 432, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "inside-0.png": {
+      "frame": { "x": 16, "y": 432, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "inside-1.png": {
+      "frame": { "x": 32, "y": 432, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "inside-2.png": {
+      "frame": { "x": 48, "y": 432, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "inside-3.png": {
+      "frame": { "x": 0, "y": 448, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "inside-4.png": {
+      "frame": { "x": 16, "y": 448, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "inside-5.png": {
+      "frame": { "x": 32, "y": 448, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "inside-6.png": {
+      "frame": { "x": 48, "y": 448, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "inside-7.png": {
+      "frame": { "x": 0, "y": 464, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "inside-8.png": {
+      "frame": { "x": 16, "y": 464, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "inside-9.png": {
+      "frame": { "x": 32, "y": 464, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "inside-10.png": {
+      "frame": { "x": 48, "y": 464, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "inside-11.png": {
+      "frame": { "x": 0, "y": 480, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "inside-12.png": {
+      "frame": { "x": 16, "y": 480, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "inside-13.png": {
+      "frame": { "x": 32, "y": 480, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "inside-14.png": {
+      "frame": { "x": 48, "y": 480, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "inside-15.png": {
+      "frame": { "x": 0, "y": 496, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "inside-16.png": {
+      "frame": { "x": 16, "y": 496, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "inside-17.png": {
+      "frame": { "x": 32, "y": 496, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "inside-18.png": {
+      "frame": { "x": 48, "y": 496, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "inside-19.png": {
+      "frame": { "x": 0, "y": 512, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "inside-20.png": {
+      "frame": { "x": 16, "y": 512, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "inside-21.png": {
+      "frame": { "x": 32, "y": 512, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "inside-22.png": {
+      "frame": { "x": 48, "y": 512, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "inside-23.png": {
+      "frame": { "x": 0, "y": 528, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "inside-24.png": {
+      "frame": { "x": 16, "y": 528, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "inside-25.png": {
+      "frame": { "x": 32, "y": 528, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "inside-26.png": {
+      "frame": { "x": 48, "y": 528, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "inside-27.png": {
+      "frame": { "x": 0, "y": 544, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "inside-28.png": {
+      "frame": { "x": 16, "y": 544, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "inside-29.png": {
+      "frame": { "x": 32, "y": 544, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "inside-30.png": {
+      "frame": { "x": 48, "y": 544, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "inside-31.png": {
+      "frame": { "x": 0, "y": 560, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "inside-32.png": {
+      "frame": { "x": 16, "y": 560, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "inside-33.png": {
+      "frame": { "x": 32, "y": 560, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "inside-34.png": {
+      "frame": { "x": 48, "y": 560, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "inside-35.png": {
+      "frame": { "x": 0, "y": 576, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "inside-36.png": {
+      "frame": { "x": 16, "y": 576, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "inside-37.png": {
+      "frame": { "x": 32, "y": 576, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "inside-38.png": {
+      "frame": { "x": 48, "y": 576, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "inside-39.png": {
+      "frame": { "x": 0, "y": 592, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "inside-40.png": {
+      "frame": { "x": 16, "y": 592, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "inside-41.png": {
+      "frame": { "x": 32, "y": 592, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "inside-42.png": {
+      "frame": { "x": 48, "y": 592, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "inside-43.png": {
+      "frame": { "x": 0, "y": 608, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "inside-44.png": {
+      "frame": { "x": 16, "y": 608, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "inside-45.png": {
+      "frame": { "x": 32, "y": 608, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "inside-46.png": {
+      "frame": { "x": 48, "y": 608, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "inside-47.png": {
+      "frame": { "x": 0, "y": 624, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "inside-48.png": {
+      "frame": { "x": 16, "y": 624, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "inside-49.png": {
+      "frame": { "x": 32, "y": 624, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "inside-50.png": {
+      "frame": { "x": 48, "y": 624, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-0.png": {
+      "frame": { "x": 0, "y": 640, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-1.png": {
+      "frame": { "x": 16, "y": 640, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-2.png": {
+      "frame": { "x": 32, "y": 640, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-3.png": {
+      "frame": { "x": 48, "y": 640, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-4.png": {
+      "frame": { "x": 0, "y": 656, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-5.png": {
+      "frame": { "x": 16, "y": 656, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-6.png": {
+      "frame": { "x": 32, "y": 656, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-7.png": {
+      "frame": { "x": 48, "y": 656, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-8.png": {
+      "frame": { "x": 0, "y": 672, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-9.png": {
+      "frame": { "x": 16, "y": 672, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-10.png": {
+      "frame": { "x": 32, "y": 672, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-11.png": {
+      "frame": { "x": 48, "y": 672, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-12.png": {
+      "frame": { "x": 0, "y": 688, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-13.png": {
+      "frame": { "x": 16, "y": 688, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-14.png": {
+      "frame": { "x": 32, "y": 688, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-15.png": {
+      "frame": { "x": 48, "y": 688, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-16.png": {
+      "frame": { "x": 0, "y": 704, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-17.png": {
+      "frame": { "x": 16, "y": 704, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-18.png": {
+      "frame": { "x": 32, "y": 704, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-19.png": {
+      "frame": { "x": 48, "y": 704, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-20.png": {
+      "frame": { "x": 0, "y": 720, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-21.png": {
+      "frame": { "x": 16, "y": 720, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-22.png": {
+      "frame": { "x": 32, "y": 720, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-23.png": {
+      "frame": { "x": 48, "y": 720, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-24.png": {
+      "frame": { "x": 0, "y": 736, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-25.png": {
+      "frame": { "x": 16, "y": 736, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-26.png": {
+      "frame": { "x": 32, "y": 736, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-27.png": {
+      "frame": { "x": 48, "y": 736, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-28.png": {
+      "frame": { "x": 0, "y": 752, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-29.png": {
+      "frame": { "x": 16, "y": 752, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-30.png": {
+      "frame": { "x": 32, "y": 752, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-31.png": {
+      "frame": { "x": 48, "y": 752, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-32.png": {
+      "frame": { "x": 0, "y": 768, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-33.png": {
+      "frame": { "x": 16, "y": 768, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-34.png": {
+      "frame": { "x": 32, "y": 768, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-35.png": {
+      "frame": { "x": 48, "y": 768, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-36.png": {
+      "frame": { "x": 0, "y": 784, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-37.png": {
+      "frame": { "x": 16, "y": 784, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-38.png": {
+      "frame": { "x": 32, "y": 784, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-39.png": {
+      "frame": { "x": 48, "y": 784, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-40.png": {
+      "frame": { "x": 0, "y": 800, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-41.png": {
+      "frame": { "x": 16, "y": 800, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-42.png": {
+      "frame": { "x": 32, "y": 800, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-43.png": {
+      "frame": { "x": 48, "y": 800, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-44.png": {
+      "frame": { "x": 0, "y": 816, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-45.png": {
+      "frame": { "x": 16, "y": 816, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-46.png": {
+      "frame": { "x": 32, "y": 816, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-47.png": {
+      "frame": { "x": 48, "y": 816, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-48.png": {
+      "frame": { "x": 0, "y": 832, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-49.png": {
+      "frame": { "x": 16, "y": 832, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-50.png": {
+      "frame": { "x": 32, "y": 832, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-51.png": {
+      "frame": { "x": 48, "y": 832, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-52.png": {
+      "frame": { "x": 0, "y": 848, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-53.png": {
+      "frame": { "x": 16, "y": 848, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-54.png": {
+      "frame": { "x": 32, "y": 848, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-55.png": {
+      "frame": { "x": 48, "y": 848, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-56.png": {
+      "frame": { "x": 0, "y": 864, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-57.png": {
+      "frame": { "x": 16, "y": 864, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-58.png": {
+      "frame": { "x": 32, "y": 864, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-59.png": {
+      "frame": { "x": 48, "y": 864, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-60.png": {
+      "frame": { "x": 0, "y": 880, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-61.png": {
+      "frame": { "x": 16, "y": 880, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-62.png": {
+      "frame": { "x": 32, "y": 880, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-63.png": {
+      "frame": { "x": 48, "y": 880, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-64.png": {
+      "frame": { "x": 0, "y": 896, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-65.png": {
+      "frame": { "x": 16, "y": 896, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-66.png": {
+      "frame": { "x": 32, "y": 896, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-67.png": {
+      "frame": { "x": 48, "y": 896, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-68.png": {
+      "frame": { "x": 0, "y": 912, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-69.png": {
+      "frame": { "x": 16, "y": 912, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-70.png": {
+      "frame": { "x": 32, "y": 912, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-71.png": {
+      "frame": { "x": 48, "y": 912, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-72.png": {
+      "frame": { "x": 0, "y": 928, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-73.png": {
+      "frame": { "x": 16, "y": 928, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-74.png": {
+      "frame": { "x": 32, "y": 928, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-75.png": {
+      "frame": { "x": 48, "y": 928, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-76.png": {
+      "frame": { "x": 0, "y": 944, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-77.png": {
+      "frame": { "x": 16, "y": 944, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-78.png": {
+      "frame": { "x": 32, "y": 944, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-79.png": {
+      "frame": { "x": 48, "y": 944, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-80.png": {
+      "frame": { "x": 0, "y": 960, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-81.png": {
+      "frame": { "x": 16, "y": 960, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-82.png": {
+      "frame": { "x": 32, "y": 960, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-83.png": {
+      "frame": { "x": 48, "y": 960, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-84.png": {
+      "frame": { "x": 0, "y": 976, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-85.png": {
+      "frame": { "x": 16, "y": 976, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-86.png": {
+      "frame": { "x": 32, "y": 976, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-87.png": {
+      "frame": { "x": 48, "y": 976, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-88.png": {
+      "frame": { "x": 0, "y": 992, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-89.png": {
+      "frame": { "x": 16, "y": 992, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-90.png": {
+      "frame": { "x": 32, "y": 992, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-91.png": {
+      "frame": { "x": 48, "y": 992, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-92.png": {
+      "frame": { "x": 0, "y": 1008, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-93.png": {
+      "frame": { "x": 16, "y": 1008, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-94.png": {
+      "frame": { "x": 32, "y": 1008, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-95.png": {
+      "frame": { "x": 48, "y": 1008, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-96.png": {
+      "frame": { "x": 0, "y": 1024, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-97.png": {
+      "frame": { "x": 16, "y": 1024, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-98.png": {
+      "frame": { "x": 32, "y": 1024, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-99.png": {
+      "frame": { "x": 48, "y": 1024, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-100.png": {
+      "frame": { "x": 0, "y": 1040, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-101.png": {
+      "frame": { "x": 16, "y": 1040, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-102.png": {
+      "frame": { "x": 32, "y": 1040, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-103.png": {
+      "frame": { "x": 48, "y": 1040, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-104.png": {
+      "frame": { "x": 0, "y": 1056, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-105.png": {
+      "frame": { "x": 16, "y": 1056, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-106.png": {
+      "frame": { "x": 32, "y": 1056, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-107.png": {
+      "frame": { "x": 48, "y": 1056, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "spring tilemap-108.png": {
+      "frame": { "x": 0, "y": 1072, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-0.png": {
+      "frame": { "x": 16, "y": 1072, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-1.png": {
+      "frame": { "x": 32, "y": 1072, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-2.png": {
+      "frame": { "x": 48, "y": 1072, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-3.png": {
+      "frame": { "x": 0, "y": 1088, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-4.png": {
+      "frame": { "x": 16, "y": 1088, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-5.png": {
+      "frame": { "x": 32, "y": 1088, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-6.png": {
+      "frame": { "x": 48, "y": 1088, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-7.png": {
+      "frame": { "x": 0, "y": 1104, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-8.png": {
+      "frame": { "x": 16, "y": 1104, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-9.png": {
+      "frame": { "x": 32, "y": 1104, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-10.png": {
+      "frame": { "x": 48, "y": 1104, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-11.png": {
+      "frame": { "x": 0, "y": 1120, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-12.png": {
+      "frame": { "x": 16, "y": 1120, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-13.png": {
+      "frame": { "x": 32, "y": 1120, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-14.png": {
+      "frame": { "x": 48, "y": 1120, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-15.png": {
+      "frame": { "x": 0, "y": 1136, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-16.png": {
+      "frame": { "x": 16, "y": 1136, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-17.png": {
+      "frame": { "x": 32, "y": 1136, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-18.png": {
+      "frame": { "x": 48, "y": 1136, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-19.png": {
+      "frame": { "x": 0, "y": 1152, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-20.png": {
+      "frame": { "x": 16, "y": 1152, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-21.png": {
+      "frame": { "x": 32, "y": 1152, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-22.png": {
+      "frame": { "x": 48, "y": 1152, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-23.png": {
+      "frame": { "x": 0, "y": 1168, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-24.png": {
+      "frame": { "x": 16, "y": 1168, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-25.png": {
+      "frame": { "x": 32, "y": 1168, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-26.png": {
+      "frame": { "x": 48, "y": 1168, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-27.png": {
+      "frame": { "x": 0, "y": 1184, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-28.png": {
+      "frame": { "x": 16, "y": 1184, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-29.png": {
+      "frame": { "x": 32, "y": 1184, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-30.png": {
+      "frame": { "x": 48, "y": 1184, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-31.png": {
+      "frame": { "x": 0, "y": 1200, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-32.png": {
+      "frame": { "x": 16, "y": 1200, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-33.png": {
+      "frame": { "x": 32, "y": 1200, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-34.png": {
+      "frame": { "x": 48, "y": 1200, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-35.png": {
+      "frame": { "x": 0, "y": 1216, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-36.png": {
+      "frame": { "x": 16, "y": 1216, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-37.png": {
+      "frame": { "x": 32, "y": 1216, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-38.png": {
+      "frame": { "x": 48, "y": 1216, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-39.png": {
+      "frame": { "x": 0, "y": 1232, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-40.png": {
+      "frame": { "x": 16, "y": 1232, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-41.png": {
+      "frame": { "x": 32, "y": 1232, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-42.png": {
+      "frame": { "x": 48, "y": 1232, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-43.png": {
+      "frame": { "x": 0, "y": 1248, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-44.png": {
+      "frame": { "x": 16, "y": 1248, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-45.png": {
+      "frame": { "x": 32, "y": 1248, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-46.png": {
+      "frame": { "x": 48, "y": 1248, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-47.png": {
+      "frame": { "x": 0, "y": 1264, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-48.png": {
+      "frame": { "x": 16, "y": 1264, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-49.png": {
+      "frame": { "x": 32, "y": 1264, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-50.png": {
+      "frame": { "x": 48, "y": 1264, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-51.png": {
+      "frame": { "x": 0, "y": 1280, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-52.png": {
+      "frame": { "x": 16, "y": 1280, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-53.png": {
+      "frame": { "x": 32, "y": 1280, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-54.png": {
+      "frame": { "x": 48, "y": 1280, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-55.png": {
+      "frame": { "x": 0, "y": 1296, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-56.png": {
+      "frame": { "x": 16, "y": 1296, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-57.png": {
+      "frame": { "x": 32, "y": 1296, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-58.png": {
+      "frame": { "x": 48, "y": 1296, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-59.png": {
+      "frame": { "x": 0, "y": 1312, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-60.png": {
+      "frame": { "x": 16, "y": 1312, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-61.png": {
+      "frame": { "x": 32, "y": 1312, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-62.png": {
+      "frame": { "x": 48, "y": 1312, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-63.png": {
+      "frame": { "x": 0, "y": 1328, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-64.png": {
+      "frame": { "x": 16, "y": 1328, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-65.png": {
+      "frame": { "x": 32, "y": 1328, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-66.png": {
+      "frame": { "x": 48, "y": 1328, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-67.png": {
+      "frame": { "x": 0, "y": 1344, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-68.png": {
+      "frame": { "x": 16, "y": 1344, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-69.png": {
+      "frame": { "x": 32, "y": 1344, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-70.png": {
+      "frame": { "x": 48, "y": 1344, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-71.png": {
+      "frame": { "x": 0, "y": 1360, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-72.png": {
+      "frame": { "x": 16, "y": 1360, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-73.png": {
+      "frame": { "x": 32, "y": 1360, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-74.png": {
+      "frame": { "x": 48, "y": 1360, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-75.png": {
+      "frame": { "x": 0, "y": 1376, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-76.png": {
+      "frame": { "x": 16, "y": 1376, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-77.png": {
+      "frame": { "x": 32, "y": 1376, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-78.png": {
+      "frame": { "x": 48, "y": 1376, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-79.png": {
+      "frame": { "x": 0, "y": 1392, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-80.png": {
+      "frame": { "x": 16, "y": 1392, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-81.png": {
+      "frame": { "x": 32, "y": 1392, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-82.png": {
+      "frame": { "x": 48, "y": 1392, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-83.png": {
+      "frame": { "x": 0, "y": 1408, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-84.png": {
+      "frame": { "x": 16, "y": 1408, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-85.png": {
+      "frame": { "x": 32, "y": 1408, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-86.png": {
+      "frame": { "x": 48, "y": 1408, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-87.png": {
+      "frame": { "x": 0, "y": 1424, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-88.png": {
+      "frame": { "x": 16, "y": 1424, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-89.png": {
+      "frame": { "x": 32, "y": 1424, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-90.png": {
+      "frame": { "x": 48, "y": 1424, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-91.png": {
+      "frame": { "x": 0, "y": 1440, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-92.png": {
+      "frame": { "x": 16, "y": 1440, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-93.png": {
+      "frame": { "x": 32, "y": 1440, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-94.png": {
+      "frame": { "x": 48, "y": 1440, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-95.png": {
+      "frame": { "x": 0, "y": 1456, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-96.png": {
+      "frame": { "x": 16, "y": 1456, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-97.png": {
+      "frame": { "x": 32, "y": 1456, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-98.png": {
+      "frame": { "x": 48, "y": 1456, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-99.png": {
+      "frame": { "x": 0, "y": 1472, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-100.png": {
+      "frame": { "x": 16, "y": 1472, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-101.png": {
+      "frame": { "x": 32, "y": 1472, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-102.png": {
+      "frame": { "x": 48, "y": 1472, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-103.png": {
+      "frame": { "x": 0, "y": 1488, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-104.png": {
+      "frame": { "x": 16, "y": 1488, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-105.png": {
+      "frame": { "x": 32, "y": 1488, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-106.png": {
+      "frame": { "x": 48, "y": 1488, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-107.png": {
+      "frame": { "x": 0, "y": 1504, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "summer tilemap-108.png": {
+      "frame": { "x": 16, "y": 1504, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-0.png": {
+      "frame": { "x": 32, "y": 1504, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-1.png": {
+      "frame": { "x": 48, "y": 1504, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-2.png": {
+      "frame": { "x": 0, "y": 1520, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-3.png": {
+      "frame": { "x": 16, "y": 1520, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-4.png": {
+      "frame": { "x": 32, "y": 1520, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-5.png": {
+      "frame": { "x": 48, "y": 1520, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-6.png": {
+      "frame": { "x": 0, "y": 1536, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-7.png": {
+      "frame": { "x": 16, "y": 1536, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-8.png": {
+      "frame": { "x": 32, "y": 1536, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-9.png": {
+      "frame": { "x": 48, "y": 1536, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-10.png": {
+      "frame": { "x": 0, "y": 1552, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-11.png": {
+      "frame": { "x": 16, "y": 1552, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-12.png": {
+      "frame": { "x": 32, "y": 1552, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-13.png": {
+      "frame": { "x": 48, "y": 1552, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-14.png": {
+      "frame": { "x": 0, "y": 1568, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-15.png": {
+      "frame": { "x": 16, "y": 1568, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-16.png": {
+      "frame": { "x": 32, "y": 1568, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-17.png": {
+      "frame": { "x": 48, "y": 1568, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-18.png": {
+      "frame": { "x": 0, "y": 1584, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-19.png": {
+      "frame": { "x": 16, "y": 1584, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-20.png": {
+      "frame": { "x": 32, "y": 1584, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-21.png": {
+      "frame": { "x": 48, "y": 1584, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-22.png": {
+      "frame": { "x": 0, "y": 1600, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-23.png": {
+      "frame": { "x": 16, "y": 1600, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-24.png": {
+      "frame": { "x": 32, "y": 1600, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-25.png": {
+      "frame": { "x": 48, "y": 1600, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-26.png": {
+      "frame": { "x": 0, "y": 1616, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-27.png": {
+      "frame": { "x": 16, "y": 1616, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-28.png": {
+      "frame": { "x": 32, "y": 1616, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-29.png": {
+      "frame": { "x": 48, "y": 1616, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-30.png": {
+      "frame": { "x": 0, "y": 1632, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-31.png": {
+      "frame": { "x": 16, "y": 1632, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-32.png": {
+      "frame": { "x": 32, "y": 1632, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-33.png": {
+      "frame": { "x": 48, "y": 1632, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-34.png": {
+      "frame": { "x": 0, "y": 1648, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-35.png": {
+      "frame": { "x": 16, "y": 1648, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-36.png": {
+      "frame": { "x": 32, "y": 1648, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-37.png": {
+      "frame": { "x": 48, "y": 1648, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-38.png": {
+      "frame": { "x": 0, "y": 1664, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-39.png": {
+      "frame": { "x": 16, "y": 1664, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-40.png": {
+      "frame": { "x": 32, "y": 1664, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-41.png": {
+      "frame": { "x": 48, "y": 1664, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-42.png": {
+      "frame": { "x": 0, "y": 1680, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-43.png": {
+      "frame": { "x": 16, "y": 1680, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-44.png": {
+      "frame": { "x": 32, "y": 1680, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-45.png": {
+      "frame": { "x": 48, "y": 1680, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-46.png": {
+      "frame": { "x": 0, "y": 1696, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-47.png": {
+      "frame": { "x": 16, "y": 1696, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-48.png": {
+      "frame": { "x": 32, "y": 1696, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-49.png": {
+      "frame": { "x": 48, "y": 1696, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-50.png": {
+      "frame": { "x": 0, "y": 1712, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-51.png": {
+      "frame": { "x": 16, "y": 1712, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-52.png": {
+      "frame": { "x": 32, "y": 1712, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-53.png": {
+      "frame": { "x": 48, "y": 1712, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-54.png": {
+      "frame": { "x": 0, "y": 1728, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-55.png": {
+      "frame": { "x": 16, "y": 1728, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-56.png": {
+      "frame": { "x": 32, "y": 1728, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-57.png": {
+      "frame": { "x": 48, "y": 1728, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-58.png": {
+      "frame": { "x": 0, "y": 1744, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-59.png": {
+      "frame": { "x": 16, "y": 1744, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-60.png": {
+      "frame": { "x": 32, "y": 1744, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-61.png": {
+      "frame": { "x": 48, "y": 1744, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-62.png": {
+      "frame": { "x": 0, "y": 1760, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-63.png": {
+      "frame": { "x": 16, "y": 1760, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-64.png": {
+      "frame": { "x": 32, "y": 1760, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-65.png": {
+      "frame": { "x": 48, "y": 1760, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-66.png": {
+      "frame": { "x": 0, "y": 1776, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-67.png": {
+      "frame": { "x": 16, "y": 1776, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-68.png": {
+      "frame": { "x": 32, "y": 1776, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-69.png": {
+      "frame": { "x": 48, "y": 1776, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-70.png": {
+      "frame": { "x": 0, "y": 1792, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-71.png": {
+      "frame": { "x": 16, "y": 1792, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-72.png": {
+      "frame": { "x": 32, "y": 1792, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-73.png": {
+      "frame": { "x": 48, "y": 1792, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-74.png": {
+      "frame": { "x": 0, "y": 1808, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-75.png": {
+      "frame": { "x": 16, "y": 1808, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-76.png": {
+      "frame": { "x": 32, "y": 1808, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-77.png": {
+      "frame": { "x": 48, "y": 1808, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-78.png": {
+      "frame": { "x": 0, "y": 1824, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-79.png": {
+      "frame": { "x": 16, "y": 1824, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-80.png": {
+      "frame": { "x": 32, "y": 1824, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-81.png": {
+      "frame": { "x": 48, "y": 1824, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-82.png": {
+      "frame": { "x": 0, "y": 1840, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-83.png": {
+      "frame": { "x": 16, "y": 1840, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-84.png": {
+      "frame": { "x": 32, "y": 1840, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-85.png": {
+      "frame": { "x": 48, "y": 1840, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-86.png": {
+      "frame": { "x": 0, "y": 1856, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-87.png": {
+      "frame": { "x": 16, "y": 1856, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-88.png": {
+      "frame": { "x": 32, "y": 1856, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-89.png": {
+      "frame": { "x": 48, "y": 1856, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-90.png": {
+      "frame": { "x": 0, "y": 1872, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-91.png": {
+      "frame": { "x": 16, "y": 1872, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-92.png": {
+      "frame": { "x": 32, "y": 1872, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-93.png": {
+      "frame": { "x": 48, "y": 1872, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-94.png": {
+      "frame": { "x": 0, "y": 1888, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-95.png": {
+      "frame": { "x": 16, "y": 1888, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-96.png": {
+      "frame": { "x": 32, "y": 1888, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-97.png": {
+      "frame": { "x": 48, "y": 1888, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-98.png": {
+      "frame": { "x": 0, "y": 1904, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-99.png": {
+      "frame": { "x": 16, "y": 1904, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-100.png": {
+      "frame": { "x": 32, "y": 1904, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-101.png": {
+      "frame": { "x": 48, "y": 1904, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-102.png": {
+      "frame": { "x": 0, "y": 1920, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-103.png": {
+      "frame": { "x": 16, "y": 1920, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-104.png": {
+      "frame": { "x": 32, "y": 1920, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-105.png": {
+      "frame": { "x": 48, "y": 1920, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-106.png": {
+      "frame": { "x": 0, "y": 1936, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-107.png": {
+      "frame": { "x": 16, "y": 1936, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-108.png": {
+      "frame": { "x": 32, "y": 1936, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-109.png": {
+      "frame": { "x": 48, "y": 1936, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-110.png": {
+      "frame": { "x": 0, "y": 1952, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-111.png": {
+      "frame": { "x": 16, "y": 1952, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-112.png": {
+      "frame": { "x": 32, "y": 1952, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-113.png": {
+      "frame": { "x": 48, "y": 1952, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "winter outside-114.png": {
+      "frame": { "x": 0, "y": 1968, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    }
+  },
+  "animations": {
+    "autumn tilemap": [
+      "autumn tilemap-0.png",
+      "autumn tilemap-1.png",
+      "autumn tilemap-2.png",
+      "autumn tilemap-3.png",
+      "autumn tilemap-4.png",
+      "autumn tilemap-5.png",
+      "autumn tilemap-6.png",
+      "autumn tilemap-7.png",
+      "autumn tilemap-8.png",
+      "autumn tilemap-9.png",
+      "autumn tilemap-10.png",
+      "autumn tilemap-11.png",
+      "autumn tilemap-12.png",
+      "autumn tilemap-13.png",
+      "autumn tilemap-14.png",
+      "autumn tilemap-15.png",
+      "autumn tilemap-16.png",
+      "autumn tilemap-17.png",
+      "autumn tilemap-18.png",
+      "autumn tilemap-19.png",
+      "autumn tilemap-20.png",
+      "autumn tilemap-21.png",
+      "autumn tilemap-22.png",
+      "autumn tilemap-23.png",
+      "autumn tilemap-24.png",
+      "autumn tilemap-25.png",
+      "autumn tilemap-26.png",
+      "autumn tilemap-27.png",
+      "autumn tilemap-28.png",
+      "autumn tilemap-29.png",
+      "autumn tilemap-30.png",
+      "autumn tilemap-31.png",
+      "autumn tilemap-32.png",
+      "autumn tilemap-33.png",
+      "autumn tilemap-34.png",
+      "autumn tilemap-35.png",
+      "autumn tilemap-36.png",
+      "autumn tilemap-37.png",
+      "autumn tilemap-38.png",
+      "autumn tilemap-39.png",
+      "autumn tilemap-40.png",
+      "autumn tilemap-41.png",
+      "autumn tilemap-42.png",
+      "autumn tilemap-43.png",
+      "autumn tilemap-44.png",
+      "autumn tilemap-45.png",
+      "autumn tilemap-46.png",
+      "autumn tilemap-47.png",
+      "autumn tilemap-48.png",
+      "autumn tilemap-49.png",
+      "autumn tilemap-50.png",
+      "autumn tilemap-51.png",
+      "autumn tilemap-52.png",
+      "autumn tilemap-53.png",
+      "autumn tilemap-54.png",
+      "autumn tilemap-55.png",
+      "autumn tilemap-56.png",
+      "autumn tilemap-57.png",
+      "autumn tilemap-58.png",
+      "autumn tilemap-59.png",
+      "autumn tilemap-60.png",
+      "autumn tilemap-61.png",
+      "autumn tilemap-62.png",
+      "autumn tilemap-63.png",
+      "autumn tilemap-64.png",
+      "autumn tilemap-65.png",
+      "autumn tilemap-66.png",
+      "autumn tilemap-67.png",
+      "autumn tilemap-68.png",
+      "autumn tilemap-69.png",
+      "autumn tilemap-70.png",
+      "autumn tilemap-71.png",
+      "autumn tilemap-72.png",
+      "autumn tilemap-73.png",
+      "autumn tilemap-74.png",
+      "autumn tilemap-75.png",
+      "autumn tilemap-76.png",
+      "autumn tilemap-77.png",
+      "autumn tilemap-78.png",
+      "autumn tilemap-79.png",
+      "autumn tilemap-80.png",
+      "autumn tilemap-81.png",
+      "autumn tilemap-82.png",
+      "autumn tilemap-83.png",
+      "autumn tilemap-84.png",
+      "autumn tilemap-85.png",
+      "autumn tilemap-86.png",
+      "autumn tilemap-87.png",
+      "autumn tilemap-88.png",
+      "autumn tilemap-89.png",
+      "autumn tilemap-90.png",
+      "autumn tilemap-91.png",
+      "autumn tilemap-92.png",
+      "autumn tilemap-93.png",
+      "autumn tilemap-94.png",
+      "autumn tilemap-95.png",
+      "autumn tilemap-96.png",
+      "autumn tilemap-97.png",
+      "autumn tilemap-98.png",
+      "autumn tilemap-99.png",
+      "autumn tilemap-100.png",
+      "autumn tilemap-101.png",
+      "autumn tilemap-102.png",
+      "autumn tilemap-103.png",
+      "autumn tilemap-104.png",
+      "autumn tilemap-105.png",
+      "autumn tilemap-106.png",
+      "autumn tilemap-107.png",
+      "autumn tilemap-108.png"
+    ],
+    "inside": [
+      "inside-0.png",
+      "inside-1.png",
+      "inside-2.png",
+      "inside-3.png",
+      "inside-4.png",
+      "inside-5.png",
+      "inside-6.png",
+      "inside-7.png",
+      "inside-8.png",
+      "inside-9.png",
+      "inside-10.png",
+      "inside-11.png",
+      "inside-12.png",
+      "inside-13.png",
+      "inside-14.png",
+      "inside-15.png",
+      "inside-16.png",
+      "inside-17.png",
+      "inside-18.png",
+      "inside-19.png",
+      "inside-20.png",
+      "inside-21.png",
+      "inside-22.png",
+      "inside-23.png",
+      "inside-24.png",
+      "inside-25.png",
+      "inside-26.png",
+      "inside-27.png",
+      "inside-28.png",
+      "inside-29.png",
+      "inside-30.png",
+      "inside-31.png",
+      "inside-32.png",
+      "inside-33.png",
+      "inside-34.png",
+      "inside-35.png",
+      "inside-36.png",
+      "inside-37.png",
+      "inside-38.png",
+      "inside-39.png",
+      "inside-40.png",
+      "inside-41.png",
+      "inside-42.png",
+      "inside-43.png",
+      "inside-44.png",
+      "inside-45.png",
+      "inside-46.png",
+      "inside-47.png",
+      "inside-48.png",
+      "inside-49.png",
+      "inside-50.png"
+    ],
+    "spring tilemap": [
+      "spring tilemap-0.png",
+      "spring tilemap-1.png",
+      "spring tilemap-2.png",
+      "spring tilemap-3.png",
+      "spring tilemap-4.png",
+      "spring tilemap-5.png",
+      "spring tilemap-6.png",
+      "spring tilemap-7.png",
+      "spring tilemap-8.png",
+      "spring tilemap-9.png",
+      "spring tilemap-10.png",
+      "spring tilemap-11.png",
+      "spring tilemap-12.png",
+      "spring tilemap-13.png",
+      "spring tilemap-14.png",
+      "spring tilemap-15.png",
+      "spring tilemap-16.png",
+      "spring tilemap-17.png",
+      "spring tilemap-18.png",
+      "spring tilemap-19.png",
+      "spring tilemap-20.png",
+      "spring tilemap-21.png",
+      "spring tilemap-22.png",
+      "spring tilemap-23.png",
+      "spring tilemap-24.png",
+      "spring tilemap-25.png",
+      "spring tilemap-26.png",
+      "spring tilemap-27.png",
+      "spring tilemap-28.png",
+      "spring tilemap-29.png",
+      "spring tilemap-30.png",
+      "spring tilemap-31.png",
+      "spring tilemap-32.png",
+      "spring tilemap-33.png",
+      "spring tilemap-34.png",
+      "spring tilemap-35.png",
+      "spring tilemap-36.png",
+      "spring tilemap-37.png",
+      "spring tilemap-38.png",
+      "spring tilemap-39.png",
+      "spring tilemap-40.png",
+      "spring tilemap-41.png",
+      "spring tilemap-42.png",
+      "spring tilemap-43.png",
+      "spring tilemap-44.png",
+      "spring tilemap-45.png",
+      "spring tilemap-46.png",
+      "spring tilemap-47.png",
+      "spring tilemap-48.png",
+      "spring tilemap-49.png",
+      "spring tilemap-50.png",
+      "spring tilemap-51.png",
+      "spring tilemap-52.png",
+      "spring tilemap-53.png",
+      "spring tilemap-54.png",
+      "spring tilemap-55.png",
+      "spring tilemap-56.png",
+      "spring tilemap-57.png",
+      "spring tilemap-58.png",
+      "spring tilemap-59.png",
+      "spring tilemap-60.png",
+      "spring tilemap-61.png",
+      "spring tilemap-62.png",
+      "spring tilemap-63.png",
+      "spring tilemap-64.png",
+      "spring tilemap-65.png",
+      "spring tilemap-66.png",
+      "spring tilemap-67.png",
+      "spring tilemap-68.png",
+      "spring tilemap-69.png",
+      "spring tilemap-70.png",
+      "spring tilemap-71.png",
+      "spring tilemap-72.png",
+      "spring tilemap-73.png",
+      "spring tilemap-74.png",
+      "spring tilemap-75.png",
+      "spring tilemap-76.png",
+      "spring tilemap-77.png",
+      "spring tilemap-78.png",
+      "spring tilemap-79.png",
+      "spring tilemap-80.png",
+      "spring tilemap-81.png",
+      "spring tilemap-82.png",
+      "spring tilemap-83.png",
+      "spring tilemap-84.png",
+      "spring tilemap-85.png",
+      "spring tilemap-86.png",
+      "spring tilemap-87.png",
+      "spring tilemap-88.png",
+      "spring tilemap-89.png",
+      "spring tilemap-90.png",
+      "spring tilemap-91.png",
+      "spring tilemap-92.png",
+      "spring tilemap-93.png",
+      "spring tilemap-94.png",
+      "spring tilemap-95.png",
+      "spring tilemap-96.png",
+      "spring tilemap-97.png",
+      "spring tilemap-98.png",
+      "spring tilemap-99.png",
+      "spring tilemap-100.png",
+      "spring tilemap-101.png",
+      "spring tilemap-102.png",
+      "spring tilemap-103.png",
+      "spring tilemap-104.png",
+      "spring tilemap-105.png",
+      "spring tilemap-106.png",
+      "spring tilemap-107.png",
+      "spring tilemap-108.png"
+    ],
+    "summer tilemap": [
+      "summer tilemap-0.png",
+      "summer tilemap-1.png",
+      "summer tilemap-2.png",
+      "summer tilemap-3.png",
+      "summer tilemap-4.png",
+      "summer tilemap-5.png",
+      "summer tilemap-6.png",
+      "summer tilemap-7.png",
+      "summer tilemap-8.png",
+      "summer tilemap-9.png",
+      "summer tilemap-10.png",
+      "summer tilemap-11.png",
+      "summer tilemap-12.png",
+      "summer tilemap-13.png",
+      "summer tilemap-14.png",
+      "summer tilemap-15.png",
+      "summer tilemap-16.png",
+      "summer tilemap-17.png",
+      "summer tilemap-18.png",
+      "summer tilemap-19.png",
+      "summer tilemap-20.png",
+      "summer tilemap-21.png",
+      "summer tilemap-22.png",
+      "summer tilemap-23.png",
+      "summer tilemap-24.png",
+      "summer tilemap-25.png",
+      "summer tilemap-26.png",
+      "summer tilemap-27.png",
+      "summer tilemap-28.png",
+      "summer tilemap-29.png",
+      "summer tilemap-30.png",
+      "summer tilemap-31.png",
+      "summer tilemap-32.png",
+      "summer tilemap-33.png",
+      "summer tilemap-34.png",
+      "summer tilemap-35.png",
+      "summer tilemap-36.png",
+      "summer tilemap-37.png",
+      "summer tilemap-38.png",
+      "summer tilemap-39.png",
+      "summer tilemap-40.png",
+      "summer tilemap-41.png",
+      "summer tilemap-42.png",
+      "summer tilemap-43.png",
+      "summer tilemap-44.png",
+      "summer tilemap-45.png",
+      "summer tilemap-46.png",
+      "summer tilemap-47.png",
+      "summer tilemap-48.png",
+      "summer tilemap-49.png",
+      "summer tilemap-50.png",
+      "summer tilemap-51.png",
+      "summer tilemap-52.png",
+      "summer tilemap-53.png",
+      "summer tilemap-54.png",
+      "summer tilemap-55.png",
+      "summer tilemap-56.png",
+      "summer tilemap-57.png",
+      "summer tilemap-58.png",
+      "summer tilemap-59.png",
+      "summer tilemap-60.png",
+      "summer tilemap-61.png",
+      "summer tilemap-62.png",
+      "summer tilemap-63.png",
+      "summer tilemap-64.png",
+      "summer tilemap-65.png",
+      "summer tilemap-66.png",
+      "summer tilemap-67.png",
+      "summer tilemap-68.png",
+      "summer tilemap-69.png",
+      "summer tilemap-70.png",
+      "summer tilemap-71.png",
+      "summer tilemap-72.png",
+      "summer tilemap-73.png",
+      "summer tilemap-74.png",
+      "summer tilemap-75.png",
+      "summer tilemap-76.png",
+      "summer tilemap-77.png",
+      "summer tilemap-78.png",
+      "summer tilemap-79.png",
+      "summer tilemap-80.png",
+      "summer tilemap-81.png",
+      "summer tilemap-82.png",
+      "summer tilemap-83.png",
+      "summer tilemap-84.png",
+      "summer tilemap-85.png",
+      "summer tilemap-86.png",
+      "summer tilemap-87.png",
+      "summer tilemap-88.png",
+      "summer tilemap-89.png",
+      "summer tilemap-90.png",
+      "summer tilemap-91.png",
+      "summer tilemap-92.png",
+      "summer tilemap-93.png",
+      "summer tilemap-94.png",
+      "summer tilemap-95.png",
+      "summer tilemap-96.png",
+      "summer tilemap-97.png",
+      "summer tilemap-98.png",
+      "summer tilemap-99.png",
+      "summer tilemap-100.png",
+      "summer tilemap-101.png",
+      "summer tilemap-102.png",
+      "summer tilemap-103.png",
+      "summer tilemap-104.png",
+      "summer tilemap-105.png",
+      "summer tilemap-106.png",
+      "summer tilemap-107.png",
+      "summer tilemap-108.png"
+    ],
+    "winter outside": [
+      "winter outside-0.png",
+      "winter outside-1.png",
+      "winter outside-2.png",
+      "winter outside-3.png",
+      "winter outside-4.png",
+      "winter outside-5.png",
+      "winter outside-6.png",
+      "winter outside-7.png",
+      "winter outside-8.png",
+      "winter outside-9.png",
+      "winter outside-10.png",
+      "winter outside-11.png",
+      "winter outside-12.png",
+      "winter outside-13.png",
+      "winter outside-14.png",
+      "winter outside-15.png",
+      "winter outside-16.png",
+      "winter outside-17.png",
+      "winter outside-18.png",
+      "winter outside-19.png",
+      "winter outside-20.png",
+      "winter outside-21.png",
+      "winter outside-22.png",
+      "winter outside-23.png",
+      "winter outside-24.png",
+      "winter outside-25.png",
+      "winter outside-26.png",
+      "winter outside-27.png",
+      "winter outside-28.png",
+      "winter outside-29.png",
+      "winter outside-30.png",
+      "winter outside-31.png",
+      "winter outside-32.png",
+      "winter outside-33.png",
+      "winter outside-34.png",
+      "winter outside-35.png",
+      "winter outside-36.png",
+      "winter outside-37.png",
+      "winter outside-38.png",
+      "winter outside-39.png",
+      "winter outside-40.png",
+      "winter outside-41.png",
+      "winter outside-42.png",
+      "winter outside-43.png",
+      "winter outside-44.png",
+      "winter outside-45.png",
+      "winter outside-46.png",
+      "winter outside-47.png",
+      "winter outside-48.png",
+      "winter outside-49.png",
+      "winter outside-50.png",
+      "winter outside-51.png",
+      "winter outside-52.png",
+      "winter outside-53.png",
+      "winter outside-54.png",
+      "winter outside-55.png",
+      "winter outside-56.png",
+      "winter outside-57.png",
+      "winter outside-58.png",
+      "winter outside-59.png",
+      "winter outside-60.png",
+      "winter outside-61.png",
+      "winter outside-62.png",
+      "winter outside-63.png",
+      "winter outside-64.png",
+      "winter outside-65.png",
+      "winter outside-66.png",
+      "winter outside-67.png",
+      "winter outside-68.png",
+      "winter outside-69.png",
+      "winter outside-70.png",
+      "winter outside-71.png",
+      "winter outside-72.png",
+      "winter outside-73.png",
+      "winter outside-74.png",
+      "winter outside-75.png",
+      "winter outside-76.png",
+      "winter outside-77.png",
+      "winter outside-78.png",
+      "winter outside-79.png",
+      "winter outside-80.png",
+      "winter outside-81.png",
+      "winter outside-82.png",
+      "winter outside-83.png",
+      "winter outside-84.png",
+      "winter outside-85.png",
+      "winter outside-86.png",
+      "winter outside-87.png",
+      "winter outside-88.png",
+      "winter outside-89.png",
+      "winter outside-90.png",
+      "winter outside-91.png",
+      "winter outside-92.png",
+      "winter outside-93.png",
+      "winter outside-94.png",
+      "winter outside-95.png",
+      "winter outside-96.png",
+      "winter outside-97.png",
+      "winter outside-98.png",
+      "winter outside-99.png",
+      "winter outside-100.png",
+      "winter outside-101.png",
+      "winter outside-102.png",
+      "winter outside-103.png",
+      "winter outside-104.png",
+      "winter outside-105.png",
+      "winter outside-106.png",
+      "winter outside-107.png",
+      "winter outside-108.png",
+      "winter outside-109.png",
+      "winter outside-110.png",
+      "winter outside-111.png",
+      "winter outside-112.png",
+      "winter outside-113.png",
+      "winter outside-114.png"
+    ]
+  },
+  "meta": {
+    "app": "https://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "image": "tilemap.png",
+    "format": "RGBA8888",
+    "size": { "w": 64, "h": 1984 },
+    "scale": "1",
+    "smartupdate": "$TexturePacker:SmartUpdate:1f3d832fdf6206f7df6ff546ae7a2740:e2e0ae1f16e672e0bbf05b12510d6239:fab6845eb55fa95c274fdcd5aba8663e$"
+  }
+}

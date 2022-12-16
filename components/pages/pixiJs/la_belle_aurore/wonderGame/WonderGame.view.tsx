@@ -1,15 +1,30 @@
-import React from "react";
+import React, { useCallback } from "react";
 import { Stage } from "@inlet/react-pixi";
 import { Texture } from "@pixi/core";
 import Textures from "components/pixijs/Texture";
 import { BLOCKSIZE } from "components/pages/pixiJs/la_belle_aurore/utils/utils";
 import { Wonder } from "components/pages/pixiJs/la_belle_aurore/wonder";
-import { SPRITE_SHEET_JSON } from "../utils/utils";
+import {
+  KIGURUMI_SPRITE_SHEET_JSON,
+  TILEMAP_SPRITE_SHEET_JSON,
+} from "../utils/utils";
 import { Stage1 } from "../stages";
 
-export type WonderGameViewProps = {};
+const spriteSheetPaths = [
+  KIGURUMI_SPRITE_SHEET_JSON,
+  TILEMAP_SPRITE_SHEET_JSON,
+];
 
-export const WonderGameView = (props: WonderGameViewProps) => {
+export const WonderGameView = () => {
+  const renderStage = useCallback((textures: Texture[][]) => {
+    return (
+      <>
+        <Wonder textures={textures[0]} />
+        <Stage1 textures={textures[1]} />
+      </>
+    );
+  }, []);
+
   return (
     <div className="card">
       <Stage
@@ -19,15 +34,8 @@ export const WonderGameView = (props: WonderGameViewProps) => {
         className="mx-auto lg:mx-0 border-2	 border-orange-200"
         options={{ backgroundAlpha: 0 }}
       >
-        <Textures spritesheet={SPRITE_SHEET_JSON} textureChain={true}>
-          {(textures: Texture[]) => {
-            return (
-              <>
-                <Wonder textures={textures} />
-                <Stage1 textures={textures} />
-              </>
-            );
-          }}
+        <Textures spriteSheetPaths={spriteSheetPaths} asTextureChain={true}>
+          {renderStage}
         </Textures>
       </Stage>
     </div>

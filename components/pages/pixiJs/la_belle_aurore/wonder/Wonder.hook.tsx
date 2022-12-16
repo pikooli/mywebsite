@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState, useMemo } from "react";
 import { KEY } from "../utils/utils";
-import { spriteSheet } from "../utils/spriteSheet";
+import { spriteSheetMap } from "./Wonder.spriteSheetMap";
 import { Position } from "../types";
 import { Texture } from "@pixi/core";
 
@@ -11,7 +11,6 @@ export type UseWonderProps = {
 export function useWonder(props: UseWonderProps) {
   const { textures } = props;
   const [position, setPosition] = useState({ x: 1, y: 1 });
-
   const keydown = useCallback((e: KeyboardEvent) => {
     if (KEY[e.key]) {
       e.preventDefault();
@@ -38,7 +37,7 @@ export function useWonder(props: UseWonderProps) {
     return textures.find(
       (texture) =>
         texture.textureCacheIds[0] ===
-        spriteSheet["cat kigurumi walk and idle"][
+        spriteSheetMap["cat kigurumi walk and idle"][
           "cat kigurumi walk and idle-0"
         ]
     );
@@ -48,7 +47,7 @@ export function useWonder(props: UseWonderProps) {
     return textures.find(
       (texture) =>
         texture.textureCacheIds[0] ===
-        spriteSheet["walk and idle"]["walk and idle-0"]
+        spriteSheetMap["walk and idle"]["walk and idle-0"]
     );
   }, []);
 

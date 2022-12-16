@@ -1,0 +1,379 @@
+{
+  "frames": {
+    "cat kigurumi walk and idle-0.png": {
+      "frame": { "x": 0, "y": 0, "w": 24, "h": 24 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 24, "h": 24 },
+      "sourceSize": { "w": 24, "h": 24 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "cat kigurumi walk and idle-1.png": {
+      "frame": { "x": 24, "y": 0, "w": 24, "h": 24 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 24, "h": 24 },
+      "sourceSize": { "w": 24, "h": 24 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "cat kigurumi walk and idle-2.png": {
+      "frame": { "x": 48, "y": 0, "w": 24, "h": 24 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 24, "h": 24 },
+      "sourceSize": { "w": 24, "h": 24 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "cat kigurumi walk and idle-3.png": {
+      "frame": { "x": 72, "y": 0, "w": 24, "h": 24 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 24, "h": 24 },
+      "sourceSize": { "w": 24, "h": 24 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "cat kigurumi walk and idle-4.png": {
+      "frame": { "x": 96, "y": 0, "w": 24, "h": 24 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 24, "h": 24 },
+      "sourceSize": { "w": 24, "h": 24 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "cat kigurumi walk and idle-5.png": {
+      "frame": { "x": 120, "y": 0, "w": 24, "h": 24 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 24, "h": 24 },
+      "sourceSize": { "w": 24, "h": 24 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "cat kigurumi walk and idle-6.png": {
+      "frame": { "x": 144, "y": 0, "w": 24, "h": 24 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 24, "h": 24 },
+      "sourceSize": { "w": 24, "h": 24 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "cat kigurumi walk and idle-7.png": {
+      "frame": { "x": 168, "y": 0, "w": 24, "h": 24 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 24, "h": 24 },
+      "sourceSize": { "w": 24, "h": 24 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "cat kigurumi walk and idle-8.png": {
+      "frame": { "x": 192, "y": 0, "w": 24, "h": 24 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 24, "h": 24 },
+      "sourceSize": { "w": 24, "h": 24 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "cat kigurumi walk and idle-9.png": {
+      "frame": { "x": 216, "y": 0, "w": 24, "h": 24 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 24, "h": 24 },
+      "sourceSize": { "w": 24, "h": 24 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "cat kigurumi walk and idle-10.png": {
+      "frame": { "x": 240, "y": 0, "w": 24, "h": 24 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 24, "h": 24 },
+      "sourceSize": { "w": 24, "h": 24 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "cat kigurumi walk and idle-11.png": {
+      "frame": { "x": 264, "y": 0, "w": 24, "h": 24 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 24, "h": 24 },
+      "sourceSize": { "w": 24, "h": 24 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "cat kigurumi walk and idle-12.png": {
+      "frame": { "x": 288, "y": 0, "w": 24, "h": 24 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 24, "h": 24 },
+      "sourceSize": { "w": 24, "h": 24 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "cat kigurumi walk and idle-13.png": {
+      "frame": { "x": 312, "y": 0, "w": 24, "h": 24 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 24, "h": 24 },
+      "sourceSize": { "w": 24, "h": 24 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "cat kigurumi walk and idle-14.png": {
+      "frame": { "x": 336, "y": 0, "w": 24, "h": 24 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 24, "h": 24 },
+      "sourceSize": { "w": 24, "h": 24 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "cat kigurumi walk and idle-15.png": {
+      "frame": { "x": 360, "y": 0, "w": 24, "h": 24 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 24, "h": 24 },
+      "sourceSize": { "w": 24, "h": 24 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "cat kigurumi walk and idle-16.png": {
+      "frame": { "x": 384, "y": 0, "w": 24, "h": 24 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 24, "h": 24 },
+      "sourceSize": { "w": 24, "h": 24 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "cat kigurumi walk and idle-17.png": {
+      "frame": { "x": 408, "y": 0, "w": 24, "h": 24 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 24, "h": 24 },
+      "sourceSize": { "w": 24, "h": 24 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "cat kigurumi walk and idle-18.png": {
+      "frame": { "x": 432, "y": 0, "w": 24, "h": 24 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 24, "h": 24 },
+      "sourceSize": { "w": 24, "h": 24 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "cat kigurumi walk and idle-19.png": {
+      "frame": { "x": 456, "y": 0, "w": 24, "h": 24 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 24, "h": 24 },
+      "sourceSize": { "w": 24, "h": 24 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "walk and idle-0.png": {
+      "frame": { "x": 480, "y": 0, "w": 24, "h": 24 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 24, "h": 24 },
+      "sourceSize": { "w": 24, "h": 24 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "walk and idle-1.png": {
+      "frame": { "x": 504, "y": 0, "w": 24, "h": 24 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 24, "h": 24 },
+      "sourceSize": { "w": 24, "h": 24 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "walk and idle-2.png": {
+      "frame": { "x": 528, "y": 0, "w": 24, "h": 24 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 24, "h": 24 },
+      "sourceSize": { "w": 24, "h": 24 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "walk and idle-3.png": {
+      "frame": { "x": 552, "y": 0, "w": 24, "h": 24 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 24, "h": 24 },
+      "sourceSize": { "w": 24, "h": 24 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "walk and idle-4.png": {
+      "frame": { "x": 576, "y": 0, "w": 24, "h": 24 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 24, "h": 24 },
+      "sourceSize": { "w": 24, "h": 24 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "walk and idle-5.png": {
+      "frame": { "x": 600, "y": 0, "w": 24, "h": 24 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 24, "h": 24 },
+      "sourceSize": { "w": 24, "h": 24 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "walk and idle-6.png": {
+      "frame": { "x": 624, "y": 0, "w": 24, "h": 24 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 24, "h": 24 },
+      "sourceSize": { "w": 24, "h": 24 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "walk and idle-7.png": {
+      "frame": { "x": 648, "y": 0, "w": 24, "h": 24 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 24, "h": 24 },
+      "sourceSize": { "w": 24, "h": 24 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "walk and idle-8.png": {
+      "frame": { "x": 672, "y": 0, "w": 24, "h": 24 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 24, "h": 24 },
+      "sourceSize": { "w": 24, "h": 24 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "walk and idle-9.png": {
+      "frame": { "x": 696, "y": 0, "w": 24, "h": 24 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 24, "h": 24 },
+      "sourceSize": { "w": 24, "h": 24 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "walk and idle-10.png": {
+      "frame": { "x": 720, "y": 0, "w": 24, "h": 24 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 24, "h": 24 },
+      "sourceSize": { "w": 24, "h": 24 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "walk and idle-11.png": {
+      "frame": { "x": 744, "y": 0, "w": 24, "h": 24 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 24, "h": 24 },
+      "sourceSize": { "w": 24, "h": 24 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "walk and idle-12.png": {
+      "frame": { "x": 768, "y": 0, "w": 24, "h": 24 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 24, "h": 24 },
+      "sourceSize": { "w": 24, "h": 24 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "walk and idle-13.png": {
+      "frame": { "x": 792, "y": 0, "w": 24, "h": 24 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 24, "h": 24 },
+      "sourceSize": { "w": 24, "h": 24 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "walk and idle-14.png": {
+      "frame": { "x": 816, "y": 0, "w": 24, "h": 24 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 24, "h": 24 },
+      "sourceSize": { "w": 24, "h": 24 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "walk and idle-15.png": {
+      "frame": { "x": 840, "y": 0, "w": 24, "h": 24 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 24, "h": 24 },
+      "sourceSize": { "w": 24, "h": 24 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "walk and idle-16.png": {
+      "frame": { "x": 864, "y": 0, "w": 24, "h": 24 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 24, "h": 24 },
+      "sourceSize": { "w": 24, "h": 24 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "walk and idle-17.png": {
+      "frame": { "x": 888, "y": 0, "w": 24, "h": 24 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 24, "h": 24 },
+      "sourceSize": { "w": 24, "h": 24 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "walk and idle-18.png": {
+      "frame": { "x": 912, "y": 0, "w": 24, "h": 24 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 24, "h": 24 },
+      "sourceSize": { "w": 24, "h": 24 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    },
+    "walk and idle-19.png": {
+      "frame": { "x": 936, "y": 0, "w": 24, "h": 24 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 24, "h": 24 },
+      "sourceSize": { "w": 24, "h": 24 },
+      "anchor": { "x": 0.5, "y": 0.5 }
+    }
+  },
+  "animations": {
+    "cat kigurumi walk and idle": [
+      "cat kigurumi walk and idle-0.png",
+      "cat kigurumi walk and idle-1.png",
+      "cat kigurumi walk and idle-2.png",
+      "cat kigurumi walk and idle-3.png",
+      "cat kigurumi walk and idle-4.png",
+      "cat kigurumi walk and idle-5.png",
+      "cat kigurumi walk and idle-6.png",
+      "cat kigurumi walk and idle-7.png",
+      "cat kigurumi walk and idle-8.png",
+      "cat kigurumi walk and idle-9.png",
+      "cat kigurumi walk and idle-10.png",
+      "cat kigurumi walk and idle-11.png",
+      "cat kigurumi walk and idle-12.png",
+      "cat kigurumi walk and idle-13.png",
+      "cat kigurumi walk and idle-14.png",
+      "cat kigurumi walk and idle-15.png",
+      "cat kigurumi walk and idle-16.png",
+      "cat kigurumi walk and idle-17.png",
+      "cat kigurumi walk and idle-18.png",
+      "cat kigurumi walk and idle-19.png"
+    ],
+    "walk and idle": [
+      "walk and idle-0.png",
+      "walk and idle-1.png",
+      "walk and idle-2.png",
+      "walk and idle-3.png",
+      "walk and idle-4.png",
+      "walk and idle-5.png",
+      "walk and idle-6.png",
+      "walk and idle-7.png",
+      "walk and idle-8.png",
+      "walk and idle-9.png",
+      "walk and idle-10.png",
+      "walk and idle-11.png",
+      "walk and idle-12.png",
+      "walk and idle-13.png",
+      "walk and idle-14.png",
+      "walk and idle-15.png",
+      "walk and idle-16.png",
+      "walk and idle-17.png",
+      "walk and idle-18.png",
+      "walk and idle-19.png"
+    ]
+  },
+  "meta": {
+    "app": "https://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "image": "kigurumi.png",
+    "format": "RGBA8888",
+    "size": { "w": 960, "h": 24 },
+    "scale": "1",
+    "smartupdate": "$TexturePacker:SmartUpdate:a94feb1a4f90ac4ecd5b919be0db65c1:8ccca9b09a5aada7589315ad7b4a8eff:02ab132358d6d8b512e80119463a8329$"
+  }
+}
