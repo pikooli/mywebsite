@@ -5,7 +5,8 @@ import Textures from "components/pixijs/Texture";
 import { BLOCKSIZE } from "components/pages/pixiJs/la_belle_aurore/utils/utils";
 import { Wonder } from "components/pages/pixiJs/la_belle_aurore/wonder";
 import { SPRITE_SHEET_JSON } from "../utils/utils";
-import { Stage1 } from "../maps";
+import { Stage1 } from "../stages";
+
 export type WonderGameViewProps = {};
 
 export const WonderGameView = (props: WonderGameViewProps) => {
