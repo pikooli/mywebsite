@@ -3,14 +3,30 @@ import { KEY } from "../utils/utils";
 import { spriteSheetMap } from "./Wonder.spriteSheetMap";
 import { Position } from "../types";
 import { Texture } from "@pixi/core";
+import {
+  MAP_HEIGHT,
+  MAP_WIDTH,
+} from "components/pages/pixiJs/la_belle_aurore/utils/utils";
 
 export type UseWonderProps = {
   textures: Texture[];
 };
 
+const canMove = (nextPosition: Position) => {
+  if (
+    nextPosition.x === MAP_WIDTH - 1 ||
+    nextPosition.y === MAP_HEIGHT + 1 ||
+    nextPosition.x === -1 ||
+    nextPosition.y <= 1
+  )
+    return false;
+  else return true;
+};
+
 export function useWonder(props: UseWonderProps) {
   const { textures } = props;
   const [position, setPosition] = useState({ x: 1, y: 1 });
+
   const keydown = useCallback((e: KeyboardEvent) => {
     if (KEY[e.key]) {
       e.preventDefault();
@@ -20,7 +36,9 @@ export function useWonder(props: UseWonderProps) {
         setPosition((prev: Position) => {
           const nextX = prev.x + move.x;
           const nextY = prev.y + move.y;
-          return { x: nextX, y: nextY };
+          const nextPosition = { x: nextX, y: nextY };
+          if (canMove(nextPosition)) return nextPosition;
+          else return prev;
         });
       }
     }

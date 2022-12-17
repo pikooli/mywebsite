@@ -1,4 +1,6 @@
-export const BLOCKSIZE = 24;
+export const BLOCK_SIZE = 16;
+export const MAP_HEIGHT = 10;
+export const MAP_WIDTH = 10;
 export const KIGURUMI_SPRITE_SHEET = "/la_belle_aurore/kigurumi.png";
 export const KIGURUMI_SPRITE_SHEET_JSON = "/la_belle_aurore/kigurumi.json";
 export const TILEMAP_SPRITE_SHEET = "/la_belle_aurore/tilemap.png";

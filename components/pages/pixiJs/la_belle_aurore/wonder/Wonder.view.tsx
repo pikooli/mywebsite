@@ -1,6 +1,6 @@
 import { Sprite } from "@inlet/react-pixi";
 import { Texture } from "@pixi/core";
-import { BLOCKSIZE } from "components/pages/pixiJs/la_belle_aurore/utils/utils";
+import { BLOCK_SIZE } from "components/pages/pixiJs/la_belle_aurore/utils/utils";
 import { Position } from "../types";
 
 export type WonderViewProps = {
@@ -15,12 +15,12 @@ export const WonderView = (props: WonderViewProps) => {
     <>
       <Sprite
         texture={wonder}
-        {...{ x: position.x * BLOCKSIZE, y: position.y * BLOCKSIZE }}
+        {...{ x: position.x * BLOCK_SIZE, y: position.y * BLOCK_SIZE }}
         anchor={[0, 1]}
       />
       <Sprite
         texture={cat_costum}
-        {...{ x: position.x * BLOCKSIZE, y: position.y * BLOCKSIZE }}
+        {...{ x: position.x * BLOCK_SIZE, y: position.y * BLOCK_SIZE }}
         anchor={[0, 1]}
       />
     </>
