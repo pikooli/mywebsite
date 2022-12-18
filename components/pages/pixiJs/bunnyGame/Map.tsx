@@ -3,7 +3,7 @@ import { Sprite } from "@inlet/react-pixi";
 
 import { map, BLOCKSIZE } from "components/pages/pixiJs/bunnyGame/utils";
 
-const Map = (textures: Texture[]) => {
+const Map = ({ textures }: { textures: Texture[] }) => {
   const mapArray: React.ReactElement[] = [];
   map.map((row, y) => {
     row.map((block, x) => {
@@ -18,7 +18,7 @@ const Map = (textures: Texture[]) => {
       );
     });
   });
-  return mapArray;
+  return <>{mapArray}</>;
 };
 
 export default Map;

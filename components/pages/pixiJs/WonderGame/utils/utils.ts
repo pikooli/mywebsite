@@ -1,10 +1,10 @@
 export const BLOCK_SIZE = 16;
 export const MAP_HEIGHT = 10;
 export const MAP_WIDTH = 10;
-export const KIGURUMI_SPRITE_SHEET = "/la_belle_aurore/kigurumi.png";
-export const KIGURUMI_SPRITE_SHEET_JSON = "/la_belle_aurore/kigurumi.json";
-export const TILEMAP_SPRITE_SHEET = "/la_belle_aurore/tilemap.png";
-export const TILEMAP_SPRITE_SHEET_JSON = "/la_belle_aurore/tilemap.json";
+export const KIGURUMI_SPRITE_SHEET = "/wonderGame/kigurumi.png";
+export const KIGURUMI_SPRITE_SHEET_JSON = "/wonderGame/kigurumi.json";
+export const TILEMAP_SPRITE_SHEET = "/wonderGame/tilemap.png";
+export const TILEMAP_SPRITE_SHEET_JSON = "/wonderGame/tilemap.json";
 
 export const KEY: { [key: string]: { x: number; y: number } } = {
   ArrowUp: { x: 0, y: -1 },

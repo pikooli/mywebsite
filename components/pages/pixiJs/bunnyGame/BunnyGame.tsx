@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useCallback, useState } from "react";
 import { Stage, Text } from "@inlet/react-pixi";
 import { Texture } from "@pixi/core";
 import { TextStyle } from "pixi.js";
@@ -27,7 +27,7 @@ export type Posi = { x: number; y: number };
 const BunnyGame = () => {
   const [bunnyPosi, setBunnyPosi] = useState({ x: 0, y: map.length - 1 });
   const [rockPosi, setRockPosi] = useState({ x: 5, y: map.length - 1 });
-  const [arrowDow, setArrowDown] = useState("");
+  const [arrowDown, setArrowDown] = useState("");
   const [score, setScore] = useState(0);
 
   const randomPosiRock = () => {
@@ -55,6 +55,23 @@ const BunnyGame = () => {
     }
   };
 
+  const renderGame = useCallback(
+    (textures: Texture[][]) => (
+      <>
+        <Map textures={textures[0]} />
+        <Bunny
+          textures={textures[0]}
+          posi={bunnyPosi}
+          arrowDown={arrowDown}
+          setPosi={setBunnyPosi}
+          checkCollision={checkCollisionBunny}
+        />
+        <Rock textures={textures[0]} posi={rockPosi} setPosi={setRockPosi} />
+      </>
+    ),
+    [bunnyPosi, arrowDown, rockPosi]
+  );
+
   return (
     <div className="card bunny-game">
       <div className="flex">
@@ -70,24 +87,8 @@ const BunnyGame = () => {
           className="mx-auto lg:mx-0"
           options={{ backgroundAlpha: 0 }}
         >
-          <Textures spriteSheetPath={spritesheet} asTextureChain={true}>
-            {(textures: Texture[]) => (
-              <>
-                {Map(textures)}
-                <Bunny
-                  textures={textures}
-                  posi={bunnyPosi}
-                  arrowDown={arrowDow}
-                  setPosi={setBunnyPosi}
-                  checkCollision={checkCollisionBunny}
-                />
-                <Rock
-                  textures={textures}
-                  posi={rockPosi}
-                  setPosi={setRockPosi}
-                />
-              </>
-            )}
+          <Textures spriteSheetPaths={[spritesheet]} asTextureChain={true}>
+            {renderGame}
           </Textures>
           <Text
             text={`SCORE`}

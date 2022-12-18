@@ -6,22 +6,17 @@ interface TexturesProps extends UseTexturesProps {
 }
 
 const Textures = (props: TexturesProps) => {
-  const {
-    spriteSheetPath,
-    spriteSheetPaths,
-    asTextureChain = false,
-    children,
-  } = props;
+  const { spriteSheetPaths, asTextureChain = false, children } = props;
   const textures = useTextures({
-    spriteSheetPath,
     spriteSheetPaths,
     asTextureChain,
   });
-  console.log(textures, spriteSheetPath);
+
   if (spriteSheetPaths?.length === textures.length) {
     return children(textures);
   }
-  return textures[0] ? children(textures[0]) : null;
+
+  return null;
 };
 
 export default Textures;

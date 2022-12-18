@@ -9,7 +9,6 @@ const getTextures = (textures: any, asTextureChain: boolean) => {
 };
 
 export interface UseTexturesProps {
-  spriteSheetPath?: string;
   spriteSheetPaths?: string[];
   asTextureChain: boolean;
 }
@@ -17,32 +16,9 @@ export interface UseTexturesProps {
 // thanks AdrienLemaire 👇
 // use a hook to load spritesheet textures
 export function useTextures(props: UseTexturesProps) {
-  const { spriteSheetPath, spriteSheetPaths, asTextureChain = false } = props;
+  const { spriteSheetPaths, asTextureChain = false } = props;
   const [textures, setTextures] = useState<Texture[]>([]);
   const app = useApp();
-
-  const loadSingleSpriteSheet = useCallback(() => {
-    if (!spriteSheetPath) {
-      return;
-    }
-
-    if (app.loader.resources[spriteSheetPath]) {
-      // get from cache
-      setTextures([
-        getTextures(app.loader.resources[spriteSheetPath], asTextureChain),
-      ]);
-      return;
-    }
-
-    // else load
-    app.loader.add(spriteSheetPath);
-    app.loader.load((_, resource) => {
-      resource[spriteSheetPath]?.textures &&
-        setTextures([
-          getTextures(resource[spriteSheetPath].textures, asTextureChain),
-        ]);
-    });
-  }, []);
 
   const loadMultiSpriteSheet = useCallback(() => {
     if (!spriteSheetPaths?.length) {
@@ -50,20 +26,23 @@ export function useTextures(props: UseTexturesProps) {
     }
 
     const resources: Texture[] = [];
+    let loadedSpriteSheetPaths: string[] = [];
 
-    spriteSheetPaths.forEach((spriteSheetPath: any) => {
-      // get from cache
+    spriteSheetPaths.map((spriteSheetPath: any) => {
       if (app.loader.resources[spriteSheetPath]) {
         resources.push(
-          getTextures(app.loader.resources[spriteSheetPath], asTextureChain)
+          getTextures(
+            app.loader.resources[spriteSheetPath].textures,
+            asTextureChain
+          )
         );
       } else {
-        // else load
         app.loader.add(spriteSheetPath);
+        loadedSpriteSheetPaths.push(spriteSheetPath);
       }
     });
 
-    const promises = spriteSheetPaths.map((spriteSheetPath: any) => {
+    const promises = loadedSpriteSheetPaths.map((spriteSheetPath: any) => {
       return new Promise((resolve, reject) =>
         app.loader.load((_, resource) => {
           if (resource[spriteSheetPath]?.textures) {
@@ -78,17 +57,15 @@ export function useTextures(props: UseTexturesProps) {
     });
 
     Promise.all(promises).then(() => {
-      setTextures(resources);
+      setTextures((prev) => resources);
     });
   }, []);
 
   useEffect(() => {
     if (spriteSheetPaths?.length) {
       loadMultiSpriteSheet();
-    } else {
-      loadSingleSpriteSheet();
     }
-  }, [app.loader, spriteSheetPath, spriteSheetPaths]);
+  }, [spriteSheetPaths]);
 
   return textures;
 }

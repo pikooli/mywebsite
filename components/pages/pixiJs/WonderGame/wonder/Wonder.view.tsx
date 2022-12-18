@@ -1,6 +1,6 @@
 import { Sprite } from "@inlet/react-pixi";
 import { Texture } from "@pixi/core";
-import { BLOCK_SIZE } from "components/pages/pixiJs/la_belle_aurore/utils/utils";
+import { BLOCK_SIZE } from "components/pages/pixiJs/WonderGame/utils/utils";
 import { Position } from "../types";
 
 export type WonderViewProps = {

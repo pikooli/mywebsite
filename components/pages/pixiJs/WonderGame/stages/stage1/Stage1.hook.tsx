@@ -1,13 +1,16 @@
 import { useCallback } from "react";
 import { Texture } from "@pixi/core";
-import { conversionMap } from "components/pages/pixiJs/la_belle_aurore/stages/stages.conversionMap";
-import { map1 } from "components/pages/pixiJs/la_belle_aurore/maps/map1";
+import {
+  conversionMap,
+  KeyofConversionMap,
+} from "components/pages/pixiJs/WonderGame/stages/stages.conversionMap";
+import { map1 } from "components/pages/pixiJs/WonderGame/maps/map1";
 import { Sprite } from "@inlet/react-pixi";
 import {
   BLOCK_SIZE,
   MAP_WIDTH,
   MAP_HEIGHT,
-} from "components/pages/pixiJs/la_belle_aurore/utils/utils";
+} from "components/pages/pixiJs/WonderGame/utils/utils";
 
 export type UseStage1Props = {
   textures: Texture[];
@@ -18,7 +21,8 @@ export function useStage1(props: UseStage1Props) {
 
   const mapTextures = useCallback(() => {
     return map1.map((titleNumber: number, idx: number) => {
-      const textureName = conversionMap(titleNumber);
+      const textureName: string =
+        conversionMap[titleNumber as KeyofConversionMap];
       const texture =
         textures.find((texture: Texture) => {
           return texture.textureCacheIds[0] === textureName;

@@ -6,8 +6,8 @@ import {
   BLOCK_SIZE,
   MAP_HEIGHT,
   MAP_WIDTH,
-} from "components/pages/pixiJs/la_belle_aurore/utils/utils";
-import { Wonder } from "components/pages/pixiJs/la_belle_aurore/wonder";
+} from "components/pages/pixiJs/WonderGame/utils/utils";
+import { Wonder } from "components/pages/pixiJs/WonderGame/wonder";
 import {
   KIGURUMI_SPRITE_SHEET_JSON,
   TILEMAP_SPRITE_SHEET_JSON,
@@ -28,7 +28,7 @@ const renderStage = (textures: Texture[][]) => {
   );
 };
 
-export const WonderGameView = () => {
+export const GameView = () => {
   return (
     <div className="card">
       <Stage

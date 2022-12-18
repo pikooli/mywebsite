@@ -3,7 +3,7 @@ import Layout from "components/Layout";
 
 const WonderGameComponentWithNoSSR = dynamic(
   () =>
-    import("components/pages/pixiJs/la_belle_aurore/wonderGame/index").then(
+    import("components/pages/pixiJs/WonderGame/index").then(
       (mod) => mod.WonderGame
     ),
   { ssr: false }

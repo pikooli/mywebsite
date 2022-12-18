@@ -6,7 +6,7 @@ import { Texture } from "@pixi/core";
 import {
   MAP_HEIGHT,
   MAP_WIDTH,
-} from "components/pages/pixiJs/la_belle_aurore/utils/utils";
+} from "components/pages/pixiJs/WonderGame/utils/utils";
 
 export type UseWonderProps = {
   textures: Texture[];

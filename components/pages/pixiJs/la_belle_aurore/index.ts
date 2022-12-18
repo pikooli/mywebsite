@@ -1,1 +1,0 @@
-export { WonderGame } from "./wonderGame";
