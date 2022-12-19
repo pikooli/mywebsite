@@ -1,4 +1,3 @@
-import React, { useCallback } from "react";
 import { Stage } from "@inlet/react-pixi";
 import { Texture } from "@pixi/core";
 import Textures from "components/pixijs/Texture";
@@ -6,29 +5,32 @@ import {
   BLOCK_SIZE,
   MAP_HEIGHT,
   MAP_WIDTH,
-} from "components/pages/pixiJs/WonderGame/utils/utils";
+} from "components/pages/pixiJs/WonderGame/utils";
 import { Wonder } from "components/pages/pixiJs/WonderGame/wonder";
-import {
-  KIGURUMI_SPRITE_SHEET_JSON,
-  TILEMAP_SPRITE_SHEET_JSON,
-} from "../utils/utils";
-import { Stage1 } from "../stages";
+import { GameStage } from "../gameStage";
+import { Map, SpriteSheetPaths } from "../types";
+import { useCallback } from "react";
 
-const spriteSheetPaths = [
-  KIGURUMI_SPRITE_SHEET_JSON,
-  TILEMAP_SPRITE_SHEET_JSON,
-];
+export interface GameViewProps {
+  wonderPosition: Position;
+  map: Map;
+  spriteSheetPaths: SpriteSheetPaths;
+}
 
-const renderStage = (textures: Texture[][]) => {
-  return (
-    <>
-      <Stage1 textures={textures[1]} />
-      <Wonder textures={textures[0]} />
-    </>
+export const GameView = (props: GameViewProps) => {
+  const { wonderPosition, map, spriteSheetPaths } = props;
+
+  const renderStage = useCallback(
+    (textures: Texture[][]) => {
+      return (
+        <>
+          <GameStage textures={textures[1]} map={map} />
+          <Wonder textures={textures[0]} position={wonderPosition} />
+        </>
+      );
+    },
+    [map, wonderPosition]
   );
-};
-
-export const GameView = () => {
   return (
     <div className="card">
       <Stage

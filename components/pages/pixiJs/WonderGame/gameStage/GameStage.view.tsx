@@ -1,8 +1,8 @@
-export type Stage1ViewProps = {
+export type GameStageViewProps = {
   mapTextures(): JSX.Element[];
 };
 
-export const Stage1View = (props: Stage1ViewProps) => {
+export const GameStageView = (props: GameStageViewProps) => {
   const { mapTextures } = props;
 
   return <>{mapTextures()}</>;

@@ -1,4 +1,4 @@
-export const spriteSheetMap = {
+export const wonderSpriteSheetMap = {
   "cat kigurumi walk and idle": {
     "cat kigurumi walk and idle-0": "cat kigurumi walk and idle-0.png",
     "cat kigurumi walk and idle-1": "cat kigurumi walk and idle-1.png",

@@ -1,26 +1,25 @@
 import { useCallback } from "react";
 import { Texture } from "@pixi/core";
-import {
-  conversionMap,
-  KeyofConversionMap,
-} from "components/pages/pixiJs/WonderGame/stages/stages.conversionMap";
-import { map1 } from "components/pages/pixiJs/WonderGame/maps/map1";
+import { conversionMap } from "components/pages/pixiJs/WonderGame/sprites";
+import { KeyofConversionMap } from "../types";
 import { Sprite } from "@inlet/react-pixi";
 import {
   BLOCK_SIZE,
   MAP_WIDTH,
   MAP_HEIGHT,
-} from "components/pages/pixiJs/WonderGame/utils/utils";
+} from "components/pages/pixiJs/WonderGame/utils";
+import { Map } from "../types";
 
-export type UseStage1Props = {
+export type UseGameStageProps = {
   textures: Texture[];
+  map: Map;
 };
 
-export function useStage1(props: UseStage1Props) {
-  const { textures } = props;
+export function useGameStage(props: UseGameStageProps) {
+  const { textures, map } = props;
 
   const mapTextures = useCallback(() => {
-    return map1.map((titleNumber: number, idx: number) => {
+    return map.map((titleNumber: number, idx: number) => {
       const textureName: string =
         conversionMap[titleNumber as KeyofConversionMap];
       const texture =

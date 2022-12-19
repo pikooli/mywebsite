@@ -1,5 +1,8 @@
 import { GameView } from "./Game.view";
+import { useGame } from "./Game.hook";
 
 export const Game = () => {
-  return <GameView />;
+  const gameViewProps = useGame();
+
+  return <GameView {...gameViewProps} />;
 };
