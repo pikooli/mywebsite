@@ -3,7 +3,6 @@ import { Sprite, useTick } from "@inlet/react-pixi";
 import { Texture } from "@pixi/core";
 
 import utils, { map, BLOCKSIZE } from "components/pages/pixiJs/bunnyGame/utils";
-import { Posi } from "components/pages/pixiJs/bunnyGame/BunnyGame";
 
 const LIMITUP = 2;
 const LIMITRIGHT = map[0].length - 2;
@@ -23,7 +22,7 @@ const Bunny = ({
   arrowDown,
 }: {
   textures: Texture[];
-  posi: Posi;
+  posi: Position;
   setPosi: Function;
   checkCollision: Function;
   arrowDown: string;
@@ -44,7 +43,7 @@ const Bunny = ({
   );
 
   const gravity = () => {
-    setPosi((prev: Posi) => {
+    setPosi((prev: Position) => {
       const block = map[prev.y][prev.x];
       if (block !== 1) {
         const nextX = prev.x;
@@ -70,7 +69,7 @@ const Bunny = ({
       const key = e.key;
       const move = KEY[key];
       if (move) {
-        setPosi((prev: Posi) => {
+        setPosi((prev: Position) => {
           const nextX = prev.x + move.x;
           const nextY = prev.y + move.y;
           if (canMove({ nextX, nextY }) && canJump(key, prev))

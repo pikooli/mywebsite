@@ -35,3 +35,8 @@ class Data {
   key: number;
   data: number;
 }
+
+interface Position {
+  x: number;
+  y: number;
+}

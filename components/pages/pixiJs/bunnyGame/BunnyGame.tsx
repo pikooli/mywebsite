@@ -22,8 +22,6 @@ const LIMITUP = 2;
 const LIMITRIGHT = map[0].length - 2;
 const LIMITDOWN = map.length - 2;
 
-export type Posi = { x: number; y: number };
-
 const BunnyGame = () => {
   const [bunnyPosi, setBunnyPosi] = useState({ x: 0, y: map.length - 1 });
   const [rockPosi, setRockPosi] = useState({ x: 5, y: map.length - 1 });
@@ -38,7 +36,7 @@ const BunnyGame = () => {
     else setRockPosi({ x, y });
   };
 
-  const checkCollision = (bunnyPosi: Posi, rockPosi: Posi) => {
+  const checkCollision = (bunnyPosi: Position, rockPosi: Position) => {
     const xdiff = bunnyPosi.x - rockPosi.x;
     const ydiff = bunnyPosi.y - rockPosi.y;
     if (xdiff === -1 || xdiff === 0) {

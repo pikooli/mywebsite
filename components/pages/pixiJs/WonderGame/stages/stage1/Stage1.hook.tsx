@@ -29,15 +29,14 @@ export function useStage1(props: UseStage1Props) {
         }) ?? textures[0];
 
       const x = Math.floor(idx % MAP_WIDTH);
-      //  the +1 is a quick fix
-      const y = Math.floor(idx / MAP_HEIGHT) + 1;
+      const y = Math.floor(idx / MAP_HEIGHT);
 
       return (
         <Sprite
           key={idx}
           texture={texture}
           {...{ x: x * BLOCK_SIZE, y: y * BLOCK_SIZE }}
-          anchor={[0, 1]}
+          anchor={[0, 0]}
         />
       );
     });

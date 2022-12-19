@@ -2,18 +2,13 @@ import { Sprite } from "@inlet/react-pixi";
 import { Texture } from "@pixi/core";
 
 import utils, { map, BLOCKSIZE } from "components/pages/pixiJs/bunnyGame/utils";
-import { Posi } from "components/pages/pixiJs/bunnyGame/BunnyGame";
-
-const LIMITUP = 2;
-const LIMITRIGHT = map[0].length - 2;
 
 const Rock = ({
   textures,
   posi,
-  setPosi,
 }: {
   textures: Texture[];
-  posi: Posi;
+  posi: Position;
   setPosi: Function;
 }) => {
   return (
