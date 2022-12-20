@@ -2,7 +2,7 @@ import {
   MAP_HEIGHT,
   MAP_WIDTH,
 } from "components/pages/pixiJs/WonderGame/utils";
-import { tileNatureMap } from "components/pages/pixiJs/WonderGame/sprites";
+import { conversionMap } from "components/pages/pixiJs/WonderGame/sprites";
 import { Map } from "../../../../types";
 
 export const isLimitOfMap = (nextPosition: Position) => {
@@ -19,7 +19,7 @@ export const isLimitOfMap = (nextPosition: Position) => {
 export const canStepOn = (nextPosition: Position, map: Map) => {
   const idx = nextPosition.x + nextPosition.y * MAP_WIDTH;
   const tileNumber = map[idx];
-  const tile = tileNatureMap[tileNumber];
+  const tile = conversionMap[tileNumber];
 
   if (tile.canStepOn) return true;
   return false;

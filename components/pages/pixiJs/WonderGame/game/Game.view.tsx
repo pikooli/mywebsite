@@ -9,7 +9,7 @@ import {
 import { Wonder } from "components/pages/pixiJs/WonderGame/wonder";
 import { GameStage } from "../gameStage";
 import { Map, SpriteSheetPaths } from "../types";
-import { useCallback } from "react";
+import { useCallback, CSSProperties } from "react";
 
 export interface GameViewProps {
   wonderPosition: Position;
@@ -37,8 +37,8 @@ export const GameView = (props: GameViewProps) => {
         width={MAP_WIDTH * BLOCK_SIZE}
         height={MAP_HEIGHT * BLOCK_SIZE}
         renderOnComponentChange={true}
-        className="mx-auto lg:mx-0 border-2	 border-orange-200"
-        options={{ backgroundAlpha: 0 }}
+        style={style}
+        options={{ backgroundAlpha: 0, resolution: 1 }}
       >
         <Textures spriteSheetPaths={spriteSheetPaths} asTextureChain={true}>
           {renderStage}
@@ -46,4 +46,8 @@ export const GameView = (props: GameViewProps) => {
       </Stage>
     </div>
   );
+};
+
+const style = {
+  backgroundColor: "#FFD19D",
 };

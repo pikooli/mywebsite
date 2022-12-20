@@ -5,6 +5,7 @@ export type KeyofConversionMap = keyof ConversionMap;
 
 export interface TitleNature {
   canStepOn: boolean;
+  sprite: string;
 }
 
 export interface TitleNatureMap {

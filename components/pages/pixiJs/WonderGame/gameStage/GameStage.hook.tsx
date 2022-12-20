@@ -8,7 +8,7 @@ import {
   MAP_WIDTH,
   MAP_HEIGHT,
 } from "components/pages/pixiJs/WonderGame/utils";
-import { Map } from "../types";
+import { Map, TitleNature } from "../types";
 
 export type UseGameStageProps = {
   textures: Texture[];
@@ -20,11 +20,11 @@ export function useGameStage(props: UseGameStageProps) {
 
   const mapTextures = useCallback(() => {
     return map.map((titleNumber: number, idx: number) => {
-      const textureName: string =
+      const title: TitleNature =
         conversionMap[titleNumber as KeyofConversionMap];
       const texture =
         textures.find((texture: Texture) => {
-          return texture.textureCacheIds[0] === textureName;
+          return texture.textureCacheIds[0] === title.sprite;
         }) ?? textures[0];
 
       const x = Math.floor(idx % MAP_WIDTH);
