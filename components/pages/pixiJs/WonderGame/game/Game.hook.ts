@@ -24,7 +24,7 @@ export function useGame() {
           const nextX = prev.x + move.x;
           const nextY = prev.y + move.y;
           const nextPosition = { x: nextX, y: nextY };
-          if (canWonderMove(nextPosition, map)) return nextPosition;
+          if (canWonderMove(nextPosition, map.mapping)) return nextPosition;
           else return prev;
         });
       }

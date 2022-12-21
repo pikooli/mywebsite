@@ -11,7 +11,7 @@ export interface TitleNature {
 export interface TitleNatureMap {
   [index: number]: TitleNature;
 }
-
-export type Map = number[];
+export type Mapping = number[];
+export type Map = { backgroundColor: string; mapping: Mapping };
 export type SpriteSheetPath = string;
 export type SpriteSheetPaths = SpriteSheetPath[];

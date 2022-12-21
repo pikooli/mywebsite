@@ -9,7 +9,7 @@ import {
 import { Wonder } from "components/pages/pixiJs/WonderGame/wonder";
 import { GameStage } from "../gameStage";
 import { Map, SpriteSheetPaths } from "../types";
-import { useCallback, CSSProperties } from "react";
+import { useCallback, useMemo } from "react";
 
 export interface GameViewProps {
   wonderPosition: Position;
@@ -24,13 +24,21 @@ export const GameView = (props: GameViewProps) => {
     (textures: Texture[][]) => {
       return (
         <>
-          <GameStage textures={textures[1]} map={map} />
+          <GameStage textures={textures[1]} map={map.mapping} />
           <Wonder textures={textures[0]} position={wonderPosition} />
         </>
       );
     },
     [map, wonderPosition]
   );
+
+  const style = useMemo(
+    () => ({
+      backgroundColor: map.backgroundColor,
+    }),
+    []
+  );
+
   return (
     <div className="card">
       <Stage
@@ -46,8 +54,4 @@ export const GameView = (props: GameViewProps) => {
       </Stage>
     </div>
   );
-};
-
-const style = {
-  backgroundColor: "#FFD19D",
 };

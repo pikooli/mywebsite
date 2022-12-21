@@ -8,11 +8,11 @@ import {
   MAP_WIDTH,
   MAP_HEIGHT,
 } from "components/pages/pixiJs/WonderGame/utils";
-import { Map, TitleNature } from "../types";
+import { Mapping, TitleNature } from "../types";
 
 export type UseGameStageProps = {
   textures: Texture[];
-  map: Map;
+  map: Mapping;
 };
 
 export function useGameStage(props: UseGameStageProps) {
