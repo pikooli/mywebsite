@@ -1,40 +1,30 @@
-import { Stage } from "@inlet/react-pixi";
+import { useMemo } from "react";
 import { Texture } from "@pixi/core";
+import { Stage } from "@inlet/react-pixi";
 import Textures from "components/pixijs/Texture";
 import {
   BLOCK_SIZE,
   MAP_HEIGHT,
   MAP_WIDTH,
 } from "components/pages/pixiJs/WonderGame/utils";
-import { Wonder } from "components/pages/pixiJs/WonderGame/wonder";
-import { GameStage } from "../gameStage";
-import { Map, SpriteSheetPaths } from "../types";
-import { useCallback, useMemo } from "react";
+import {
+  MapConfiguration,
+  SpriteSheetPaths,
+} from "components/pages/pixiJs/types";
 
 export interface GameViewProps {
   wonderPosition: Position;
-  map: Map;
+  mapConfiguration: MapConfiguration;
   spriteSheetPaths: SpriteSheetPaths;
+  renderStage(textures: Texture[][]): JSX.Element;
 }
 
 export const GameView = (props: GameViewProps) => {
-  const { wonderPosition, map, spriteSheetPaths } = props;
-
-  const renderStage = useCallback(
-    (textures: Texture[][]) => {
-      return (
-        <>
-          <GameStage textures={textures[1]} map={map.mapping} />
-          <Wonder textures={textures[0]} position={wonderPosition} />
-        </>
-      );
-    },
-    [map, wonderPosition]
-  );
+  const { mapConfiguration, spriteSheetPaths, renderStage } = props;
 
   const style = useMemo(
     () => ({
-      backgroundColor: map.backgroundColor,
+      backgroundColor: mapConfiguration.backgroundColor,
     }),
     []
   );

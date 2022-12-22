@@ -1,8 +1,8 @@
-import { Map } from "../types";
+import { MapConfiguration } from "../../types";
 
-export const map1: Map = {
+export const mapConfiguration1: MapConfiguration = {
   backgroundColor: "white",
-  mapping: [
+  map: [
     819, 854, 854, 854, 854, 854, 164, 165, 166, 854, 854, 854, 854, 854, 820,
     846, 802, 802, 802, 802, 802, 164, 165, 166, 802, 802, 802, 802, 802, 844,
     846, 802, 802, 802, 802, 802, 802, 802, 802, 802, 802, 802, 296, 802, 844,

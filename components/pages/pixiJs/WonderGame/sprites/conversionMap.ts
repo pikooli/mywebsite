@@ -1,5 +1,5 @@
 import { spriteSheetMap } from "./spriteSheetMap";
-import { TitleNatureMap } from "../types";
+import { TitleNatureMap } from "../../types";
 
 // 406 is normal inside floor
 

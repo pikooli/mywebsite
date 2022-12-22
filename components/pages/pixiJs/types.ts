@@ -1,4 +1,4 @@
-import { conversionMap } from "./sprites";
+import { conversionMap } from "./WonderGame/sprites";
 
 export type ConversionMap = typeof conversionMap;
 export type KeyofConversionMap = keyof ConversionMap;
@@ -11,7 +11,7 @@ export interface TitleNature {
 export interface TitleNatureMap {
   [index: number]: TitleNature;
 }
-export type Mapping = number[];
-export type Map = { backgroundColor: string; mapping: Mapping };
+export type Map = number[];
+export type MapConfiguration = { backgroundColor: string; map: Map };
 export type SpriteSheetPath = string;
 export type SpriteSheetPaths = SpriteSheetPath[];
