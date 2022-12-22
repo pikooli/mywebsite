@@ -1,14 +1,11 @@
-import {
-  MAP_HEIGHT,
-  MAP_WIDTH,
-} from "components/pages/pixiJs/WonderGame/utils";
+import { MAP_ROW, MAP_COL } from "components/pages/pixiJs/WonderGame/utils";
 import { conversionMap } from "components/pages/pixiJs/WonderGame/sprites";
 import { Map } from "../../types";
 
 export const isLimitOfMap = (nextPosition: Position) => {
   if (
-    nextPosition.x === MAP_WIDTH - 1 ||
-    nextPosition.y === MAP_HEIGHT - 1 ||
+    nextPosition.x === MAP_COL - 1 ||
+    nextPosition.y === MAP_ROW - 1 ||
     nextPosition.x === -1 ||
     nextPosition.y === -1
   )
@@ -17,7 +14,7 @@ export const isLimitOfMap = (nextPosition: Position) => {
 };
 
 export const canStepOn = (nextPosition: Position, map: Map) => {
-  const idx = nextPosition.x + nextPosition.y * MAP_WIDTH;
+  const idx = nextPosition.x + nextPosition.y * MAP_COL;
   const tileNumber = map[idx];
   const tile = conversionMap[tileNumber];
 

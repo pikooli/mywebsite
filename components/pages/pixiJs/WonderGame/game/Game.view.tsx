@@ -1,9 +1,8 @@
-import { useMemo } from "react";
+import { useMemo, CSSProperties } from "react";
 import { Texture } from "@pixi/core";
 import { Stage } from "@inlet/react-pixi";
 import Textures from "components/pixijs/Texture";
 import {
-  BLOCK_SIZE,
   MAP_HEIGHT,
   MAP_WIDTH,
 } from "components/pages/pixiJs/WonderGame/utils";
@@ -11,7 +10,8 @@ import {
   MapConfiguration,
   SpriteSheetPaths,
 } from "components/pages/pixiJs/types";
-
+import { contenairStyle } from "./Game.style";
+import { TextArea } from "../TextArea";
 export interface GameViewProps {
   wonderPosition: Position;
   mapConfiguration: MapConfiguration;
@@ -22,7 +22,7 @@ export interface GameViewProps {
 export const GameView = (props: GameViewProps) => {
   const { mapConfiguration, spriteSheetPaths, renderStage } = props;
 
-  const style = useMemo(
+  const stageStyle = useMemo(
     () => ({
       backgroundColor: mapConfiguration.backgroundColor,
     }),
@@ -30,18 +30,19 @@ export const GameView = (props: GameViewProps) => {
   );
 
   return (
-    <div className="card">
+    <div style={contenairStyle}>
       <Stage
-        width={MAP_WIDTH * BLOCK_SIZE}
-        height={MAP_HEIGHT * BLOCK_SIZE}
+        width={MAP_WIDTH}
+        height={MAP_HEIGHT}
         renderOnComponentChange={true}
-        style={style}
+        style={stageStyle}
         options={{ backgroundAlpha: 0, resolution: 1 }}
       >
         <Textures spriteSheetPaths={spriteSheetPaths} asTextureChain={true}>
           {renderStage}
         </Textures>
       </Stage>
+      <TextArea text="tett" />
     </div>
   );
 };
