@@ -1,13 +1,18 @@
-import { useEffect, useState } from "react";
-import { style } from "./TextArea.style";
+import { useEffect, useState, useRef } from "react";
+import { styleContainer, styleName, styleText } from "./TextArea.style";
 
 interface TextAreaProps {
   text: string;
+  name?: string;
 }
 
+const TEXT_SPEED = 50;
+
 export const TextArea = (props: TextAreaProps) => {
-  const { text } = props;
+  const { text, name } = props;
   const [displayText, setDisplayText] = useState("");
+  const refP = useRef<HTMLParagraphElement>(null);
+  const refDiv = useRef<HTMLDivElement>(null);
 
   if (!text) {
     return null;
@@ -17,12 +22,21 @@ export const TextArea = (props: TextAreaProps) => {
     if (displayText.length < text.length) {
       const timeout = setTimeout(() => {
         setDisplayText((prev) => prev + text[prev.length]);
-      }, 500);
+        if (refP.current && refDiv.current)
+          refDiv.current.scroll({ top: refP.current.scrollHeight });
+      }, TEXT_SPEED);
       return () => {
         timeout ? clearTimeout(timeout) : null;
       };
     }
   }, [displayText]);
 
-  return <div style={style}>{displayText}</div>;
+  return (
+    <div style={styleContainer}>
+      {name && <p style={styleName}>{name}</p>}
+      <div style={styleText} ref={refDiv}>
+        <p ref={refP}>{displayText}</p>
+      </div>
+    </div>
+  );
 };

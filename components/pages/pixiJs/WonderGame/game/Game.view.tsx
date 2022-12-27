@@ -1,4 +1,5 @@
-import { useMemo, CSSProperties } from "react";
+import { useMemo } from "react";
+import { GameContext } from "../context";
 import { Texture } from "@pixi/core";
 import { Stage } from "@inlet/react-pixi";
 import Textures from "components/pixijs/Texture";
@@ -30,19 +31,24 @@ export const GameView = (props: GameViewProps) => {
   );
 
   return (
-    <div style={contenairStyle}>
-      <Stage
-        width={MAP_WIDTH}
-        height={MAP_HEIGHT}
-        renderOnComponentChange={true}
-        style={stageStyle}
-        options={{ backgroundAlpha: 0, resolution: 1 }}
-      >
-        <Textures spriteSheetPaths={spriteSheetPaths} asTextureChain={true}>
-          {renderStage}
-        </Textures>
-      </Stage>
-      <TextArea text="tett" />
-    </div>
+    <GameContext.Provider value={{}}>
+      <div style={contenairStyle}>
+        <Stage
+          width={MAP_WIDTH}
+          height={MAP_HEIGHT}
+          renderOnComponentChange={true}
+          style={stageStyle}
+          options={{ backgroundAlpha: 0, resolution: 1 }}
+        >
+          <Textures spriteSheetPaths={spriteSheetPaths} asTextureChain={true}>
+            {renderStage}
+          </Textures>
+        </Stage>
+        <TextArea
+          text="tettt ettte tttetttet ttett t ettte ttte ttte tttett tettte tttett tettt ettte tttetttet ttett t ettte ttte ttte tttett tettte tttett tettt ettte tttetttet ttett t ettte ttte ttte tttett tettte tttett tettt ettte tttetttet ttett t ettte ttte ttte tttett tettte tttett"
+          name="Toto"
+        />
+      </div>
+    </GameContext.Provider>
   );
 };
