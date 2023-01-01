@@ -17,7 +17,7 @@ export interface UseTexturesProps {
 // use a hook to load spritesheet textures
 export function useTextures(props: UseTexturesProps) {
   const { spriteSheetPaths, asTextureChain = false } = props;
-  const [textures, setTextures] = useState<Texture[]>([]);
+  const [textures, setTextures] = useState<Texture[][]>([]);
   const app = useApp();
 
   const loadMultiSpriteSheet = useCallback(() => {
@@ -25,7 +25,7 @@ export function useTextures(props: UseTexturesProps) {
       return;
     }
 
-    const resources: Texture[] = [];
+    const resources: Texture[][] = [];
     let loadedSpriteSheetPaths: string[] = [];
 
     spriteSheetPaths.map((spriteSheetPath: any) => {

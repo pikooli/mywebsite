@@ -1,5 +1,6 @@
-import React from "react";
+import { createContext } from "react";
+import { ContextValue } from "./index";
 
-const defaultValue = {};
+export const defaultValue: ContextValue = {};
 
-export const GameContext = React.createContext(defaultValue);
+export const GameContext = createContext<ContextValue>(defaultValue);

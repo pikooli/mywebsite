@@ -1,28 +1,24 @@
-import { useMemo } from "react";
-import { GameContext } from "../context";
-import { Texture } from "@pixi/core";
+import react, { useMemo, useState } from "react";
+import { GameContext, ContextBridge } from "../context";
 import { Stage } from "@inlet/react-pixi";
-import Textures from "components/pixijs/Texture";
 import {
   MAP_HEIGHT,
   MAP_WIDTH,
 } from "components/pages/pixiJs/WonderGame/utils";
-import {
-  MapConfiguration,
-  SpriteSheetPaths,
-} from "components/pages/pixiJs/types";
+import { MapConfiguration } from "components/pages/pixiJs/types";
 import { contenairStyle } from "./Game.style";
 import { TextArea } from "../TextArea";
+import { RenderTextureELements } from "./RenderTextureELements";
+
 export interface GameViewProps {
   wonderPosition: Position;
   mapConfiguration: MapConfiguration;
-  spriteSheetPaths: SpriteSheetPaths;
-  renderStage(textures: Texture[][]): JSX.Element;
 }
 
 export const GameView = (props: GameViewProps) => {
-  const { mapConfiguration, spriteSheetPaths, renderStage } = props;
-
+  const { mapConfiguration, wonderPosition } = props;
+  const [userName, setUserName] = useState("John Smith");
+  const value = useMemo(() => ({ userName, setUserName }), [userName]);
   const stageStyle = useMemo(
     () => ({
       backgroundColor: mapConfiguration.backgroundColor,
@@ -31,21 +27,30 @@ export const GameView = (props: GameViewProps) => {
   );
 
   return (
-    <GameContext.Provider value={{}}>
+    <GameContext.Provider value={value}>
       <div style={contenairStyle}>
-        <Stage
-          width={MAP_WIDTH}
-          height={MAP_HEIGHT}
-          renderOnComponentChange={true}
-          style={stageStyle}
-          options={{ backgroundAlpha: 0, resolution: 1 }}
+        <ContextBridge
+          Context={GameContext}
+          render={(children: react.ReactChildren) => (
+            <Stage
+              width={MAP_WIDTH}
+              height={MAP_HEIGHT}
+              renderOnComponentChange={true}
+              style={stageStyle}
+              options={{ backgroundAlpha: 0, resolution: 1 }}
+            >
+              {children}
+            </Stage>
+          )}
         >
-          <Textures spriteSheetPaths={spriteSheetPaths} asTextureChain={true}>
-            {renderStage}
-          </Textures>
-        </Stage>
+          <RenderTextureELements
+            mapConfiguration={mapConfiguration}
+            wonderPosition={wonderPosition}
+          />
+        </ContextBridge>
         <TextArea
-          text="tettt ettte tttetttet ttett t ettte ttte ttte tttett tettte tttett tettt ettte tttetttet ttett t ettte ttte ttte tttett tettte tttett tettt ettte tttetttet ttett t ettte ttte ttte tttett tettte tttett tettt ettte tttetttet ttett t ettte ttte ttte tttett tettte tttett"
+          text="113"
+          // text="tettt ettte tttetttet ttett t ettte ttte ttte tttett tettte tttett tettt ettte tttetttet ttett t ettte ttte ttte tttett tettte tttett tettt ettte tttetttet ttett t ettte ttte ttte tttett tettte tttett tettt ettte tttetttet ttett t ettte ttte ttte tttett tettte tttett"
           name="Toto"
         />
       </div>

@@ -1,6 +1,7 @@
 import { useEffect, useState, useRef } from "react";
 import { styleContainer, styleName, styleText } from "./TextArea.style";
-
+import { useContext } from "react";
+import { GameContext } from "components/pages/pixiJs/WonderGame/context";
 interface TextAreaProps {
   text: string;
   name?: string;
@@ -17,6 +18,7 @@ export const TextArea = (props: TextAreaProps) => {
   if (!text) {
     return null;
   }
+  const value = useContext(GameContext);
 
   useEffect(() => {
     if (displayText.length < text.length) {

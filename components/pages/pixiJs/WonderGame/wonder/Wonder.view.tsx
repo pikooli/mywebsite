@@ -1,6 +1,8 @@
 import { Sprite } from "@inlet/react-pixi";
 import { Texture } from "@pixi/core";
 import { BLOCK_SIZE } from "components/pages/pixiJs/WonderGame/utils/";
+import { useContext } from "react";
+import { GameContext } from "components/pages/pixiJs/WonderGame/context";
 
 export type WonderViewProps = {
   position: Position;
@@ -10,6 +12,7 @@ export type WonderViewProps = {
 
 export const WonderView = (props: WonderViewProps) => {
   const { position, wonder, cat_costum } = props;
+  const value = useContext(GameContext);
 
   return (
     <>
