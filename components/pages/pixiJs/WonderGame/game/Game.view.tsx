@@ -1,24 +1,25 @@
-import react, { useMemo, useState } from "react";
-import { GameContext, ContextBridge } from "../context";
-import { Stage } from "@inlet/react-pixi";
+import react, { useMemo } from 'react';
+import { GameContext, ContextBridge, ContextValue } from '../context';
+import { Stage } from '@inlet/react-pixi';
 import {
   MAP_HEIGHT,
   MAP_WIDTH,
-} from "components/pages/pixiJs/WonderGame/utils";
-import { MapConfiguration } from "components/pages/pixiJs/types";
-import { contenairStyle } from "./Game.style";
-import { TextArea } from "../TextArea";
-import { RenderTextureELements } from "./RenderTextureELements";
-
+} from 'components/pages/pixiJs/WonderGame/utils';
+import { MapConfiguration } from 'components/pages/pixiJs/types';
+import { contenairStyle } from './Game.style';
+import { TextArea } from '../TextArea';
+import { RenderTextureELements } from './RenderTextureELements';
+import { TextArea as TextAreaEntity } from '../../types';
 export interface GameViewProps {
   wonderPosition: Position;
   mapConfiguration: MapConfiguration;
+  contextValue: ContextValue;
+  textArea: TextAreaEntity;
 }
 
 export const GameView = (props: GameViewProps) => {
-  const { mapConfiguration, wonderPosition } = props;
-  const [userName, setUserName] = useState("John Smith");
-  const value = useMemo(() => ({ userName, setUserName }), [userName]);
+  const { mapConfiguration, wonderPosition, contextValue, textArea } = props;
+
   const stageStyle = useMemo(
     () => ({
       backgroundColor: mapConfiguration.backgroundColor,
@@ -27,7 +28,7 @@ export const GameView = (props: GameViewProps) => {
   );
 
   return (
-    <GameContext.Provider value={value}>
+    <GameContext.Provider value={contextValue}>
       <div style={contenairStyle}>
         <ContextBridge
           Context={GameContext}
@@ -48,11 +49,7 @@ export const GameView = (props: GameViewProps) => {
             wonderPosition={wonderPosition}
           />
         </ContextBridge>
-        <TextArea
-          text="113"
-          // text="tettt ettte tttetttet ttett t ettte ttte ttte tttett tettte tttett tettt ettte tttetttet ttett t ettte ttte ttte tttett tettte tttett tettt ettte tttetttet ttett t ettte ttte ttte tttett tettte tttett tettt ettte tttetttet ttett t ettte ttte ttte tttett tettte tttett"
-          name="Toto"
-        />
+        <TextArea name={textArea.name} text={textArea.text} />
       </div>
     </GameContext.Provider>
   );

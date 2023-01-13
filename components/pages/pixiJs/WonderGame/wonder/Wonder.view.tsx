@@ -1,29 +1,37 @@
-import { Sprite } from "@inlet/react-pixi";
-import { Texture } from "@pixi/core";
-import { BLOCK_SIZE } from "components/pages/pixiJs/WonderGame/utils/";
-import { useContext } from "react";
-import { GameContext } from "components/pages/pixiJs/WonderGame/context";
+import { Sprite } from '@inlet/react-pixi';
+import { Texture } from '@pixi/core';
+import { BLOCK_SIZE } from 'components/pages/pixiJs/WonderGame/utils/';
+import { useContext } from 'react';
+import { GameContext } from 'components/pages/pixiJs/WonderGame/context';
 
-export type WonderViewProps = {
+export interface WonderViewProps {
   position: Position;
   wonder?: Texture;
   cat_costum?: Texture;
-};
+}
 
 export const WonderView = (props: WonderViewProps) => {
-  const { position, wonder, cat_costum } = props;
-  const value = useContext(GameContext);
+  const { wonder, cat_costum } = props;
+
+  const contextValue = useContext(GameContext);
+  const { wonderPosition } = contextValue;
 
   return (
     <>
       <Sprite
         texture={wonder}
-        {...{ x: position.x * BLOCK_SIZE, y: position.y * BLOCK_SIZE }}
+        {...{
+          x: wonderPosition.x * BLOCK_SIZE,
+          y: wonderPosition.y * BLOCK_SIZE,
+        }}
         anchor={[0, 0]}
       />
       <Sprite
         texture={cat_costum}
-        {...{ x: position.x * BLOCK_SIZE, y: position.y * BLOCK_SIZE }}
+        {...{
+          x: wonderPosition.x * BLOCK_SIZE,
+          y: wonderPosition.y * BLOCK_SIZE,
+        }}
         anchor={[0, 0]}
       />
     </>

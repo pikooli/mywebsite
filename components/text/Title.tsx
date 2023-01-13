@@ -1,7 +1,7 @@
 export default function Title({
   className,
   title,
-  limit
+  limit,
 }: {
   className?: string;
   title: string;

@@ -1,6 +1,7 @@
-import react from "react";
-
+import react from 'react';
 export interface ContextValue {
-  userName?: string;
-  setUserName?: react.Dispatch<react.SetStateAction<string>>;
+  wonderPosition: Position;
+  setWonderPosition?: react.Dispatch<react.SetStateAction<Position>>;
+  action: string;
+  setAction?: react.Dispatch<react.SetStateAction<string>>;
 }

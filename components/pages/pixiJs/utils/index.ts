@@ -1,1 +1,1 @@
-export { KEY } from "./keymap";
+export { KEY_MOVE, KEY_UTILS } from './keymap';

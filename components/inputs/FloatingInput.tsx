@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 type Props = {
   className?: string;
@@ -20,12 +20,12 @@ const FloatingInput: React.FC<Props> = ({
   label,
 }) => {
   return (
-    <div className={`border rounded pt-5  px-3 mb-3 ${className || ""}`}>
+    <div className={`border rounded pt-5  px-3 mb-3 ${className || ''}`}>
       <div className="relative">
         <input
           type={type}
           className={`block w-full appearance-none bg-transparent border-none p-0${
-            classNameInput || ""
+            classNameInput || ''
           }`}
           value={value}
           onChange={onChange}
@@ -33,7 +33,7 @@ const FloatingInput: React.FC<Props> = ({
         />
         <label
           className={`absolute top-0 duration-300 origin-0 leading-6 ${
-            classNameLabel || ""
+            classNameLabel || ''
           }`}
         >
           {label}

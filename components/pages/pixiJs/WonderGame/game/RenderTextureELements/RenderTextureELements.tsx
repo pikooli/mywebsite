@@ -1,13 +1,12 @@
+import { useMemo } from 'react';
 import {
   KIGURUMI_SPRITE_SHEET_JSON,
   TILEMAP_SPRITE_SHEET_JSON,
-} from "../../utils";
-import { Wonder } from "components/pages/pixiJs/WonderGame/wonder";
-import { GameStage } from "../../gameStage";
-import { useTextures } from "lib/PixiJs/useTexture";
-import { MapConfiguration } from "../../../types";
-import { useContext, useMemo } from "react";
-import { GameContext } from "components/pages/pixiJs/WonderGame/context";
+} from '../../utils';
+import { Wonder } from 'components/pages/pixiJs/WonderGame/wonder';
+import { GameStage } from '../../gameStage';
+import { useTextures } from 'lib/PixiJs/useTexture';
+import { MapConfiguration } from '../../../types';
 
 interface RenderTextureELementsProps {
   mapConfiguration: MapConfiguration;

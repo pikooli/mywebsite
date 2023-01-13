@@ -1,4 +1,4 @@
-import React, { useState, createContext } from "react";
+import React, { useState, createContext } from 'react';
 
 //
 const AppContext = createContext<GlobalContext | null>(null);
@@ -11,7 +11,7 @@ type Props = {
 
 //
 export const AppProvider: React.FC<Props> = ({ children }) => {
-  const [theme, setTheme]: [string, Function] = useState("light-theme");
+  const [theme, setTheme]: [string, Function] = useState('light-theme');
 
   return (
     <AppContext.Provider

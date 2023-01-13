@@ -1,5 +1,5 @@
-import React from "react";
-import { useTextures, UseTexturesProps } from "lib/PixiJs/useTexture";
+import React from 'react';
+import { useTextures, UseTexturesProps } from 'lib/PixiJs/useTexture';
 
 interface TexturesProps extends UseTexturesProps {
   children: Function;
