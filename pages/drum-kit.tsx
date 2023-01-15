@@ -1,5 +1,5 @@
-import Layout from "components/Layout";
-import Drumkit from "components/pages/games/Drumkit";
+import Layout from 'src/components/Layout';
+import Drumkit from 'src/pages/games/Drumkit';
 
 export default function BunnyGame() {
   return (

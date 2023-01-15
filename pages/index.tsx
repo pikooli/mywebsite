@@ -1,7 +1,7 @@
-import type { NextPage } from "next";
+import type { NextPage } from 'next';
 
-import Layout from "components/Layout";
-import Me from "components/pages/me";
+import Layout from 'src/components/Layout';
+import Me from 'src/pages/me';
 
 type Props = {};
 

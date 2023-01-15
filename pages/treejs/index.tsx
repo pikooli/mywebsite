@@ -1,5 +1,5 @@
-import Layout from "components/Layout";
-import TreeJs from "components/pages/treejs/Treejs";
+import Layout from 'src/components/Layout';
+import TreeJs from 'src/pages/treejs/Treejs';
 
 export default function Index() {
   return (

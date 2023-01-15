@@ -1,5 +1,5 @@
-import Layout from "components/Layout";
-import Index from "components/pages/treejs/galaxy/Index";
+import Layout from 'src/components/Layout';
+import Index from 'src/pages/treejs/galaxy/Index';
 
 export default function CubePage() {
   return (

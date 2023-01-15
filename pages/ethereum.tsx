@@ -1,6 +1,6 @@
-import Layout from "components/Layout";
+import Layout from 'src/components/Layout';
 
-import Ethereum from "components/pages/web3/ethereum";
+import Ethereum from 'src/pages/web3/ethereum';
 
 export const EthereumPage = () => {
   return (

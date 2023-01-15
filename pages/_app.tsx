@@ -1,9 +1,9 @@
-import type { AppProps } from "next/app";
+import type { AppProps } from 'next/app';
 
-import "../styles/globals.scss";
-import { AppProvider } from "components/AppContext";
+import '../styles/globals.scss';
+import { AppProvider } from 'src/context/AppContext';
 
-import fontawersome from "lib/fontawersome";
+import fontawersome from 'src/lib/fontawersome';
 
 fontawersome();
 

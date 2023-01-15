@@ -1,8 +1,8 @@
-import dynamic from "next/dynamic";
-import Layout from "components/Layout";
+import dynamic from 'next/dynamic';
+import Layout from 'src/components/Layout';
 
 const BunnyGameComponentWithNoSSR = dynamic(
-  () => import("components/pages/pixiJs/bunnyGame/BunnyGame"),
+  () => import('src/pages/pixiJs/bunnyGame/BunnyGame'),
   { ssr: false }
 );
 

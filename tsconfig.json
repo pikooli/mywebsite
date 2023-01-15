@@ -22,7 +22,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    "components/pixijs/Texture.tsx"
+    "src/components/pixijs/Texture.tsx"
   ],
   "exclude": ["node_modules"]
 }
