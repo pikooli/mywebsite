@@ -1,1 +1,0 @@
-export { mappingSpeech } from './mappingSpeech';

@@ -8,7 +8,7 @@ export function useActionKeydown() {
     const key_action = KEY_ACTION[e.code];
 
     if (key_action) {
-      console.log('key_action', key_action);
+      e.preventDefault();
       return setAction(prev => key_action);
     }
   }, []);

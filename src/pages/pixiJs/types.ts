@@ -14,10 +14,17 @@ export interface TitleNatureMap {
 
 export type Map = number[];
 
+export interface Speech {
+  name: string;
+  text: string;
+  position: Position;
+}
+
 export type MapConfiguration = {
   name: string;
   backgroundColor: string;
   map: Map;
+  speeches: Speech[];
 };
 
 export interface Text {

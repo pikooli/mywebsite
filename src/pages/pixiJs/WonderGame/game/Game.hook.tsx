@@ -1,18 +1,17 @@
 import { useState, useMemo, useEffect } from 'react';
 import { canWonderMove } from '../wonder/Wonder.utils';
-import { mapConfiguration1 } from '../mapConfiguration';
+import { map1 } from '../maps';
 import { useMoveKeydown, useActionKeydown } from '../../hooks';
 import {
   KIGURUMI_SPRITE_SHEET_JSON,
   TILEMAP_SPRITE_SHEET_JSON,
 } from '../utils';
 import { contextdefaultValue, ContextValue } from '../context';
-import { mappingSpeech } from '../actions';
 import { Text } from '../../types';
 
 export function useGame() {
   const [text, setText] = useState<Text>(contextdefaultValue.text);
-  const mapConfiguration = mapConfiguration1;
+  const mapConfiguration = map1;
   const spriteSheetPaths = [
     KIGURUMI_SPRITE_SHEET_JSON,
     TILEMAP_SPRITE_SHEET_JSON,
@@ -28,14 +27,14 @@ export function useGame() {
   const { action, setAction } = useActionKeydown();
 
   useEffect(() => {
-    console.log(action);
     if (action === 'action') {
-      setText(
-        mappingSpeech({
-          mapName: mapConfiguration.name,
-          coordoner: wonderPosition,
-        })
+      const { speeches } = mapConfiguration;
+      const speech = speeches.find(
+        speech =>
+          speech.position.x === wonderPosition.x &&
+          speech.position.y === wonderPosition.y
       );
+      speech && setText(speech);
       setAction('');
     }
   }, [action]);

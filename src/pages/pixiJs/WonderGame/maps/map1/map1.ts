@@ -1,6 +1,7 @@
-import { MapConfiguration } from '../../types';
+import { MapConfiguration } from '../../../types';
+import { speeches } from './speeches';
 
-export const mapConfiguration1: MapConfiguration = {
+export const map1: MapConfiguration = {
   name: 'map1',
   backgroundColor: 'white',
   map: [
@@ -20,4 +21,5 @@ export const mapConfiguration1: MapConfiguration = {
     827, 837, 837, 837, 837, 837, 837, 837, 837, 837, 837, 837, 837, 837, 828,
     845, 845, 845, 845, 845, 845, 845, 845, 845, 845, 845, 845, 845, 845, 845,
   ],
+  speeches,
 };
