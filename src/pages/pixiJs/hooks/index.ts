@@ -1,2 +1,3 @@
-export { useKeydown } from './useKeyDown';
-export type { UseKeyDown } from './useKeyDown';
+export { useMoveKeydown } from './useMoveKeyDown';
+export { useActionKeydown } from './useActionKeyDown';
+export type { UseMoveKeydown } from './useMoveKeyDown';

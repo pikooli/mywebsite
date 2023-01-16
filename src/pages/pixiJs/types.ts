@@ -11,15 +11,20 @@ export interface TitleNature {
 export interface TitleNatureMap {
   [index: number]: TitleNature;
 }
+
 export type Map = number[];
+
 export type MapConfiguration = {
   name: string;
   backgroundColor: string;
   map: Map;
 };
-export interface TextArea {
+
+export interface Text {
   name: string;
   text: string;
 }
+
 export type SpriteSheetPath = string;
+
 export type SpriteSheetPaths = SpriteSheetPath[];

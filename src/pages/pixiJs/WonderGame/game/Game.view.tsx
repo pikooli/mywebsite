@@ -4,18 +4,19 @@ import { Stage } from '@inlet/react-pixi';
 import { MAP_HEIGHT, MAP_WIDTH } from 'src/pages/pixiJs/WonderGame/utils';
 import { MapConfiguration } from 'src/pages/pixiJs/types';
 import { contenairStyle } from './Game.style';
-import { TextArea } from '../TextArea';
+import { Text } from '../Text';
 import { RenderTextureELements } from './RenderTextureELements';
-import { TextArea as TextAreaEntity } from '../../types';
+import { Text as TextEntity } from '../../types';
+
 export interface GameViewProps {
   wonderPosition: Position;
   mapConfiguration: MapConfiguration;
   contextValue: ContextValue;
-  textArea: TextAreaEntity;
+  text: TextEntity;
 }
 
 export const GameView = (props: GameViewProps) => {
-  const { mapConfiguration, wonderPosition, contextValue, textArea } = props;
+  const { mapConfiguration, wonderPosition, contextValue, text } = props;
 
   const stageStyle = useMemo(
     () => ({
@@ -46,7 +47,7 @@ export const GameView = (props: GameViewProps) => {
             wonderPosition={wonderPosition}
           />
         </ContextBridge>
-        <TextArea name={textArea.name} text={textArea.text} />
+        <Text name={text.name} text={text.text} />
       </div>
     </GameContext.Provider>
   );

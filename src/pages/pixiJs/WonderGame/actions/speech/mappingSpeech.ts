@@ -1,5 +1,5 @@
 import { speech } from './speech';
-import { defaultTextArea } from '../../utils';
+import { contextdefaultValue } from '../../context';
 export const mappingSpeech = ({
   mapName,
   coordoner,
@@ -7,8 +7,8 @@ export const mappingSpeech = ({
   mapName: string;
   coordoner: Position;
 }) => {
-  if (mapName === 'map1' && coordoner.x === 1 && coordoner.y === 1) {
+  if (mapName === 'map1' && coordoner.x === 12 && coordoner.y === 3) {
     return speech[1];
   }
-  return defaultTextArea;
+  return contextdefaultValue.text;
 };

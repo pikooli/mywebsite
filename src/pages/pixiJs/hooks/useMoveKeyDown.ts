@@ -1,8 +1,8 @@
 import { useCallback, useEffect, useState } from 'react';
 import { MapConfiguration, Map } from '../types';
-import { KEY_MOVE, KEY_UTILS } from '../utils';
+import { KEY_MOVE } from '../utils';
 
-export interface UseKeyDown {
+export interface UseMoveKeydown {
   mapConfiguration: MapConfiguration;
   canMove(nextPosition: Position, map: Map): boolean;
   initPosition?: Position;
@@ -10,14 +10,12 @@ export interface UseKeyDown {
 
 const DEFAULT_POSITION = { x: 0, y: 0 };
 
-export function useKeydown(props: UseKeyDown) {
+export function useMoveKeydown(props: UseMoveKeydown) {
   const { mapConfiguration, canMove, initPosition } = props;
   const [position, setPosition] = useState(initPosition ?? DEFAULT_POSITION);
-  const [action, setAction] = useState('');
 
   const keydown = useCallback((e: KeyboardEvent) => {
     const move = KEY_MOVE[e.code];
-    const key_action = KEY_UTILS[e.code];
 
     if (move) {
       e.preventDefault();
@@ -25,13 +23,11 @@ export function useKeydown(props: UseKeyDown) {
         const nextX = prev.x + move.x;
         const nextY = prev.y + move.y;
         const nextPosition = { x: nextX, y: nextY };
+        console.log('nextPosition', nextPosition);
         return canMove(nextPosition, mapConfiguration.map)
           ? nextPosition
           : prev;
       });
-    }
-    if (key_action) {
-      return setAction(prev => key_action);
     }
   }, []);
 
@@ -45,7 +41,5 @@ export function useKeydown(props: UseKeyDown) {
   return {
     position,
     setPosition,
-    action,
-    setAction,
   };
 }

@@ -1,10 +1,5 @@
 import { createContext } from 'react';
-import { ContextValue } from './index';
-import { defaultAction, defaultWonderPosition } from '../utils';
+import { contextdefaultValue } from './default';
+import { ContextValue } from './Context.types';
 
-export const defaultValue: ContextValue = {
-  wonderPosition: defaultWonderPosition,
-  action: defaultAction,
-};
-
-export const GameContext = createContext<ContextValue>(defaultValue);
+export const GameContext = createContext<ContextValue>(contextdefaultValue);

@@ -1,37 +1,36 @@
 import { useState, useMemo, useEffect } from 'react';
 import { canWonderMove } from '../wonder/Wonder.utils';
 import { mapConfiguration1 } from '../mapConfiguration';
-import { useKeydown } from '../../hooks';
+import { useMoveKeydown, useActionKeydown } from '../../hooks';
 import {
   KIGURUMI_SPRITE_SHEET_JSON,
   TILEMAP_SPRITE_SHEET_JSON,
 } from '../utils';
-import { defaultTextArea } from '../utils';
-import { defaultValue } from '../context';
+import { contextdefaultValue, ContextValue } from '../context';
 import { mappingSpeech } from '../actions';
+import { Text } from '../../types';
 
 export function useGame() {
-  const [textArea, setTextArea] = useState(defaultTextArea);
+  const [text, setText] = useState<Text>(contextdefaultValue.text);
   const mapConfiguration = mapConfiguration1;
   const spriteSheetPaths = [
     KIGURUMI_SPRITE_SHEET_JSON,
     TILEMAP_SPRITE_SHEET_JSON,
   ];
 
-  const {
-    position: wonderPosition,
-    setPosition: setWonderPosition,
-    action,
-    setAction,
-  } = useKeydown({
-    mapConfiguration,
-    canMove: canWonderMove,
-    initPosition: defaultValue.wonderPosition,
-  });
+  const { position: wonderPosition, setPosition: setWonderPosition } =
+    useMoveKeydown({
+      mapConfiguration,
+      canMove: canWonderMove,
+      initPosition: contextdefaultValue.wonder.position,
+    });
+
+  const { action, setAction } = useActionKeydown();
 
   useEffect(() => {
+    console.log(action);
     if (action === 'action') {
-      setTextArea(
+      setText(
         mappingSpeech({
           mapName: mapConfiguration.name,
           coordoner: wonderPosition,
@@ -41,14 +40,18 @@ export function useGame() {
     }
   }, [action]);
 
-  const contextValue = useMemo(
+  const contextValue: ContextValue = useMemo(
     () => ({
-      wonderPosition,
-      setWonderPosition,
-      action,
-      setAction,
+      wonder: {
+        position: wonderPosition,
+        setPosition: setWonderPosition,
+        action,
+        setAction,
+        inventaire: { costume: false },
+      },
+      text,
     }),
-    [wonderPosition, setWonderPosition, action, setAction]
+    [wonderPosition, setWonderPosition, action, setAction, text]
   );
 
   return {
@@ -56,6 +59,6 @@ export function useGame() {
     mapConfiguration,
     spriteSheetPaths,
     contextValue,
-    textArea,
+    text,
   };
 }

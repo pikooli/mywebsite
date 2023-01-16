@@ -14,7 +14,12 @@ export const WonderView = (props: WonderViewProps) => {
   const { wonder, cat_costum } = props;
 
   const contextValue = useContext(GameContext);
-  const { wonderPosition } = contextValue;
+  const {
+    wonder: {
+      position: wonderPosition,
+      inventaire: { costume },
+    },
+  } = contextValue;
 
   return (
     <>
@@ -26,14 +31,16 @@ export const WonderView = (props: WonderViewProps) => {
         }}
         anchor={[0, 0]}
       />
-      <Sprite
-        texture={cat_costum}
-        {...{
-          x: wonderPosition.x * BLOCK_SIZE,
-          y: wonderPosition.y * BLOCK_SIZE,
-        }}
-        anchor={[0, 0]}
-      />
+      {costume ? (
+        <Sprite
+          texture={cat_costum}
+          {...{
+            x: wonderPosition.x * BLOCK_SIZE,
+            y: wonderPosition.y * BLOCK_SIZE,
+          }}
+          anchor={[0, 0]}
+        />
+      ) : null}
     </>
   );
 };
