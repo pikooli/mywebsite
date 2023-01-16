@@ -100,7 +100,7 @@ export default function Navbar() {
   };
 
   return (
-    <Disclosure as="nav" className="navbar  text-white py-3">
+    <Disclosure as="nav" className="navbar text-white py-3">
       {({ open }) => (
         <div className="px-2">
           <div className="flex ">

@@ -1,17 +1,24 @@
-import { useCallback, useEffect, useState } from 'react';
+import React, { useCallback, useEffect } from 'react';
 import { KEY_ACTION } from '../utils';
 
-export function useActionKeydown() {
-  const [action, setAction] = useState('');
+interface UseActionKeydown {
+  setAction(action: string): void;
+}
 
-  const keydown = useCallback((e: KeyboardEvent) => {
-    const key_action = KEY_ACTION[e.code];
+export function useActionKeydown(props: UseActionKeydown) {
+  const { setAction } = props;
 
-    if (key_action) {
-      e.preventDefault();
-      return setAction(prev => key_action);
-    }
-  }, []);
+  const keydown = useCallback(
+    (e: KeyboardEvent) => {
+      const key_action = KEY_ACTION[e.code];
+
+      if (key_action) {
+        e.preventDefault();
+        return setAction(key_action);
+      }
+    },
+    [setAction]
+  );
 
   useEffect(() => {
     window.document.addEventListener('keydown', keydown);
@@ -21,7 +28,6 @@ export function useActionKeydown() {
   }, []);
 
   return {
-    action,
     setAction,
   };
 }

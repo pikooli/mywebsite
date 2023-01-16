@@ -6,17 +6,14 @@ import { MapConfiguration } from 'src/pages/pixiJs/types';
 import { contenairStyle } from './Game.style';
 import { Text } from '../Text';
 import { RenderTextureELements } from './RenderTextureELements';
-import { Text as TextEntity } from '../../types';
 
 export interface GameViewProps {
-  wonderPosition: Position;
   mapConfiguration: MapConfiguration;
   contextValue: ContextValue;
-  text: TextEntity;
 }
 
 export const GameView = (props: GameViewProps) => {
-  const { mapConfiguration, wonderPosition, contextValue, text } = props;
+  const { mapConfiguration, contextValue } = props;
 
   const stageStyle = useMemo(
     () => ({
@@ -42,12 +39,9 @@ export const GameView = (props: GameViewProps) => {
             </Stage>
           )}
         >
-          <RenderTextureELements
-            mapConfiguration={mapConfiguration}
-            wonderPosition={wonderPosition}
-          />
+          <RenderTextureELements mapConfiguration={mapConfiguration} />
         </ContextBridge>
-        <Text name={text.name} text={text.text} />
+        <Text />
       </div>
     </GameContext.Provider>
   );

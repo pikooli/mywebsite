@@ -35,3 +35,8 @@ export interface Text {
 export type SpriteSheetPath = string;
 
 export type SpriteSheetPaths = SpriteSheetPath[];
+
+export interface WonderParameters {
+  position: Position;
+  action: string;
+}

@@ -6,8 +6,8 @@ export const defaultAction = '';
 
 export const contextdefaultValue: ContextValue = {
   wonder: {
-    position: defaultWonderPosition,
-    action: defaultAction,
+    parameters: { position: defaultWonderPosition, action: '' },
+    setParameters: () => null,
     inventaire: { costume: false },
   },
   text: defaultText,

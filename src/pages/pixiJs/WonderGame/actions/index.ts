@@ -1,1 +1,2 @@
-export { mappingSpeech } from './speech';
+export { canStepOn, canWonderMove, isLimitOfMap } from './moves';
+export { useMove } from './useMove';

@@ -1,13 +1,13 @@
-import { memo } from "react";
-import { WonderView } from "./Wonder.view";
-import { useWonder, UseWonderProps } from "./Wonder.hook";
+import { memo } from 'react';
+import { WonderView } from './Wonder.view';
+import { useWonder, UseWonderProps } from './Wonder.hook';
 
-interface WonderProps extends Pick<UseWonderProps, "textures" | "position"> {}
+interface WonderProps extends Pick<UseWonderProps, 'textures'> {}
 
 export const Wonder = memo(function (props: WonderProps) {
-  const { textures, position } = props;
+  const { textures } = props;
 
-  const WonderHookProps = useWonder({ textures, position });
+  const WonderHookProps = useWonder({ textures });
 
-  return <WonderView {...WonderHookProps} position={position} />;
+  return <WonderView {...WonderHookProps} />;
 });

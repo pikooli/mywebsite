@@ -1,63 +1,55 @@
-import { useState, useMemo, useEffect } from 'react';
-import { canWonderMove } from '../wonder/Wonder.utils';
+import { useMemo, useEffect } from 'react';
 import { map1 } from '../maps';
-import { useMoveKeydown, useActionKeydown } from '../../hooks';
 import {
   KIGURUMI_SPRITE_SHEET_JSON,
   TILEMAP_SPRITE_SHEET_JSON,
 } from '../utils';
-import { contextdefaultValue, ContextValue } from '../context';
-import { Text } from '../../types';
+import { ContextValue } from '../context';
+import { useGameState } from './Game.state';
 
 export function useGame() {
-  const [text, setText] = useState<Text>(contextdefaultValue.text);
+  const { wonderParameters, setWonderParameters, setText, text } =
+    useGameState();
+
   const mapConfiguration = map1;
   const spriteSheetPaths = [
     KIGURUMI_SPRITE_SHEET_JSON,
     TILEMAP_SPRITE_SHEET_JSON,
   ];
 
-  const { position: wonderPosition, setPosition: setWonderPosition } =
-    useMoveKeydown({
-      mapConfiguration,
-      canMove: canWonderMove,
-      initPosition: contextdefaultValue.wonder.position,
-    });
-
-  const { action, setAction } = useActionKeydown();
-
   useEffect(() => {
-    if (action === 'action') {
+    if (wonderParameters.action === 'action') {
       const { speeches } = mapConfiguration;
       const speech = speeches.find(
         speech =>
-          speech.position.x === wonderPosition.x &&
-          speech.position.y === wonderPosition.y
+          speech.position.x === wonderParameters.position.x &&
+          speech.position.y === wonderParameters.position.y
       );
-      speech && setText(speech);
-      setAction('');
+      if (speech) {
+        setText(speech);
+      } else {
+        setWonderParameters(prev => ({ ...prev, action: '' }));
+      }
     }
-  }, [action]);
+  }, [wonderParameters]);
 
   const contextValue: ContextValue = useMemo(
     () => ({
       wonder: {
-        position: wonderPosition,
-        setPosition: setWonderPosition,
-        action,
-        setAction,
+        parameters: wonderParameters,
+        setParameters: setWonderParameters,
         inventaire: { costume: false },
       },
       text,
+      setText,
+      map: mapConfiguration,
     }),
-    [wonderPosition, setWonderPosition, action, setAction, text]
+    [wonderParameters, setWonderParameters, text]
   );
 
   return {
-    wonderPosition,
     mapConfiguration,
     spriteSheetPaths,
     contextValue,
-    text,
   };
 }

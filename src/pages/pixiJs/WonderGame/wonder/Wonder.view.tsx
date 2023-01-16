@@ -5,7 +5,6 @@ import { useContext } from 'react';
 import { GameContext } from 'src/pages/pixiJs/WonderGame/context';
 
 export interface WonderViewProps {
-  position: Position;
   wonder?: Texture;
   cat_costum?: Texture;
 }
@@ -16,7 +15,7 @@ export const WonderView = (props: WonderViewProps) => {
   const contextValue = useContext(GameContext);
   const {
     wonder: {
-      position: wonderPosition,
+      parameters: { position: wonderPosition },
       inventaire: { costume },
     },
   } = contextValue;
