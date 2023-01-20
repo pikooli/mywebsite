@@ -2,6 +2,7 @@ import { useEffect, useState, useRef, useContext } from 'react';
 import { styleContainer, styleName, styleText } from './Text.style';
 import { contextdefaultValue } from 'src/pages/pixiJs/WonderGame/context/';
 import { GameContext } from 'src/pages/pixiJs/WonderGame/context';
+import { useSpeech } from '../actions';
 
 const TEXT_SPEED = 50;
 const TEXT_PAUSE = 1000;
@@ -38,6 +39,8 @@ export const Text = () => {
       };
     }
   }, [displayText, text]);
+
+  useSpeech();
 
   if (!text) {
     return null;

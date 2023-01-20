@@ -14,10 +14,10 @@ export function useWonder(props: UseWonderProps) {
   const contextValue = useContext(GameContext);
   const {
     wonder: { setParameters },
-    map,
   } = contextValue;
 
   useMove();
+
   const cat_costum = useMemo(() => {
     return textures.find(
       texture =>

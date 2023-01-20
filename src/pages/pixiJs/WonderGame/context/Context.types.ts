@@ -11,5 +11,5 @@ export interface ContextValue {
   };
   text: Text;
   setText?: react.Dispatch<react.SetStateAction<Text>>;
-  map?: MapConfiguration;
+  map: MapConfiguration;
 }

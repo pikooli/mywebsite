@@ -1,4 +1,4 @@
-import { useMemo, useEffect } from 'react';
+import { useMemo } from 'react';
 import { map1 } from '../maps';
 import {
   KIGURUMI_SPRITE_SHEET_JSON,
@@ -16,22 +16,6 @@ export function useGame() {
     KIGURUMI_SPRITE_SHEET_JSON,
     TILEMAP_SPRITE_SHEET_JSON,
   ];
-
-  useEffect(() => {
-    if (wonderParameters.action === 'action') {
-      const { speeches } = mapConfiguration;
-      const speech = speeches.find(
-        speech =>
-          speech.position.x === wonderParameters.position.x &&
-          speech.position.y === wonderParameters.position.y
-      );
-      if (speech) {
-        setText(speech);
-      } else {
-        setWonderParameters(prev => ({ ...prev, action: '' }));
-      }
-    }
-  }, [wonderParameters]);
 
   const contextValue: ContextValue = useMemo(
     () => ({
