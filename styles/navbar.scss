@@ -6,11 +6,9 @@
   display: block;
   color: var(--navbarcolor) !important;
   &.active {
-    // border-color: var(--navbarcolorhover) !important;
     color: var(--navbarcolorhover) !important;
   }
   &:hover {
-    // border-color: var(--navbarcolorhover) !important;
     color: var(--navbarcolorhover) !important;
   }
 }
