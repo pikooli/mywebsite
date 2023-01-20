@@ -8,8 +8,14 @@ import { ContextValue } from '../context';
 import { useGameState } from './Game.state';
 
 export function useGame() {
-  const { wonderParameters, setWonderParameters, setText, text } =
-    useGameState();
+  const {
+    wonderParameters,
+    setWonderParameters,
+    setText,
+    text,
+    inventaire,
+    setInventaire,
+  } = useGameState();
 
   const mapConfiguration = map1;
   const spriteSheetPaths = [
@@ -22,7 +28,8 @@ export function useGame() {
       wonder: {
         parameters: wonderParameters,
         setParameters: setWonderParameters,
-        inventaire: { costume: false },
+        inventaire,
+        setInventaire,
       },
       text,
       setText,

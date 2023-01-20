@@ -9,13 +9,15 @@ export const defaultMap: MapConfiguration = {
   backgroundColor: 'default',
   map: [],
   speeches: [],
+  items: [],
 };
 
 export const contextdefaultValue: ContextValue = {
   wonder: {
     parameters: { position: defaultWonderPosition, action: '' },
     setParameters: () => null,
-    inventaire: { costume: false },
+    inventaire: { cat_costume: false },
+    setInventaire: () => null,
   },
   text: defaultText,
   map: defaultMap,

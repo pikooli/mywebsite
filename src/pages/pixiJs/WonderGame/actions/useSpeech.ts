@@ -15,7 +15,6 @@ export function useSpeech() {
   const { action } = wonderParameters;
 
   useEffect(() => {
-    console.log(wonderParameters);
     if (action === 'action') {
       const { speeches } = mapConfiguration;
       const speech = speeches.find(

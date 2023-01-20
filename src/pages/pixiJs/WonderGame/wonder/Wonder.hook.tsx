@@ -3,7 +3,7 @@ import { wonderSpriteSheetMap } from '../sprites';
 import { Texture } from '@pixi/core';
 import { useActionKeydown } from '../../hooks';
 import { GameContext } from 'src/pages/pixiJs/WonderGame/context';
-import { useMove } from '../actions';
+import { useMove, useGrap } from '../actions';
 
 export type UseWonderProps = {
   textures: Texture[];
@@ -17,7 +17,7 @@ export function useWonder(props: UseWonderProps) {
   } = contextValue;
 
   useMove();
-
+  useGrap();
   const cat_costum = useMemo(() => {
     return textures.find(
       texture =>

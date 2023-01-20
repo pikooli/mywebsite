@@ -16,7 +16,7 @@ export const WonderView = (props: WonderViewProps) => {
   const {
     wonder: {
       parameters: { position: wonderPosition },
-      inventaire: { costume },
+      inventaire: { cat_costume },
     },
   } = contextValue;
 
@@ -30,7 +30,7 @@ export const WonderView = (props: WonderViewProps) => {
         }}
         anchor={[0, 0]}
       />
-      {costume ? (
+      {cat_costume ? (
         <Sprite
           texture={cat_costum}
           {...{

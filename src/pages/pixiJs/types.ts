@@ -20,11 +20,17 @@ export interface Speech {
   position: Position;
 }
 
+export interface Item {
+  name: 'cat_costume';
+  position: Position;
+}
+
 export type MapConfiguration = {
   name: string;
   backgroundColor: string;
   map: Map;
   speeches: Speech[];
+  items: Item[];
 };
 
 export interface Text {
@@ -39,4 +45,8 @@ export type SpriteSheetPaths = SpriteSheetPath[];
 export interface WonderParameters {
   position: Position;
   action: string;
+}
+
+export interface Inventaire {
+  cat_costume: boolean;
 }

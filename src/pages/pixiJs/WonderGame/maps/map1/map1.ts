@@ -1,5 +1,6 @@
 import { MapConfiguration } from '../../../types';
 import { speeches } from './speeches';
+import { items } from './items';
 
 export const map1: MapConfiguration = {
   name: 'map1',
@@ -22,4 +23,5 @@ export const map1: MapConfiguration = {
     845, 845, 845, 845, 845, 845, 845, 845, 845, 845, 845, 845, 845, 845, 845,
   ],
   speeches,
+  items: items,
 };
