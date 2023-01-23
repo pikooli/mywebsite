@@ -14,7 +14,7 @@ import Arrow from 'src/pages/pixiJs/bunnyGame/Arrows';
 import { GithubIcon } from 'src/components/icon/index';
 
 const GITHUB =
-  'https://github.com/pikooli/mywebsite/tree/main/components/pages/pixiJs/bunnyGame';
+  'https://github.com/pikooli/mywebsite/tree/main/src/pages/pixiJs/bunnyGame';
 
 const spritesheet = '/bunny/bunny.json';
 

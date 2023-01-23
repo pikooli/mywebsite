@@ -50,3 +50,9 @@ export interface WonderParameters {
 export interface Inventaire {
   cat_costume: boolean;
 }
+
+export type ArrowKey = 'ArrowUp' | 'ArrowDown' | 'ArrowLeft' | 'ArrowRight';
+
+export type ActionKey = 'Space';
+
+export type KeyboardKey = ArrowKey | ActionKey;

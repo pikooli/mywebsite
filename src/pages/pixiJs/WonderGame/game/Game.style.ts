@@ -1,7 +1,7 @@
-import { CSSProperties } from "react";
+import { CSSProperties } from 'react';
 
 export const contenairStyle: CSSProperties = {
-  position: "relative",
-  width: "fit-content",
-  margin: "0 auto",
+  position: 'relative',
+  width: 'fit-content',
+  marginRight: '20px',
 };
