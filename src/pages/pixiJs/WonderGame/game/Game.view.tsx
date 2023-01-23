@@ -3,7 +3,6 @@ import { GameContext, ContextBridge, ContextValue } from '../context';
 import { Stage } from '@inlet/react-pixi';
 import { MAP_HEIGHT, MAP_WIDTH } from 'src/pages/pixiJs/WonderGame/utils';
 import { MapConfiguration } from 'src/pages/pixiJs/types';
-import { contenairStyle } from './Game.style';
 import { Text } from '../Text';
 import { RenderTextureELements } from './RenderTextureELements';
 import { KeyboardTouch } from '../components';
@@ -37,9 +36,9 @@ export const GameView = (props: GameViewProps) => {
         />
         <GithubIcon href={GITHUB} />
       </div>
-      <div className="flex flex-wrap">
+      <div className="flex flex-wrap items-center justify-center sm:justify-start">
         <GameContext.Provider value={contextValue}>
-          <div style={contenairStyle}>
+          <div className="relative w-fit sm:mr-4">
             <ContextBridge
               Context={GameContext}
               render={(children: react.ReactChildren) => (

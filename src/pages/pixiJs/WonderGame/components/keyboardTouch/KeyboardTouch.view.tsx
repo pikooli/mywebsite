@@ -16,10 +16,7 @@ export function KeyboardTouchView(props: KeyboardTouchViewProps) {
   const { pressKey, divRef } = props;
 
   return (
-    <div
-      className="text-center ml-auto mt-3 sm:mr-auto sm:mt-0 sm:ml-3"
-      ref={divRef}
-    >
+    <div className="text-center mt-3" ref={divRef}>
       <Image
         src="/wonderGame/arrow.png"
         width={ARROW_WIDTH}
