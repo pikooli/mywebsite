@@ -2,6 +2,8 @@ import { useMemo } from 'react';
 import {
   KIGURUMI_SPRITE_SHEET_JSON,
   TILEMAP_SPRITE_SHEET_JSON,
+  KIGURUMI_SPRITE_NAME,
+  TILEMAP_SPRITE_NAME,
 } from '../../utils';
 import { Wonder } from 'src/pages/pixiJs/WonderGame/wonder';
 import { GameStage } from '../../gameStage';
@@ -19,8 +21,14 @@ export function RenderTextureELements(props: RenderTextureELementsProps) {
     []
   );
 
+  const spriteSheetNames = useMemo(
+    () => [KIGURUMI_SPRITE_NAME, TILEMAP_SPRITE_NAME],
+    []
+  );
+
   const textures = useTextures({
     spriteSheetPaths,
+    spriteSheetNames,
     asTextureChain: true,
   });
 

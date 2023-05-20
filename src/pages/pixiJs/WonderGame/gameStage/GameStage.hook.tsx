@@ -21,7 +21,6 @@ export function useGameStage(props: UseGameStageProps) {
     return map.map((titleNumber: number, idx: number) => {
       const title: TitleNature =
         conversionMap[titleNumber as KeyofConversionMap];
-
       const texture =
         textures.find((texture: Texture) => {
           return texture.textureCacheIds[0] === title.sprite;

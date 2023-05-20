@@ -17,6 +17,7 @@ const GITHUB =
   'https://github.com/pikooli/mywebsite/tree/main/src/pages/pixiJs/bunnyGame';
 
 const spritesheet = '/bunny/bunny.json';
+const spritesheetName = 'bunny';
 
 const LIMITUP = 2;
 const LIMITRIGHT = map[0].length - 2;
@@ -85,7 +86,11 @@ const BunnyGame = () => {
           className="mx-auto lg:mx-0"
           options={{ backgroundAlpha: 0 }}
         >
-          <Textures spriteSheetPaths={[spritesheet]} asTextureChain={true}>
+          <Textures
+            spriteSheetPaths={[spritesheet]}
+            spriteSheetNames={[spritesheetName]}
+            asTextureChain={true}
+          >
             {renderGame}
           </Textures>
           <Text

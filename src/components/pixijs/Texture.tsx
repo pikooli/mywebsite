@@ -1,4 +1,3 @@
-import React from 'react';
 import { useTextures, UseTexturesProps } from 'src/lib/PixiJs/useTexture';
 
 interface TexturesProps extends UseTexturesProps {
@@ -6,9 +5,16 @@ interface TexturesProps extends UseTexturesProps {
 }
 
 const Textures = (props: TexturesProps) => {
-  const { spriteSheetPaths, asTextureChain = false, children } = props;
+  const {
+    spriteSheetPaths,
+    asTextureChain = false,
+    children,
+    spriteSheetNames,
+  } = props;
+
   const textures = useTextures({
     spriteSheetPaths,
+    spriteSheetNames,
     asTextureChain,
   });
 
