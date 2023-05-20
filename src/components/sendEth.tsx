@@ -1,15 +1,16 @@
-import { useEffect, useState } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Web3 from "web3";
+import { useEffect, useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Web3 from 'web3';
+import { faEthereum } from '@fortawesome/free-brands-svg-icons';
 
-const ETHPUBLIC = "0x343901374AdF3AFAc8EA1eC1Fb00a75F904eD48E";
+const ETHPUBLIC = '0x343901374AdF3AFAc8EA1eC1Fb00a75F904eD48E';
 const sendEth =
-  "If you thing this is usefull, you can support me by sending some eth";
+  'If you thing this is usefull, you can support me by sending some eth';
 
 const transactionParameters = {
   to: ETHPUBLIC,
-  from: "",
-  value: "",
+  from: '',
+  value: '',
 };
 
 declare global {
@@ -21,11 +22,11 @@ declare global {
 export default function SendEth() {
   const [provider, setProvider] = useState<Obj | null>(null);
   const [account, setAccount] = useState<string | null>(null);
-  const [input, setInput] = useState("");
-  const [txHash, setTxHash] = useState("");
+  const [input, setInput] = useState('');
+  const [txHash, setTxHash] = useState('');
 
   useEffect(() => {
-    if (typeof window.ethereum !== "undefined") {
+    if (typeof window.ethereum !== 'undefined') {
       setProvider(window.ethereum);
     }
   }, []);
@@ -34,8 +35,7 @@ export default function SendEth() {
     return (
       <div className="card mb-3">
         <div className="card-body">
-          {`${sendEth} at : ${ETHPUBLIC}`}{" "}
-          <FontAwesomeIcon icon={["fab", "ethereum"]} />
+          {`${sendEth} at : ${ETHPUBLIC}`} <FontAwesomeIcon icon={faEthereum} />
         </div>
       </div>
     );
@@ -46,7 +46,7 @@ export default function SendEth() {
     let currentAccount = account;
     if (!currentAccount) {
       const accounts = await provider.request({
-        method: "eth_requestAccounts",
+        method: 'eth_requestAccounts',
       });
       if (!accounts.length || Number(input) <= 0) {
         return;
@@ -57,7 +57,7 @@ export default function SendEth() {
     transactionParameters.from = currentAccount;
     transactionParameters.value = Web3.utils.toHex(Web3.utils.toWei(input));
     const txHash = await provider.request({
-      method: "eth_sendTransaction",
+      method: 'eth_sendTransaction',
       params: [transactionParameters],
     });
     setTxHash(txHash);
@@ -72,18 +72,18 @@ export default function SendEth() {
       <div className="card-body">
         <form>
           <label className="mb-3">
-            {sendEth} <FontAwesomeIcon icon={["fab", "ethereum"]} />
+            {sendEth} <FontAwesomeIcon icon={faEthereum} />
           </label>
           <div className="flex mt-2">
             <input
               type="number"
               value={input}
               min={0}
-              onChange={(e) => setInput(e.target.value)}
+              onChange={e => setInput(e.target.value)}
               placeholder="0.001"
             />
             <button className="btn btn-primary" onClick={onClick}>
-              <FontAwesomeIcon icon={["fab", "ethereum"]} />
+              <FontAwesomeIcon icon={faEthereum} />
             </button>
           </div>
         </form>

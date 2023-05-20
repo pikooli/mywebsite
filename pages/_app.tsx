@@ -3,9 +3,10 @@ import type { AppProps } from 'next/app';
 import '../styles/globals.scss';
 import { AppProvider } from 'src/context/AppContext';
 
-import fontawersome from 'src/lib/fontawersome';
+import { config } from '@fortawesome/fontawesome-svg-core';
+import '@fortawesome/fontawesome-svg-core/styles.css';
 
-fontawersome();
+config.autoAddCss = false;
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (

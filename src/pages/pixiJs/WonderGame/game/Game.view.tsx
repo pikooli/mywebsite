@@ -1,6 +1,6 @@
 import react, { useMemo } from 'react';
 import { GameContext, ContextBridge, ContextValue } from '../context';
-import { Stage } from '@inlet/react-pixi';
+import { Stage } from '@pixi/react';
 import { MAP_HEIGHT, MAP_WIDTH } from 'src/pages/pixiJs/WonderGame/utils';
 import { MapConfiguration } from 'src/pages/pixiJs/types';
 import { Text } from '../Text';

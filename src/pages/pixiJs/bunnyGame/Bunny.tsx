@@ -1,5 +1,5 @@
 import { useCallback, useEffect } from 'react';
-import { Sprite, useTick } from '@inlet/react-pixi';
+import { Sprite, useTick } from '@pixi/react';
 import { Texture } from '@pixi/core';
 
 import utils, { map, BLOCKSIZE } from 'src/pages/pixiJs/bunnyGame/utils';

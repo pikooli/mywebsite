@@ -5,6 +5,12 @@ import AppContext from 'src/context/AppContext';
 import NavLink from 'src/components/navbar/NavLink';
 import { Disclosure } from '@headlessui/react';
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
+import {
+  faGithub,
+  faLinkedin,
+  faInstagram,
+} from '@fortawesome/free-brands-svg-icons';
+import { faSun, faMoon } from '@fortawesome/free-solid-svg-icons';
 
 const BtnMobile = ({ open }: { open: boolean }) => {
   return (
@@ -32,22 +38,22 @@ const NavbarTools = ({
     <ul className="flex justify-end items-center grow ">
       <li className="ml-2">
         <a href="https://www.instagram.com/whitepikl/" target="tab">
-          <FontAwesomeIcon icon={['fab', 'instagram']} />
+          <FontAwesomeIcon icon={faInstagram} />
         </a>
       </li>
       <li className="ml-2">
         <a href="https://github.com/pikooli" target="tab">
-          <FontAwesomeIcon icon={['fab', 'github']} />
+          <FontAwesomeIcon icon={faGithub} />
         </a>
       </li>
       <li className="ml-2">
         <a href="https://www.linkedin.com/in/zhang-pascal/" target="tab">
-          <FontAwesomeIcon icon={['fab', 'linkedin']} />
+          <FontAwesomeIcon icon={faLinkedin} />
         </a>
       </li>
       <li className="ml-2">
         <div className="flex items-center">
-          <FontAwesomeIcon className="mr-2" icon="sun" />
+          <FontAwesomeIcon className="mr-2" icon={faSun} />
           <div className="flex items-center justify-center w-full">
             <label
               htmlFor="toggleB"
@@ -71,7 +77,7 @@ const NavbarTools = ({
               </div>
             </label>
           </div>
-          <FontAwesomeIcon className="ml-2" icon="moon" />
+          <FontAwesomeIcon className="ml-2" icon={faMoon} />
         </div>
       </li>
       <li>

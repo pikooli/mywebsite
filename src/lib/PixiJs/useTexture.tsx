@@ -1,10 +1,10 @@
-import { useCallback, useEffect, useState } from "react";
-import { useApp } from "@inlet/react-pixi";
-import { Texture } from "@pixi/core";
+import { useCallback, useEffect, useState } from 'react';
+import { useApp } from '@pixi/react';
+import { Texture } from '@pixi/core';
 
 const getTextures = (textures: any, asTextureChain: boolean) => {
   return asTextureChain
-    ? Object.keys(textures).map((k) => textures[k])
+    ? Object.keys(textures).map(k => textures[k])
     : textures;
 };
 
@@ -57,7 +57,7 @@ export function useTextures(props: UseTexturesProps) {
     });
 
     Promise.all(promises).then(() => {
-      setTextures((prev) => resources);
+      setTextures(prev => resources);
     });
   }, []);
 

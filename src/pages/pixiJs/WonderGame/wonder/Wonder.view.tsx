@@ -1,4 +1,4 @@
-import { Sprite } from '@inlet/react-pixi';
+import { Sprite } from '@pixi/react';
 import { Texture } from '@pixi/core';
 import { BLOCK_SIZE } from 'src/pages/pixiJs/WonderGame/utils';
 import { useContext } from 'react';

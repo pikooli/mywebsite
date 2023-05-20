@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import Datas from 'src/model/ft_linear_regression/Datas';
 import Title2 from 'src/components/text/Title3';
 import ShowGraphs from 'src/pages/ft_linear_regression/ShowGraphs';
@@ -49,7 +49,7 @@ export const Ft_linear_regression: React.FC<Props> = ({ content, error }) => {
           title="ft_linear_regression"
         />
         <a href="https://github.com/pikooli/ft_linear_regression">
-          <FontAwesomeIcon icon={['fab', 'github']} />
+          <FontAwesomeIcon icon={faGithub} />
         </a>
       </div>
       {error}

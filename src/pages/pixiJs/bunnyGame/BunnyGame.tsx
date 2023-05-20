@@ -1,5 +1,5 @@
 import React, { useCallback, useState } from 'react';
-import { Stage, Text } from '@inlet/react-pixi';
+import { Stage, Text } from '@pixi/react';
 import { Texture } from '@pixi/core';
 import { TextStyle } from 'pixi.js';
 

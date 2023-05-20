@@ -1,4 +1,4 @@
-import { Sprite } from '@inlet/react-pixi';
+import { Sprite } from '@pixi/react';
 import { Texture } from '@pixi/core';
 
 import utils, { map, BLOCKSIZE } from 'src/pages/pixiJs/bunnyGame/utils';

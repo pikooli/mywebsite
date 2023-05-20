@@ -2,7 +2,7 @@ import { useCallback } from 'react';
 import { Texture } from '@pixi/core';
 import { conversionMap } from 'src/pages/pixiJs/WonderGame/sprites';
 import { KeyofConversionMap, Map, TitleNature } from '../../types';
-import { Sprite } from '@inlet/react-pixi';
+import { Sprite } from '@pixi/react';
 import {
   BLOCK_SIZE,
   MAP_COL,
