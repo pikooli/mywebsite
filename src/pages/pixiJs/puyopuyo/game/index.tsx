@@ -1,17 +1,19 @@
 import { Game } from './Game.container';
-import React from 'react';
+import React, { useState } from 'react';
 import { PuyoPuyoContext, ContextBridge } from 'puyopuyo/context';
 import { useGameContext } from 'puyopuyo/hooks';
 import { MAP_HEIGHT, MAP_WIDTH } from 'puyopuyo/constants';
 import { Stage } from '@pixi/react';
 import { InformationBoard } from 'puyopuyo/containers';
+import { Arrows } from 'puyopuyo/components';
 
 export function Puyopuyo() {
   const contextValue = useGameContext();
 
   return (
     <PuyoPuyoContext.Provider value={contextValue}>
-      <main style={mainStyle}>
+      <main style={mainStyle} className="puyopuyo">
+        <Arrows />
         <InformationBoard />
         <ContextBridge
           Context={PuyoPuyoContext}
