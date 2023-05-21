@@ -61,6 +61,13 @@ export default function NavLink() {
             className={`nav-link ${active['/wonder_game']}`}
           />
         </li>
+        <li className="pl-2">
+          <Link
+            href="/puyopuyo"
+            text="Puyopuyo"
+            className={`nav-link ${active['/puyopuyo']}`}
+          />
+        </li>
       </>
     );
   };

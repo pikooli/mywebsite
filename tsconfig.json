@@ -16,7 +16,10 @@
     "incremental": true,
     "typeRoots": ["./types"],
     "baseUrl": ".",
-    "downlevelIteration": true
+    "downlevelIteration": true,
+    "paths": {
+      "puyopuyo/*": ["./src/pages/pixiJs/puyopuyo/*"]
+    }
   },
   "include": [
     "next-env.d.ts",

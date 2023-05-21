@@ -1,0 +1,1 @@
+export { Slim } from "./Slim";
