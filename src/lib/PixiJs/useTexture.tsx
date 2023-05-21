@@ -33,7 +33,7 @@ export function useTextures(props: UseTexturesProps) {
 
     const textures = await texturesPromise;
     setTextures(getTextures(textures, asTextureChain));
-  }, []);
+  }, [spriteSheetPaths, spriteSheetNames, asTextureChain]);
 
   useEffect(() => {
     if (spriteSheetPaths?.length && spriteSheetNames?.length) {
