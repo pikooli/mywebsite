@@ -55,8 +55,8 @@ const slimsAtBottom = (props: DetectPlayerSetEnd) => {
   const slim2 = playerSet[1];
 
   if (
-    slim1.position > board.length - NUM_ROWS ||
-    slim2.position > board.length - NUM_ROWS
+    slim1.position >= board.length - NUM_ROWS ||
+    slim2.position >= board.length - NUM_ROWS
   ) {
     return true;
   }
