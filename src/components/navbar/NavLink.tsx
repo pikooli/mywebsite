@@ -129,6 +129,24 @@ export default function NavLink() {
     );
   };
 
+  const Svelte = () => {
+    return (
+      <>
+        <hr className="text-white" />
+        <li>
+          <a className="nav-link">Svelte</a>
+        </li>
+        <li className="pl-2">
+          <Link
+            href="/svelte"
+            text="Svelte"
+            className={`nav-link ${active['/svelte']}`}
+          />
+        </li>
+      </>
+    );
+  };
+
   return (
     <ul className="mb-2 mb-lg-0">
       <Project42 />
@@ -136,6 +154,7 @@ export default function NavLink() {
       <PixiJS />
       <TreeJs />
       <Games />
+      <Svelte />
     </ul>
   );
 }

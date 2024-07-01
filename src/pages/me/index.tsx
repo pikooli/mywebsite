@@ -1,10 +1,7 @@
-import React from 'react';
 import Image from 'next/image';
 import Iam from 'src/pages/me/Iam';
 
-type Props = {};
-
-const Me: React.FC<Props> = () => {
+const Me = () => {
   return (
     <div>
       <div className="flex flex-wrap">
