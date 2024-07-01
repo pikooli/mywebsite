@@ -22,7 +22,7 @@ export function Arrows() {
 
   return (
     <div
-      className="text-center ml-auto mt-3 sm:mr-auto sm:mt-0 sm:ml-3"
+      className="text-center ml-auto mt-3 mr-auto sm:mt-0 sm:ml-3 puyopuyo-arrow"
       ref={divRef}
     >
       <Image

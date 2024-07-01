@@ -12,25 +12,27 @@ export function Puyopuyo() {
 
   return (
     <PuyoPuyoContext.Provider value={contextValue}>
-      <main style={mainStyle} className="puyopuyo">
+      <main style={mainStyle} className="flex flex-col">
+        <div className="flex">
+          <InformationBoard />
+          <ContextBridge
+            Context={PuyoPuyoContext}
+            render={(children: React.ReactNode) => (
+              <Stage
+                width={MAP_WIDTH}
+                height={MAP_HEIGHT}
+                renderOnComponentChange={true}
+                style={stageStyle}
+                options={{ backgroundAlpha: 0, resolution: 1 }}
+              >
+                {children}
+              </Stage>
+            )}
+          >
+            <Game />
+          </ContextBridge>
+        </div>
         <Arrows />
-        <InformationBoard />
-        <ContextBridge
-          Context={PuyoPuyoContext}
-          render={(children: React.ReactNode) => (
-            <Stage
-              width={MAP_WIDTH}
-              height={MAP_HEIGHT}
-              renderOnComponentChange={true}
-              style={stageStyle}
-              options={{ backgroundAlpha: 0, resolution: 1 }}
-            >
-              {children}
-            </Stage>
-          )}
-        >
-          <Game />
-        </ContextBridge>
       </main>
     </PuyoPuyoContext.Provider>
   );
