@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import type { NextPage, GetStaticProps } from 'next';
 import Layout from 'src/components/Layout';
 import readFile from 'utils/ft_linear_regression/readFile';
@@ -15,10 +16,10 @@ export const getStaticProps: GetStaticProps = async () => {
   };
 };
 
-type Props = {
+interface Props {
   content: string[][];
   error: string;
-};
+}
 
 export const Home: NextPage<Props> = ({ content, error }) => {
   return (

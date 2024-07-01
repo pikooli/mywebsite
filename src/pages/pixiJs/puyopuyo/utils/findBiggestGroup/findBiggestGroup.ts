@@ -18,14 +18,14 @@ export function findBiggestGroup({
   numbRow: number;
 }): MaxGroup {
   let maxGroupSize = 0;
-  let maxGroupLetter = "";
+  let maxGroupLetter = '';
   let maxGroupElements: number[] = [];
 
   function traverse(startIndex: number, visited: Set<number>): void {
     const letter = board[startIndex];
 
     let groupSize = 0;
-    let groupElements: number[] = [];
+    const groupElements: number[] = [];
 
     function traverseNeighbors(index: number): void {
       if (index < 0 || index >= board.length || visited.has(index)) {
@@ -64,7 +64,7 @@ export function findBiggestGroup({
     traverse(i, visited);
   }
 
-  const maxGroupPositions: Position[] = maxGroupElements.map((index) => {
+  const maxGroupPositions: Position[] = maxGroupElements.map(index => {
     const row = Math.floor(index / numbRow);
     const col = index % numbRow;
     return { row, col };

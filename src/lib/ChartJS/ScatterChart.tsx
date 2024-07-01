@@ -7,8 +7,8 @@ import {
   Legend,
   ChartData,
   ScatterDataPoint,
-} from "chart.js";
-import { Scatter } from "react-chartjs-2";
+} from 'chart.js';
+import { Scatter } from 'react-chartjs-2';
 
 ChartJS.register(LinearScale, PointElement, LineElement, Tooltip, Legend);
 
@@ -24,7 +24,7 @@ export default function ScatterChart({
   datas,
   title,
 }: {
-  datas: ChartData<"scatter", (number | ScatterDataPoint | null)[], unknown>;
+  datas: ChartData<'scatter', Array<number | ScatterDataPoint | null>, unknown>;
   title?: string;
 }) {
   return (

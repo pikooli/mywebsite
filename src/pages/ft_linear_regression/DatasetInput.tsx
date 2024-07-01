@@ -25,7 +25,9 @@ export default function DatasetInput({
       <FloatingInput
         type="number"
         value={value}
-        onChange={e => onChange(e, range, i)}
+        onChange={e => {
+          onChange(e, range, i);
+        }}
         label={range === 0 ? 'Km' : 'Price'}
       />
     );

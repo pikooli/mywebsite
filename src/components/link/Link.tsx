@@ -4,7 +4,7 @@ import PopperJs from 'src/lib/popperjs';
 import { IconProp } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-type Props = {
+interface Props {
   href?: string;
   className?: string;
   disabled?: boolean;
@@ -17,7 +17,7 @@ type Props = {
   datacy?: string;
   target?: string;
   passHref?: boolean;
-};
+}
 
 const CustomLink: React.FC<Props> = ({
   href,
@@ -32,11 +32,15 @@ const CustomLink: React.FC<Props> = ({
   datacy,
   target,
   passHref,
-}) => {
+}: Props) => {
   const [showToolTip, setShowToolTip] = useState(false);
   const [refElement, setRefElement] = useState<HTMLAnchorElement | null>(null);
-  const onMouseEnter = () => setShowToolTip(prev => true);
-  const onMouseLeave = () => setShowToolTip(prev => false);
+  const onMouseEnter = () => {
+    setShowToolTip(prev => true);
+  };
+  const onMouseLeave = () => {
+    setShowToolTip(prev => false);
+  };
   return (
     <Link href={href || ''} passHref={passHref}>
       <a

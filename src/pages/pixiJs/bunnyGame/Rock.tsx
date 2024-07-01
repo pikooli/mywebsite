@@ -1,7 +1,7 @@
 import { Sprite } from '@pixi/react';
 import { Texture } from '@pixi/core';
 
-import utils, { map, BLOCKSIZE } from 'src/pages/pixiJs/bunnyGame/utils';
+import utils, { BLOCKSIZE } from 'src/pages/pixiJs/bunnyGame/utils';
 
 const Rock = ({
   textures,
@@ -14,7 +14,7 @@ const Rock = ({
   return (
     <Sprite
       interactive
-      texture={textures[utils.spriteSheetMapping['rock']]}
+      texture={textures[utils.spriteSheetMapping.rock]}
       {...{ x: posi.x * BLOCKSIZE, y: posi.y * BLOCKSIZE }}
       anchor={[0, 1]}
     />

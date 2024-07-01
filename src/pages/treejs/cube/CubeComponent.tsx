@@ -1,5 +1,5 @@
-import * as THREE from "three";
-import React from "react";
+import * as THREE from 'three';
+import React from 'react';
 
 const createCube = (
   geometry: THREE.BoxGeometry,
@@ -26,7 +26,7 @@ function resizeRendererToDisplaySize(renderer: THREE.WebGLRenderer) {
   return needResize;
 }
 
-//Create a scene, perspective and cube with react component
+// Create a scene, perspective and cube with react component
 export default class App extends React.Component {
   mount: any;
   componentDidMount() {
@@ -36,7 +36,7 @@ export default class App extends React.Component {
     // put the camera 2 step in the back, because our object is in the middle and will take all view
     camera.position.z = 2;
 
-    //Creating the cubes
+    // Creating the cubes
     const geometry = new THREE.BoxGeometry(1, 1, 1);
     const cubes = [
       createCube(geometry, 0x7e31eb, 0),
@@ -44,13 +44,13 @@ export default class App extends React.Component {
       createCube(geometry, 0xaa8844, -2),
     ];
 
-    //create the scene and add all cube and the light
+    // create the scene and add all cube and the light
     const scene = new THREE.Scene();
     // the light is a light positionned above the scene, with color fadding from sky to ground color
     const light = new THREE.HemisphereLight(0xffffff, 0x080820, 1);
     scene.add(light);
-    cubes.map((cube) => scene.add(cube));
-    //Create the render element and render resize it.
+    cubes.map(cube => scene.add(cube));
+    // Create the render element and render resize it.
     const renderer = new THREE.WebGLRenderer({ canvas: this.mount });
     const animate = function (time: number) {
       time *= 0.001;
@@ -60,25 +60,26 @@ export default class App extends React.Component {
         camera.updateProjectionMatrix();
       }
       // this rotate the cubes by the time passed since the last animation
-      cubes.map((cube, idx) => {
+      cubes.forEach((cube, idx) => {
         const speed = 1 + idx * 0.1;
         const rot = time * speed;
         cube.rotation.x = rot;
         cube.rotation.y = rot;
         cube.rotation.z = rot;
       });
-      //Render the scene and the camera
+      // Render the scene and the camera
       renderer.render(scene, camera);
       requestAnimationFrame(animate);
     };
 
     requestAnimationFrame(animate);
   }
+
   render() {
     return (
       <canvas
         className="w-full lg:w-2/3 h-96"
-        ref={(ref) => (this.mount = ref)}
+        ref={ref => (this.mount = ref)}
       ></canvas>
     );
   }

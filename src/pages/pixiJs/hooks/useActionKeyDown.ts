@@ -3,7 +3,7 @@ import { KEY_ACTION } from '../utils';
 import { ActionKey } from '../types';
 
 interface UseActionKeydown {
-  setAction(action: string): void;
+  setAction: (action: string) => void;
 }
 
 export function useActionKeydown(props: UseActionKeydown) {
@@ -11,11 +11,11 @@ export function useActionKeydown(props: UseActionKeydown) {
 
   const keydown = useCallback(
     (e: KeyboardEvent) => {
-      const key_action = KEY_ACTION[e.code as ActionKey];
+      const keyAction = KEY_ACTION[e.code as ActionKey];
 
-      if (key_action) {
+      if (keyAction) {
         e.preventDefault();
-        return setAction(key_action);
+        setAction(keyAction);
       }
     },
     [setAction]

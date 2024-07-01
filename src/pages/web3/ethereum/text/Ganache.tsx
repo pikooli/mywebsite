@@ -1,8 +1,7 @@
-import React from "react";
-import ReactMarkdown from "react-markdown";
-import rehypeRaw from "rehype-raw";
+import React from 'react';
+import ReactMarkdown from 'react-markdown';
+import rehypeRaw from 'rehype-raw';
 
-type Props = {};
 const markdown = `
 **Ganache**
 
@@ -13,7 +12,7 @@ It will setup a local private ethereum network and 10 accounts with 100 eth each
 Check it out at **[Ganache](https://trufflesuite.com/docs/ganache/)**
 `;
 
-const Ganache: React.FC<Props> = () => {
+const Ganache: React.FC = () => {
   return (
     <div className="card mb-3">
       <ReactMarkdown rehypePlugins={[rehypeRaw]}>{markdown}</ReactMarkdown>

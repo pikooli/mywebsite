@@ -1,6 +1,6 @@
-import React, { useRef } from "react";
-import * as THREE from "three";
-import { useFrame } from "@react-three/fiber";
+import React, { useRef } from 'react';
+import * as THREE from 'three';
+import { useFrame } from '@react-three/fiber';
 
 const Sphere = (props: {
   radius?: number;
@@ -18,8 +18,11 @@ const Sphere = (props: {
     widthSegments,
     heightSegments,
   } = props;
-  const ref = useRef<THREE.Mesh>(null!);
-  useFrame((state, delta) => (ref.current.rotation.y += rotationY || 0));
+  const ref = useRef<THREE.Mesh>(null);
+
+  useFrame((state, delta) =>
+    ref.current ? (ref.current.rotation.y += rotationY || 0) : null
+  );
   return (
     <mesh ref={ref}>
       <sphereGeometry args={[radius, widthSegments, heightSegments]} />

@@ -6,7 +6,7 @@ export function moveAllElementsDown(board: Board) {
     for (let row = 0; row < NUM_ROWS; row++) {
       if (
         board[row + col * NUM_ROWS] &&
-        col != NUM_COLS - 1 &&
+        col !== NUM_COLS - 1 &&
         !board[row + (col + 1) * NUM_ROWS]
       ) {
         board[row + (col + 1) * NUM_ROWS] = board[row + col * NUM_ROWS];

@@ -12,24 +12,24 @@ const markdown = `
 I live on earth so i create an earth 👽, you can rotate it.
 `;
 
-type Props = {};
-
-const Index: React.FC<Props> = () => {
+const Index: React.FC = () => {
   const [worldTexture, setWorldTexture] = useState<THREE.Texture>();
   const [cloudTexture, setCloudTexture] = useState<THREE.Texture>();
 
   useEffect(() => {
     const loader = new THREE.TextureLoader();
-    loader.load('https://assets.codepen.io/141041/small-world.jpg', texture =>
-      setWorldTexture(texture)
-    );
+    loader.load('https://assets.codepen.io/141041/small-world.jpg', texture => {
+      setWorldTexture(texture);
+    });
     loader.load(
       'https://assets.codepen.io/141041/small-world-clouds.png',
-      texture => setCloudTexture(texture)
+      texture => {
+        setCloudTexture(texture);
+      }
     );
   }, []);
 
-  if (!worldTexture || !cloudTexture) return <></>;
+  if (worldTexture == null || cloudTexture == null) return <></>;
 
   return (
     <div className="earth h-96 lg:w-2/3 ">

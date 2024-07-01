@@ -5,8 +5,8 @@ import { map, BLOCKSIZE } from 'src/pages/pixiJs/bunnyGame/utils';
 
 const Map = ({ textures }: { textures: Texture[] }) => {
   const mapArray: React.ReactElement[] = [];
-  map.map((row, y) => {
-    row.map((block, x) => {
+  map.forEach((row, y) => {
+    row.forEach((block, x) => {
       const texture = textures[block];
       if (!texture) return <></>;
       mapArray.push(

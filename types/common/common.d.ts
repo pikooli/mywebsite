@@ -10,7 +10,7 @@ type NextApiResponseCustom = NextApiResponse & {
   };
 };
 
-type BtnType = "button" | "submit" | "reset" | undefined;
+type BtnType = 'button' | 'submit' | 'reset' | undefined;
 
 interface Event<T = EventTarget> {
   target: T;

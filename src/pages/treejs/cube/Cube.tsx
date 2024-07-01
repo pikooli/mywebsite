@@ -1,9 +1,9 @@
-import * as THREE from "three";
-import React, { useEffect, useRef, useState } from "react";
-import { Canvas, useFrame } from "@react-three/fiber";
+import * as THREE from 'three';
+import React, { useRef, useState } from 'react';
+import { Canvas, useFrame } from '@react-three/fiber';
 
 // Cube with hook
-function Box(props: JSX.IntrinsicElements["mesh"]) {
+function Box(props: JSX.IntrinsicElements['mesh']) {
   const ref = useRef<THREE.Mesh>(null!);
   const [hovered, hover] = useState(false);
   const [clicked, click] = useState(false);
@@ -13,12 +13,18 @@ function Box(props: JSX.IntrinsicElements["mesh"]) {
       {...props}
       ref={ref}
       scale={clicked ? 1.5 : 1}
-      onClick={(event) => click(!clicked)}
-      onPointerOver={(event) => hover(true)}
-      onPointerOut={(event) => hover(false)}
+      onClick={event => {
+        click(!clicked);
+      }}
+      onPointerOver={event => {
+        hover(true);
+      }}
+      onPointerOut={event => {
+        hover(false);
+      }}
     >
       <boxGeometry args={[1, 1, 1]} />
-      <meshStandardMaterial color={hovered ? "hotpink" : "orange"} />
+      <meshStandardMaterial color={hovered ? 'hotpink' : 'orange'} />
     </mesh>
   );
 }

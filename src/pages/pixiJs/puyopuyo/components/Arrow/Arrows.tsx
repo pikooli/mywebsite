@@ -33,7 +33,9 @@ export function Arrows() {
         onTouchStart={e => {
           simulateKeyPress(eventKey.eventArrowUp);
         }}
-        onMouseDown={() => simulateKeyPress(eventKey.eventArrowUp)}
+        onMouseDown={() => {
+          simulateKeyPress(eventKey.eventArrowUp);
+        }}
       />
       <div>
         <Image
@@ -44,7 +46,9 @@ export function Arrows() {
           onTouchStart={e => {
             simulateKeyPress(eventKey.eventArrowLeft);
           }}
-          onMouseDown={() => simulateKeyPress(eventKey.eventArrowLeft)}
+          onMouseDown={() => {
+            simulateKeyPress(eventKey.eventArrowLeft);
+          }}
         />
         <Image
           src="/bunny/arrow.png"
@@ -54,7 +58,9 @@ export function Arrows() {
           onTouchStart={e => {
             simulateKeyPress(eventKey.eventArrowDown);
           }}
-          onMouseDown={() => simulateKeyPress(eventKey.eventArrowDown)}
+          onMouseDown={() => {
+            simulateKeyPress(eventKey.eventArrowDown);
+          }}
         />
         <Image
           src="/bunny/arrow.png"
@@ -64,21 +70,31 @@ export function Arrows() {
           onTouchStart={e => {
             simulateKeyPress(eventKey.eventArrowRight);
           }}
-          onMouseDown={() => simulateKeyPress(eventKey.eventArrowRight)}
+          onMouseDown={() => {
+            simulateKeyPress(eventKey.eventArrowRight);
+          }}
         />
       </div>
       <div className="text-center mt-3">
         <span
           className="p-5 border m-3"
-          onTouchStart={() => simulateKeyPress(eventKey.eventArrowA)}
-          onMouseDown={() => simulateKeyPress(eventKey.eventArrowA)}
+          onTouchStart={() => {
+            simulateKeyPress(eventKey.eventArrowA);
+          }}
+          onMouseDown={() => {
+            simulateKeyPress(eventKey.eventArrowA);
+          }}
         >
           A
         </span>
         <span
           className="p-5 border m-3"
-          onTouchStart={() => simulateKeyPress(eventKey.eventArrowZ)}
-          onMouseDown={() => simulateKeyPress(eventKey.eventArrowZ)}
+          onTouchStart={() => {
+            simulateKeyPress(eventKey.eventArrowZ);
+          }}
+          onMouseDown={() => {
+            simulateKeyPress(eventKey.eventArrowZ);
+          }}
         >
           Z
         </span>

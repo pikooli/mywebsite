@@ -1,1 +1,1 @@
-export { Wonder } from "./Wonder.container";
+export { Wonder } from './Wonder.container';

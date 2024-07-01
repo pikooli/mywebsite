@@ -9,7 +9,8 @@ const Iam = () => {
 
   const switchAdjective = async () => {
     if (adjective.length < ADJECTIVE[index].length) {
-      return setAdjective(ADJECTIVE[index].substring(0, adjective.length + 1));
+      setAdjective(ADJECTIVE[index].substring(0, adjective.length + 1));
+      return;
     }
     await pause(2);
     setAdjective('');
@@ -17,8 +18,13 @@ const Iam = () => {
   };
 
   useEffect(() => {
-    const timer = setTimeout(() => switchAdjective(), 200);
-    return () => clearTimeout(timer);
+    // eslint-disable-next-line @typescript-eslint/no-misused-promises
+    const timer = setTimeout(async () => {
+      await switchAdjective();
+    }, 200);
+    return () => {
+      clearTimeout(timer);
+    };
   });
 
   return <h1 className="text-3xl font-bold">I am a {adjective}</h1>;

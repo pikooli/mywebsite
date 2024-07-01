@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import LineChart, { Datasets } from 'src/lib/ChartJS/LineChart';
+import LineChart from 'src/lib/ChartJS/LineChart';
 import Calculation from 'src/model/ft_linear_regression/Calculation';
 
 const ShowGraphs = ({ calculation }: { calculation: Calculation }) => {
@@ -37,8 +37,8 @@ const ShowGraphs = ({ calculation }: { calculation: Calculation }) => {
 
   //  ================
   const sortedData = calculation.datas.sort('km');
-  const sortedKm = sortedData['km']?.map(e => e.data);
-  const sortedPrice = sortedData['price']?.map(e => e.data);
+  const sortedKm = sortedData.km?.map(e => e.data);
+  const sortedPrice = sortedData.price?.map(e => e.data);
 
   const order = {
     x: (normalize
@@ -55,13 +55,13 @@ const ShowGraphs = ({ calculation }: { calculation: Calculation }) => {
     },
   };
 
-  const sorted_prediction = calculation.calculationTest({
+  const sortedPrediction = calculation.calculationTest({
     values: sortedKm,
     x: sortedKm,
     y: sortedPrice,
   });
 
-  const order_prediction = {
+  const orderPrediction = {
     x: (normalize
       ? calculation.getNormalizeValuesRound(sortedKm, sortedKm)
       : sortedKm
@@ -69,8 +69,8 @@ const ShowGraphs = ({ calculation }: { calculation: Calculation }) => {
     y: {
       label: 'Price',
       data: normalize
-        ? calculation.getNormalizeValuesRound(sorted_prediction, sortedPrice)
-        : sorted_prediction,
+        ? calculation.getNormalizeValuesRound(sortedPrediction, sortedPrice)
+        : sortedPrediction,
       borderColor: 'rgb(255, 99, 132)',
       backgroundColor: 'rgba(255, 99, 132, 0.5)',
     },
@@ -82,7 +82,9 @@ const ShowGraphs = ({ calculation }: { calculation: Calculation }) => {
         <h4>Graph datas</h4>
         <button
           className="btn btn-primary"
-          onClick={() => setNormalize(prev => !prev)}
+          onClick={() => {
+            setNormalize(prev => !prev);
+          }}
         >
           {!normalize ? 'Normalize' : 'Raw data'}
         </button>
@@ -104,8 +106,8 @@ const ShowGraphs = ({ calculation }: { calculation: Calculation }) => {
           title="Prediction prices / km"
         />
         <LineChart
-          labels={order_prediction.x}
-          datas={[order_prediction.y]}
+          labels={orderPrediction.x}
+          datas={[orderPrediction.y]}
           title="Prediction prices / km, Ordered by km"
         />
       </div>

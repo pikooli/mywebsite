@@ -3,7 +3,7 @@ import { Link } from 'src/components/link';
 
 export default function NavLink() {
   const router = useRouter();
-  const active = { [router.pathname as string]: 'active' };
+  const active = { [router.pathname]: 'active' };
 
   const Project42 = () => {
     return (

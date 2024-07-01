@@ -22,6 +22,7 @@ export default class Calculation {
   constructor(datas: Datas) {
     this.datas = datas;
   }
+
   setDatas = (datas: Datas) => {
     this.datas = datas;
   };
@@ -101,9 +102,9 @@ export default class Calculation {
     this.dtheta0 = 0;
     this.dtheta1 = 0;
     for (let i = 0; i < x.length; i++) {
-      const y_pred = this.theta1 * x[i] + this.theta0;
-      this.dtheta0 += y_pred - y[i];
-      this.dtheta1 += (y_pred - y[i]) * x[i];
+      const yPred = this.theta1 * x[i] + this.theta0;
+      this.dtheta0 += yPred - y[i];
+      this.dtheta1 += (yPred - y[i]) * x[i];
     }
   };
 

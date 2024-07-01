@@ -10,7 +10,7 @@ export function useKeyboardTouch() {
   }, []);
 
   const pressKey = useCallback((keyboardTouch: KeyboardKey) => {
-    var event = new KeyboardEvent('keydown', {
+    const event = new KeyboardEvent('keydown', {
       key: keyboardTouch,
       code: keyboardTouch,
     });

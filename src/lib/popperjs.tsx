@@ -1,12 +1,12 @@
-import React, { useState } from "react";
-import { usePopper } from "react-popper";
+import React, { useState } from 'react';
+import { usePopper } from 'react-popper';
 
-type Props = {
+interface Props {
   refElement: HTMLElement | null;
   toolTipText?: string;
   position?: string;
   className?: string;
-};
+}
 
 const Popperjs: React.FC<Props> = ({
   refElement,
@@ -20,8 +20,8 @@ const Popperjs: React.FC<Props> = ({
   const [arrowElement, setArrowElement] = useState<HTMLDivElement | null>(null);
   const options: Obj = {
     modifiers: [
-      { name: "arrow", options: { element: arrowElement } },
-      { name: "offset", options: { offset: [0, 10] } },
+      { name: 'arrow', options: { element: arrowElement } },
+      { name: 'offset', options: { offset: [0, 10] } },
     ],
   };
   if (position) {
@@ -33,10 +33,10 @@ const Popperjs: React.FC<Props> = ({
     <div
       ref={setPopperElement}
       style={styles.popper}
-      className={`popperjs ${className || ""}`}
+      className={`popperjs ${className || ''}`}
       {...attributes.popper}
     >
-      <div className="popperjs-content">{toolTipText || "test"}</div>
+      <div className="popperjs-content">{toolTipText || 'test'}</div>
       <div ref={setArrowElement} style={styles.arrow} />
     </div>
   );

@@ -1,8 +1,6 @@
-import React from "react";
-import ReactMarkdown from "react-markdown";
-import rehypeRaw from "rehype-raw";
-
-type Props = {};
+import React from 'react';
+import ReactMarkdown from 'react-markdown';
+import rehypeRaw from 'rehype-raw';
 
 const markdown = `
 
@@ -51,7 +49,7 @@ This will give you θ1 :
 A default dataset is provided
 `;
 
-const Presentation: React.FC<Props> = () => {
+const Presentation: React.FC = () => {
   return (
     <div className="card mb-3">
       <ReactMarkdown rehypePlugins={[rehypeRaw]}>{markdown}</ReactMarkdown>

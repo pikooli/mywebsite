@@ -18,7 +18,9 @@ export default function EstimatePrice({
           <FloatingInput
             type="number"
             value={input}
-            onChange={e => setInput(e.target.value)}
+            onChange={e => {
+              setInput(e.target.value);
+            }}
             label="Km"
           />
         </form>

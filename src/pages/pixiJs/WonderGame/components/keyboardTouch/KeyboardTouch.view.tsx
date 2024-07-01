@@ -8,7 +8,7 @@ import {
 } from './KeyboardTouch.utils';
 
 interface KeyboardTouchViewProps {
-  pressKey(keyboardTouch: KeyboardKey): void;
+  pressKey: (keyboardTouch: KeyboardKey) => void;
   divRef: React.MutableRefObject<HTMLDivElement | null>;
 }
 
@@ -22,7 +22,9 @@ export function KeyboardTouchView(props: KeyboardTouchViewProps) {
         width={ARROW_WIDTH}
         height={ARROW_HEIGHT}
         className="arrowup"
-        onMouseDown={() => pressKey('ArrowUp')}
+        onMouseDown={() => {
+          pressKey('ArrowUp');
+        }}
       />
       <div>
         <Image
@@ -30,21 +32,27 @@ export function KeyboardTouchView(props: KeyboardTouchViewProps) {
           width={ARROW_WIDTH}
           height={ARROW_HEIGHT}
           className="arrowleft"
-          onMouseDown={() => pressKey('ArrowLeft')}
+          onMouseDown={() => {
+            pressKey('ArrowLeft');
+          }}
         />
         <Image
           src="/wonderGame/arrow.png"
           width={ARROW_WIDTH}
           height={ARROW_HEIGHT}
           className="arrowdown"
-          onMouseDown={() => pressKey('ArrowDown')}
+          onMouseDown={() => {
+            pressKey('ArrowDown');
+          }}
         />
         <Image
           src="/wonderGame/arrow.png"
           width={ARROW_WIDTH}
           height={ARROW_HEIGHT}
           className="arrowright"
-          onMouseDown={() => pressKey('ArrowRight')}
+          onMouseDown={() => {
+            pressKey('ArrowRight');
+          }}
         />
       </div>
       <Image
@@ -52,7 +60,9 @@ export function KeyboardTouchView(props: KeyboardTouchViewProps) {
         width={SPACEBAR_WIDTH}
         height={SPACEBAR_HEIGHT}
         className="space_bar"
-        onMouseDown={() => pressKey('Space')}
+        onMouseDown={() => {
+          pressKey('Space');
+        }}
       />
     </div>
   );

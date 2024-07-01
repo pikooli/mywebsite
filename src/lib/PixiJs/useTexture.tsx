@@ -37,6 +37,7 @@ export function useTextures(props: UseTexturesProps) {
 
   useEffect(() => {
     if (spriteSheetPaths?.length && spriteSheetNames?.length) {
+      // eslint-disable-next-line @typescript-eslint/no-floating-promises
       loadMultiSpriteSheet();
     }
   }, [spriteSheetPaths, spriteSheetNames]);

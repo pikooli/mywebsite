@@ -1,8 +1,6 @@
-import React from "react";
-import ReactMarkdown from "react-markdown";
-import rehypeRaw from "rehype-raw";
-
-type Props = {};
+import React from 'react';
+import ReactMarkdown from 'react-markdown';
+import rehypeRaw from 'rehype-raw';
 
 const markdown = `
 
@@ -13,7 +11,7 @@ The goal is to take the rock that apear on the map.
 Use arrow keys of the keyboard to play or **click on the arrows on the right**.
 `;
 
-const Explanation: React.FC<Props> = () => {
+const Explanation: React.FC = () => {
   return <ReactMarkdown rehypePlugins={[rehypeRaw]}>{markdown}</ReactMarkdown>;
 };
 

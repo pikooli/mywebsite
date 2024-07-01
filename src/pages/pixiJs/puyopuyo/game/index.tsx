@@ -1,5 +1,5 @@
 import { Game } from './Game.container';
-import React, { useState } from 'react';
+import React from 'react';
 import { PuyoPuyoContext, ContextBridge } from 'puyopuyo/context';
 import { useGameContext } from 'puyopuyo/hooks';
 import { MAP_HEIGHT, MAP_WIDTH } from 'puyopuyo/constants';

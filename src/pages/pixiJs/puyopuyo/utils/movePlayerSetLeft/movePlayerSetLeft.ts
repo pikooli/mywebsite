@@ -1,4 +1,4 @@
-import { NUM_ROWS, NUM_COLS } from 'puyopuyo/constants';
+import { NUM_ROWS } from 'puyopuyo/constants';
 import { Board, PlayerSet } from 'puyopuyo/types';
 
 interface MovePlayerSetLeft {

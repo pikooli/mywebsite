@@ -8,9 +8,7 @@ import OpenZeppelin from 'src/pages/web3/ethereum/text/OpenZeppelin';
 import Nonce from 'src/pages/web3/ethereum/text/Nonce';
 import Vocabulary from 'src/pages/web3/ethereum/text/vocabulary';
 
-type Props = {};
-
-const Ethereum: React.FC<Props> = () => {
+const Ethereum: React.FC = () => {
   return (
     <div>
       <div className="mb-3">

@@ -28,14 +28,14 @@ export function useActionKeydown() {
 
   const keydown = useCallback(
     (e: KeyboardEvent) => {
-      const key_action = KEY_ACTION[e.code as ActionKey];
-      if (key_action && !isGameOver && !gameReset) {
+      const keyAction = KEY_ACTION[e.code as ActionKey];
+      if (keyAction && !isGameOver && !gameReset) {
         e.preventDefault();
-        switch (key_action) {
-          case KEY_ACTION['KeyQ']:
+        switch (keyAction) {
+          case KEY_ACTION.KeyQ:
             handleKeyQ();
             break;
-          case KEY_ACTION['KeyW']:
+          case KEY_ACTION.KeyW:
             handleKeyW();
             break;
         }

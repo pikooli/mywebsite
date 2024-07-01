@@ -13,9 +13,8 @@ export function useGameContext() {
   const [board, setBoard] = useState<Board>(DEFAULT_BOARD);
   // const [playerSet, setPlayerSet] = useState<PlayerSet>(DEFAULT_PLAYER_SET);
   const [playerSet, setPlayerSet] = useState<PlayerSet>(createNewPlayerSet());
-  const [nextPlayerSet, setNextPlayerSet] = useState<PlayerSet>(
-    createNewPlayerSet()
-  );
+  const [nextPlayerSet, setNextPlayerSet] =
+    useState<PlayerSet>(createNewPlayerSet());
   const [isResolveTriggered, setIsResolveTriggered] = useState<boolean>(false);
   const [isGameOver, setIsGameOver] = useState<boolean>(false);
   const [score, setScore] = useState<number>(0);

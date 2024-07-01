@@ -11,12 +11,15 @@ import Presentation from 'src/pages/ft_linear_regression/text/Presentation';
 import Explanation from 'src/pages/ft_linear_regression/text/Explanation';
 import SendEth from 'src/components/sendEth';
 
-type Props = {
+interface Props {
   content: string[][];
   error: string;
-};
+}
 
-export const Ft_linear_regression: React.FC<Props> = ({ content, error }) => {
+export const FtLinearRegression: React.FC<Props> = ({
+  content,
+  error,
+}: Props) => {
   const [datas, setDatas] = useState(content);
   const [calculation, setCalculation] = useState(
     new Calculation(new Datas(datas))
@@ -63,4 +66,4 @@ export const Ft_linear_regression: React.FC<Props> = ({ content, error }) => {
   );
 };
 
-export default Ft_linear_regression;
+export default FtLinearRegression;

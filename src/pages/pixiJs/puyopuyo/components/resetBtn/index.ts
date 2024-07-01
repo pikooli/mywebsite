@@ -1,1 +1,1 @@
-export * from "./ResetBtn";
+export * from './ResetBtn';

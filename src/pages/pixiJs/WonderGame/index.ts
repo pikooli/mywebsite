@@ -1,1 +1,1 @@
-export { Game as WonderGame } from "./game";
+export { Game as WonderGame } from './game';

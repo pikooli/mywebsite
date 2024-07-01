@@ -1,1 +1,1 @@
-export * from "./InformationBoard";
+export * from './InformationBoard';

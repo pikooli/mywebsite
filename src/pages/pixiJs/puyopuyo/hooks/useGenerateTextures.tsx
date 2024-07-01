@@ -1,15 +1,14 @@
-import { useCallback } from 'react';
+import { useCallback, useContext } from 'react';
 import { conversionMap } from 'puyopuyo/utils';
 import { Sprite } from '@pixi/react';
 import { GRID_SIZE, NUM_ROWS } from 'puyopuyo/constants';
-import { useContext } from 'react';
 import { PuyoPuyoContext } from 'puyopuyo/context';
 
 export function useGenerateTextures() {
   const { board, playerSet } = useContext(PuyoPuyoContext);
 
   const boardTextures = useCallback(() => {
-    let map = [];
+    const map = [];
 
     for (let i = 0; i < board.length; i++) {
       const image = conversionMap[board[i]];
@@ -33,7 +32,7 @@ export function useGenerateTextures() {
   }, [board]);
 
   const playerSlimsTextures = useCallback(() => {
-    let slimTextures = [];
+    const slimTextures = [];
 
     for (let i = 0; i < playerSet.length; i++) {
       const playerSlim = playerSet[i];

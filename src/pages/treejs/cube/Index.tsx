@@ -4,13 +4,12 @@ import rehypeRaw from 'rehype-raw';
 import Cube from 'src/pages/treejs/cube/Cube';
 import CubeComponent from 'src/pages/treejs/cube/CubeComponent';
 
-type Props = {};
 const markdown = `
 ### **Cube**
 
 Some cubes with the treejs library.
 `;
-const Index: React.FC<Props> = () => {
+const Index: React.FC = () => {
   return (
     <div className="cube">
       <ReactMarkdown rehypePlugins={[rehypeRaw]}>{markdown}</ReactMarkdown>

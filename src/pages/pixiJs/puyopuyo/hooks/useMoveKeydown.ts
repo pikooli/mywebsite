@@ -21,7 +21,7 @@ export function useMoveKeydown() {
 
   const handleArrowDown = useCallback(() => {
     const newBoard = setPlayerSlimInBoard({
-      board: board,
+      board,
       playerSet,
     });
     setBoard(moveAllElementsDown(newBoard));
@@ -54,13 +54,13 @@ export function useMoveKeydown() {
       if (move && !isGameOver) {
         e.preventDefault();
         switch (move) {
-          case KEY_MOVE['ArrowDown']:
+          case KEY_MOVE.ArrowDown:
             handleArrowDown();
             break;
-          case KEY_MOVE['ArrowRight']:
+          case KEY_MOVE.ArrowRight:
             handleArrowRight();
             break;
-          case KEY_MOVE['ArrowLeft']:
+          case KEY_MOVE.ArrowLeft:
             handleArrowLeft();
             break;
         }

@@ -23,5 +23,5 @@ export const map1: MapConfiguration = {
     845, 845, 845, 845, 845, 845, 845, 845, 845, 845, 845, 845, 845, 845, 845,
   ],
   speeches,
-  items: items,
+  items,
 };

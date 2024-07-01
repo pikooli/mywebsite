@@ -9,9 +9,7 @@ import kickBass from 'public/drumkit/sounds/kick-bass.mp3';
 import crash from 'public/drumkit/sounds/crash.mp3';
 import Title3 from 'src/components/text/Title3';
 
-type Props = {};
-
-const Drumkit: React.FC<Props> = () => {
+const Drumkit: React.FC = () => {
   const listener = useCallback((e: KeyboardEvent) => {
     const element: HTMLElement = document.getElementsByClassName(
       e.key
@@ -33,28 +31,29 @@ const Drumkit: React.FC<Props> = () => {
       let audio;
       switch (target.classList[0]) {
         case 'w':
-          audio = new Audio(tom1); //change the source
+          audio = new Audio(tom1); // change the source
           break;
         case 'a':
-          audio = new Audio(tom2); //change the source
+          audio = new Audio(tom2); // change the source
           break;
         case 's':
-          audio = new Audio(tom3); //change the source
+          audio = new Audio(tom3); // change the source
           break;
         case 'd':
-          audio = new Audio(tom4); //change the source
+          audio = new Audio(tom4); // change the source
           break;
         case 'j':
-          audio = new Audio(snare); //change the source
+          audio = new Audio(snare); // change the source
           break;
         case 'k':
-          audio = new Audio(kickBass); //change the source
+          audio = new Audio(kickBass); // change the source
           break;
         case 'l':
-          audio = new Audio(crash); //change the source
+          audio = new Audio(crash); // change the source
           break;
       }
-      if (audio) {
+      if (audio != null) {
+        // eslint-disable-next-line @typescript-eslint/no-floating-promises
         audio.play();
         audio = null;
       }
@@ -69,25 +68,60 @@ const Drumkit: React.FC<Props> = () => {
       <div className="set py-2">
         <Title3 title="Here a little drum kit to pass time. 🥁" />
         <p>You can click on it or use the keyboard. 👍</p>
-        <button className="w drum" onClick={e => playSound(e)}>
+        <button
+          className="w drum"
+          onClick={e => {
+            playSound(e);
+          }}
+        >
           w
         </button>
-        <button className="a drum" onClick={e => playSound(e)}>
+        <button
+          className="a drum"
+          onClick={e => {
+            playSound(e);
+          }}
+        >
           a
         </button>
-        <button className="s drum" onClick={e => playSound(e)}>
+        <button
+          className="s drum"
+          onClick={e => {
+            playSound(e);
+          }}
+        >
           s
         </button>
-        <button className="d drum" onClick={e => playSound(e)}>
+        <button
+          className="d drum"
+          onClick={e => {
+            playSound(e);
+          }}
+        >
           d
         </button>
-        <button className="j drum" onClick={e => playSound(e)}>
+        <button
+          className="j drum"
+          onClick={e => {
+            playSound(e);
+          }}
+        >
           j
         </button>
-        <button className="k drum" onClick={e => playSound(e)}>
+        <button
+          className="k drum"
+          onClick={e => {
+            playSound(e);
+          }}
+        >
           k
         </button>
-        <button className="l drum" onClick={e => playSound(e)}>
+        <button
+          className="l drum"
+          onClick={e => {
+            playSound(e);
+          }}
+        >
           l
         </button>
       </div>

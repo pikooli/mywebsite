@@ -1,5 +1,10 @@
-import { ArrowKey, ActionKey, SlimColor } from 'puyopuyo/types';
-import { Board, PlayerSet } from 'puyopuyo/types';
+import {
+  ArrowKey,
+  ActionKey,
+  SlimColor,
+  Board,
+  PlayerSet,
+} from 'puyopuyo/types';
 
 export const NUM_ROWS = 6;
 export const NUM_COLS = 12;

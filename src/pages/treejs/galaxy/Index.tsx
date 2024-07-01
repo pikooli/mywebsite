@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unknown-property */
 import React, { useEffect, useRef, useState } from 'react';
 import { useRouter } from 'next/router';
 import * as THREE from 'three';
@@ -7,7 +8,6 @@ import { Canvas, useFrame } from '@react-three/fiber';
 import Sphere from 'src/pages/treejs/galaxy/Sphere';
 import GUI from 'lil-gui';
 
-type Props = {};
 const markdown = `
 ### **Galaxy**
 
@@ -15,9 +15,11 @@ Trying to do the solar system, got the sun, earth and moon for now
 `;
 
 function Group(props: { children: React.ReactNode; positionX?: number }) {
-  const ref = useRef<THREE.Group>(null!);
+  const ref = useRef<THREE.Group>(null);
   const { children, positionX } = props;
-  useFrame((state, delta) => (ref.current.rotation.y += 0.012));
+  useFrame((state, delta) =>
+    ref.current != null ? (ref.current.rotation.y += 0.012) : null
+  );
   return (
     <group position={new THREE.Vector3(positionX)} ref={ref}>
       {children}
@@ -25,7 +27,7 @@ function Group(props: { children: React.ReactNode; positionX?: number }) {
   );
 }
 
-const Index: React.FC<Props> = () => {
+const Index: React.FC = () => {
   const router = useRouter();
   const [gui, setGrui] = useState<any>();
   const [state, setState] = useState({
@@ -35,21 +37,26 @@ const Index: React.FC<Props> = () => {
   });
 
   const myObject = {
-    sungrid: () => setState(prev => ({ ...prev, sunGrid: !prev.sunGrid })),
-    earthgrid: () =>
-      setState(prev => ({ ...prev, earthGrid: !prev.earthGrid })),
-    moongrid: () => setState(prev => ({ ...prev, moonGrid: !prev.moonGrid })),
+    sungrid: () => {
+      setState(prev => ({ ...prev, sunGrid: !prev.sunGrid }));
+    },
+    earthgrid: () => {
+      setState(prev => ({ ...prev, earthGrid: !prev.earthGrid }));
+    },
+    moongrid: () => {
+      setState(prev => ({ ...prev, moonGrid: !prev.moonGrid }));
+    },
   };
 
   useEffect(() => {
-    if (!gui) setGrui(new GUI());
+    if (gui === undefined) setGrui(new GUI());
   }, []);
 
   useEffect(() => {
     const quiPage = () => {
       gui?.destroy();
     };
-    if (gui) {
+    if (gui !== undefined) {
       gui.add(myObject, 'sungrid');
       gui.add(myObject, 'earthgrid');
       gui.add(myObject, 'moongrid');

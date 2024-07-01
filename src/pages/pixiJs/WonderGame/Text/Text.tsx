@@ -29,13 +29,15 @@ export const Text = () => {
         }, TEXT_SPEED);
       } else {
         timeout = setTimeout(() => {
-          setText && setText(contextdefaultValue.text);
+          setText?.(contextdefaultValue.text);
           setDisplayText('');
           setParameters(prev => ({ ...prev, action: '' }));
         }, TEXT_PAUSE);
       }
       return () => {
-        timeout ? clearTimeout(timeout) : null;
+        if (timeout) {
+          clearTimeout(timeout);
+        }
       };
     }
   }, [displayText, text]);

@@ -1,1 +1,1 @@
-export * from "./BoardGame";
+export * from './BoardGame';

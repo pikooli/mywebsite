@@ -8,9 +8,7 @@ export interface TitleNature {
   sprite: string;
 }
 
-export interface TitleNatureMap {
-  [index: number]: TitleNature;
-}
+export type TitleNatureMap = Record<number, TitleNature>;
 
 export type Map = number[];
 
@@ -21,17 +19,17 @@ export interface Speech {
 }
 
 export interface Item {
-  name: 'cat_costume';
+  name: 'catCostum';
   position: Position;
 }
 
-export type MapConfiguration = {
+export interface MapConfiguration {
   name: string;
   backgroundColor: string;
   map: Map;
   speeches: Speech[];
   items: Item[];
-};
+}
 
 export interface Text {
   name: string;
@@ -48,7 +46,7 @@ export interface WonderParameters {
 }
 
 export interface Inventaire {
-  cat_costume: boolean;
+  catCostum: boolean;
 }
 
 export type ArrowKey = 'ArrowUp' | 'ArrowDown' | 'ArrowLeft' | 'ArrowRight';

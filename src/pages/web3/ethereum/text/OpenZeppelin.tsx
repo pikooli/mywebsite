@@ -1,8 +1,7 @@
-import React from "react";
-import ReactMarkdown from "react-markdown";
-import rehypeRaw from "rehype-raw";
+import React from 'react';
+import ReactMarkdown from 'react-markdown';
+import rehypeRaw from 'rehype-raw';
 
-type Props = {};
 const markdown = `
 **OpenZeppelin**
 
@@ -13,7 +12,7 @@ It have base code for token, NFT and more.
 Check it out at **[OpenZeppelin](https://openzeppelin.com/)**
 `;
 
-const OpenZeppelin: React.FC<Props> = () => {
+const OpenZeppelin: React.FC = () => {
   return (
     <div className="card mb-3">
       <ReactMarkdown rehypePlugins={[rehypeRaw]}>{markdown}</ReactMarkdown>

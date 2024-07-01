@@ -3,7 +3,6 @@ import { Stage, Text } from '@pixi/react';
 import { TextStyle } from 'pixi.js';
 
 import Title3 from 'src/components/text/Title3';
-import Textures from 'src/components/pixijs/Texture';
 import { map, BLOCKSIZE } from 'src/pages/pixiJs/bunnyGame/utils';
 import Bunny from 'src/pages/pixiJs/bunnyGame/Bunny';
 import Map from 'src/pages/pixiJs/bunnyGame/Map';
@@ -26,10 +25,10 @@ const LIMITDOWN = map.length - 2;
 interface RenderGameProps {
   bunnyPosi: Position;
   arrowDown: string;
-  setBunnyPosi(position: Position): void;
-  checkCollisionBunny(): void;
+  setBunnyPosi: (position: Position) => void;
+  checkCollisionBunny: () => void;
   rockPosi: Position;
-  setRockPosi(position: Position): void;
+  setRockPosi: (position: Position) => void;
 }
 
 const RenderGame = (props: RenderGameProps) => {
@@ -45,8 +44,8 @@ const RenderGame = (props: RenderGameProps) => {
   const spriteSheetNames = useMemo(() => [spritesheetName], []);
 
   const textures = useTextures({
-    spriteSheetPaths: spriteSheetPaths,
-    spriteSheetNames: spriteSheetNames,
+    spriteSheetPaths,
+    spriteSheetNames,
     asTextureChain: true,
   });
 

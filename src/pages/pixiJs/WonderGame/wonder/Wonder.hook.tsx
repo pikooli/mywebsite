@@ -5,9 +5,9 @@ import { useActionKeydown } from '../../hooks';
 import { GameContext } from 'src/pages/pixiJs/WonderGame/context';
 import { useMove, useGrap } from '../actions';
 
-export type UseWonderProps = {
+export interface UseWonderProps {
   textures: Texture[];
-};
+}
 
 export function useWonder(props: UseWonderProps) {
   const { textures } = props;
@@ -18,7 +18,7 @@ export function useWonder(props: UseWonderProps) {
 
   useMove();
   useGrap();
-  const cat_costum = useMemo(() => {
+  const catCostum = useMemo(() => {
     return textures.find(
       texture =>
         texture.textureCacheIds[0] ===
@@ -39,7 +39,7 @@ export function useWonder(props: UseWonderProps) {
   const setAction = useCallback(
     (action: string) => {
       setParameters(prev => {
-        return { ...prev, action: action };
+        return { ...prev, action };
       });
     },
     [setParameters]
@@ -48,7 +48,7 @@ export function useWonder(props: UseWonderProps) {
   useActionKeydown({ setAction });
 
   return {
-    cat_costum,
+    catCostum,
     wonder,
   };
 }

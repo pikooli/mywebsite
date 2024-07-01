@@ -4,9 +4,13 @@ import { Puyopuyo } from 'src/pages/pixiJs/puyopuyo';
 
 const PuyopuyoGameComponentWithNoSSR = dynamic<
   React.ComponentProps<typeof Puyopuyo>
->(() => import('src/pages/pixiJs/puyopuyo').then(mod => mod.Puyopuyo), {
-  ssr: false,
-});
+>(
+  async () =>
+    await import('src/pages/pixiJs/puyopuyo').then(mod => mod.Puyopuyo),
+  {
+    ssr: false,
+  }
+);
 
 export default function PuyopuyoGame() {
   return (

@@ -5,7 +5,10 @@ import { WonderGame } from 'src/pages/pixiJs/WonderGame';
 const WonderGameComponentWithNoSSR = dynamic<
   React.ComponentProps<typeof WonderGame>
 >(
-  () => import('src/pages/pixiJs/WonderGame/index').then(mod => mod.WonderGame),
+  async () =>
+    await import('src/pages/pixiJs/WonderGame/index').then(
+      mod => mod.WonderGame
+    ),
   { ssr: false }
 );
 

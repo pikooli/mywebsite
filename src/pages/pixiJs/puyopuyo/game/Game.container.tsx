@@ -1,5 +1,5 @@
-import { GameView } from "./Game.view";
-import { useGame } from "./Game.hook";
+import { GameView } from './Game.view';
+import { useGame } from './Game.hook';
 
 export function Game() {
   const GameStageHookProps = useGame();

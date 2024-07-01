@@ -18,7 +18,7 @@ export function useMove() {
         const nextX = position.x + move.x;
         const nextY = position.y + move.y;
         const nextPosition = { x: nextX, y: nextY };
-        const posi = canWonderMove(nextPosition, map!.map)
+        const posi = canWonderMove(nextPosition, map.map)
           ? nextPosition
           : prev.position;
         return { ...prev, position: posi };

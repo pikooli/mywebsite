@@ -1,5 +1,5 @@
-import { Dispatch, SetStateAction } from "react";
-import { Board, PlayerSet } from "./boardGame";
+import { Dispatch, SetStateAction } from 'react';
+import { Board, PlayerSet } from './boardGame';
 
 export interface ContextValue {
   board: Board;

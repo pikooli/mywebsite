@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -8,8 +8,8 @@ import {
   Title,
   Tooltip,
   Legend,
-} from "chart.js";
-import { Line } from "react-chartjs-2";
+} from 'chart.js';
+import { Line } from 'react-chartjs-2';
 
 ChartJS.register(
   CategoryScale,
@@ -25,30 +25,30 @@ export const options: Obj = {
   responsive: true,
   plugins: {
     legend: {
-      position: "top" as const,
+      position: 'top' as const,
     },
   },
 };
 
-export type Datasets = {
+export interface Datasets {
   data: number[];
   label: string;
   borderColor: string;
   backgroundColor: string;
-};
+}
 
-type Props = {
+interface Props {
   datas: Datasets[];
   labels: string[];
   title?: string;
-};
+}
 
 const LineChart: React.FC<Props> = ({ labels, datas, title }) => {
   if (!labels || !datas) {
     return <></>;
   }
   const data = {
-    labels: labels,
+    labels,
     datasets: datas,
   };
   return (

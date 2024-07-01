@@ -1,4 +1,4 @@
-import { useState, useContext } from 'react';
+import { useContext } from 'react';
 import { PuyoPuyoContext } from 'puyopuyo/context';
 import { useTick } from '@pixi/react';
 import {

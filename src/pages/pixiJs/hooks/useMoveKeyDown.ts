@@ -3,7 +3,7 @@ import { KEY_MOVE } from '../utils';
 import { ArrowKey } from '../types';
 
 export interface UseMoveKeydown {
-  reactToMove(move: Position): void;
+  reactToMove: (move: Position) => void;
 }
 
 export function useMoveKeydown(props: UseMoveKeydown) {

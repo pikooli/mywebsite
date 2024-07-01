@@ -1,7 +1,7 @@
 import { useCallback } from 'react';
 import { Texture } from '@pixi/core';
 import { conversionMap } from 'src/pages/pixiJs/WonderGame/sprites';
-import { KeyofConversionMap, Map, TitleNature } from '../../types';
+import { Map, TitleNature } from '../../types';
 import { Sprite } from '@pixi/react';
 import {
   BLOCK_SIZE,
@@ -9,18 +9,17 @@ import {
   MAP_ROW,
 } from 'src/pages/pixiJs/WonderGame/utils';
 
-export type UseGameStageProps = {
+export interface UseGameStageProps {
   textures: Texture[];
   map: Map;
-};
+}
 
 export function useGameStage(props: UseGameStageProps) {
   const { textures, map } = props;
 
   const mapTextures = useCallback(() => {
     return map.map((titleNumber: number, idx: number) => {
-      const title: TitleNature =
-        conversionMap[titleNumber as KeyofConversionMap];
+      const title: TitleNature = conversionMap[titleNumber];
       const texture =
         textures.find((texture: Texture) => {
           return texture.textureCacheIds[0] === title.sprite;

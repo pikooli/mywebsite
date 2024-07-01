@@ -16,7 +16,7 @@ export const contextdefaultValue: ContextValue = {
   wonder: {
     parameters: { position: defaultWonderPosition, action: '' },
     setParameters: () => null,
-    inventaire: { cat_costume: false },
+    inventaire: { catCostum: false },
     setInventaire: () => null,
   },
   text: defaultText,

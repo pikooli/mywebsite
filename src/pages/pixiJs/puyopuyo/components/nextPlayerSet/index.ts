@@ -1,1 +1,1 @@
-export * from "./NextPlayerSet";
+export * from './NextPlayerSet';

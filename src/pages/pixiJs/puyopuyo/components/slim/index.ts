@@ -1,1 +1,1 @@
-export { Slim } from "./Slim";
+export { Slim } from './Slim';

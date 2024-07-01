@@ -1,6 +1,6 @@
 import React from 'react';
 
-type Props = {
+interface Props {
   className?: string;
   type?: string;
   classNameInput?: string;
@@ -8,7 +8,7 @@ type Props = {
   onChange?: React.ChangeEventHandler<HTMLInputElement>;
   classNameLabel?: string;
   label?: string;
-};
+}
 
 const FloatingInput: React.FC<Props> = ({
   className,

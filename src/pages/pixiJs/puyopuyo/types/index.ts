@@ -1,2 +1,2 @@
-export * from "./boardGame";
-export * from "./state";
+export * from './boardGame';
+export * from './state';

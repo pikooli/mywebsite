@@ -22,8 +22,8 @@ export function useSpeech() {
           speech.position.x === wonderParameters.position.x &&
           speech.position.y === wonderParameters.position.y
       );
-      if (speech) {
-        setText && setText(speech);
+      if (speech && setText) {
+        setText(speech);
       } else {
         setWonderParameters(prev => ({ ...prev, action: '' }));
       }

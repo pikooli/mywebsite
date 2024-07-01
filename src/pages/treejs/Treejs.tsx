@@ -1,8 +1,6 @@
-import React from "react";
-import ReactMarkdown from "react-markdown";
-import rehypeRaw from "rehype-raw";
-
-type Props = {};
+import React from 'react';
+import ReactMarkdown from 'react-markdown';
+import rehypeRaw from 'rehype-raw';
 
 const markdownTreejs = `
 ### **TreeJs**
@@ -55,7 +53,7 @@ This light cannot be used to cast shadows.
 
 `;
 
-const TreeJs: React.FC<Props> = () => {
+const TreeJs: React.FC = () => {
   return (
     <div>
       <div className="card">

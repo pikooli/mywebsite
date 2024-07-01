@@ -1,6 +1,6 @@
 export const BLOCKSIZE = 16;
-export const spritesheet = "/bunny/Bunny.json";
-export const KEY: { [key: string]: { x: number; y: number } } = {
+export const spritesheet = '/bunny/Bunny.json';
+export const KEY: Record<string, { x: number; y: number }> = {
   ArrowUp: { x: 0, y: -1 },
   ArrowDown: { x: 0, y: 1 },
   ArrowLeft: { x: -1, y: 0 },

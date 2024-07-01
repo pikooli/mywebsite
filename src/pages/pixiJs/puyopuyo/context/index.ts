@@ -1,2 +1,2 @@
-export * from "./provider";
-export { ContextBridge } from "./contextBridge";
+export * from './provider';
+export { ContextBridge } from './contextBridge';

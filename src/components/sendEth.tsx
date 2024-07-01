@@ -62,6 +62,7 @@ export default function SendEth() {
     });
     setTxHash(txHash);
   };
+
   const TxHash = () => {
     if (!txHash) return <></>;
     return <div>TxHash is : {txHash}</div>;
@@ -79,9 +80,12 @@ export default function SendEth() {
               type="number"
               value={input}
               min={0}
-              onChange={e => setInput(e.target.value)}
+              onChange={e => {
+                setInput(e.target.value);
+              }}
               placeholder="0.001"
             />
+            {/*  eslint-disable-next-line @typescript-eslint/no-misused-promises */}
             <button className="btn btn-primary" onClick={onClick}>
               <FontAwesomeIcon icon={faEthereum} />
             </button>

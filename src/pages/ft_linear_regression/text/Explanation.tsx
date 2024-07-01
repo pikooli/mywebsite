@@ -1,8 +1,7 @@
-import React from "react";
-import ReactMarkdown from "react-markdown";
-import rehypeRaw from "rehype-raw";
+import React from 'react';
+import ReactMarkdown from 'react-markdown';
+import rehypeRaw from 'rehype-raw';
 
-type Props = {};
 const markdown = `
 ### **Explanation**
 
@@ -38,7 +37,7 @@ After some iteration, you will see that the values of both θ and the
 loss will stabilise.
 `;
 
-const Explanation: React.FC<Props> = () => {
+const Explanation: React.FC = () => {
   return (
     <div className="card mb-3">
       <ReactMarkdown rehypePlugins={[rehypeRaw]}>{markdown}</ReactMarkdown>

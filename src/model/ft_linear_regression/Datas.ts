@@ -1,15 +1,13 @@
 import _ from 'lodash';
 import Data from 'src/model/ft_linear_regression/Data';
 
-type ObjArray = {
-  [key: string]: Data[];
-};
+type ObjArray = Record<string, Data[]>;
 
 export default class Datas {
   datas: ObjArray = {};
   keys: string[] = [];
 
-  constructor(datas: (string | number)[][]) {
+  constructor(datas: Array<Array<string | number>>) {
     for (let j = 0; j < datas.length; j++) {
       const values = datas[j];
       for (let i = 1; i < values.length; i++) {
@@ -19,7 +17,7 @@ export default class Datas {
   }
 
   sort(name: string) {
-    const orderedValues: { [k: string]: Data[] } = {};
+    const orderedValues: Record<string, Data[]> = {};
     const sorted = _.sortBy(this.datas[name], ['data']);
     orderedValues[name] = sorted;
     const order = sorted.map(e => e.key);

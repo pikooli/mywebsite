@@ -1,4 +1,4 @@
-import fs from "fs";
+import fs from 'fs';
 
 //
 export function transformContent(content: (string | number)[][]) {
@@ -41,7 +41,7 @@ export function parseContent(content?: string) {
   if (!content) return;
   const contentSplit = content
     .split(/\n/)
-    .map((e) => e.split(",").map((e) => e.trim()));
+    .map(e => e.split(',').map(e => e.trim()));
   const nb_elements = contentSplit[0].length;
   const result = [];
   for (let i = 0; i < contentSplit.length; i++) {
@@ -56,5 +56,5 @@ export function parseContent(content?: string) {
 //
 export default function readFile(path?: string) {
   if (!path) return;
-  return parseContent(fs.readFileSync(path, "utf8"));
+  return parseContent(fs.readFileSync(path, 'utf8'));
 }

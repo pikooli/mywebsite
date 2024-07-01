@@ -7,7 +7,7 @@ import utils, { map, BLOCKSIZE } from 'src/pages/pixiJs/bunnyGame/utils';
 const LIMITUP = 2;
 const LIMITRIGHT = map[0].length - 2;
 
-const KEY: { [key: string]: { x: number; y: number } } = {
+const KEY: Record<string, { x: number; y: number }> = {
   ArrowUp: { x: 0, y: -1 },
   ArrowDown: { x: 0, y: 1 },
   ArrowLeft: { x: -1, y: 0 },
@@ -84,15 +84,16 @@ const Bunny = ({
 
   useEffect(() => {
     if (arrowDown) {
-      const keyDownInterval = setInterval(
-        () =>
-          keydown({
-            key: arrowDown,
-            preventDefault: () => {},
-          } as KeyboardEvent),
-        60
-      );
-      return () => clearInterval(keyDownInterval);
+      const keyDownInterval = setInterval(() => {
+        // eslint-disable-next-line @typescript-eslint/consistent-type-assertions
+        keydown({
+          key: arrowDown,
+          preventDefault: () => {},
+        } as KeyboardEvent);
+      }, 60);
+      return () => {
+        clearInterval(keyDownInterval);
+      };
     }
   }, [arrowDown]);
 
@@ -105,12 +106,14 @@ const Bunny = ({
 
   useEffect(() => {
     const timer = setInterval(gravity, 60);
-    return () => clearInterval(timer);
+    return () => {
+      clearInterval(timer);
+    };
   }, []);
 
   return (
     <Sprite
-      texture={textures[utils.spriteSheetMapping['IaUrttj']]}
+      texture={textures[utils.spriteSheetMapping.IaUrttj]}
       {...{ x: posi.x * BLOCKSIZE, y: posi.y * BLOCKSIZE }}
       anchor={[0, 1]}
     />

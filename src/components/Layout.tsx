@@ -16,7 +16,7 @@ const Layout = ({
   const value = useContext(AppContext);
 
   return (
-    <div className={`${value?.theme} ${className || ''}`}>
+    <div className={`${value?.theme || ''} ${className || ''}`}>
       <Header title={`Pascal Zhang ${!title ? '' : `- ${title}`}`} />
       <main>
         <Navbar />

@@ -5,9 +5,9 @@ const AppContext = createContext<GlobalContext | null>(null);
 
 export default AppContext;
 
-type Props = {
+interface Props {
   children: React.ReactNode;
-};
+}
 
 //
 export const AppProvider: React.FC<Props> = ({ children }) => {

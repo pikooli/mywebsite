@@ -1,5 +1,5 @@
-import React from "react";
-import type { ContextValue } from "./index";
+import React from 'react';
+import type { ContextValue } from './index';
 
 export const ContextBridge = (props: React.PropsWithChildren<any>) => {
   const { children, Context, render } = props;

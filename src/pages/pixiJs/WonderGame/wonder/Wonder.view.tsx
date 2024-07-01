@@ -6,17 +6,17 @@ import { GameContext } from 'src/pages/pixiJs/WonderGame/context';
 
 export interface WonderViewProps {
   wonder?: Texture;
-  cat_costum?: Texture;
+  catCostum?: Texture;
 }
 
 export const WonderView = (props: WonderViewProps) => {
-  const { wonder, cat_costum } = props;
+  const { wonder, catCostum } = props;
 
   const contextValue = useContext(GameContext);
   const {
     wonder: {
       parameters: { position: wonderPosition },
-      inventaire: { cat_costume },
+      inventaire: { catCostum: catCostumInventory },
     },
   } = contextValue;
 
@@ -30,9 +30,9 @@ export const WonderView = (props: WonderViewProps) => {
         }}
         anchor={[0, 0]}
       />
-      {cat_costume ? (
+      {catCostumInventory ? (
         <Sprite
-          texture={cat_costum}
+          texture={catCostum}
           {...{
             x: wonderPosition.x * BLOCK_SIZE,
             y: wonderPosition.y * BLOCK_SIZE,
