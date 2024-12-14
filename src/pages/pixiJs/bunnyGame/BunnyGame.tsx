@@ -109,7 +109,7 @@ const BunnyGame = () => {
         <GithubIcon href={GITHUB} />
       </div>
       <Explanation />
-      <div className="flex flex-wrap">
+      <div className="flex flex-wrap ">
         <Stage
           width={map[0].length * BLOCKSIZE}
           height={map.length * BLOCKSIZE}

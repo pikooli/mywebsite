@@ -10,11 +10,22 @@ const nextConfig = {
   webpack(config, options) {
     const { isServer } = options;
     config.module.rules.push({
-      test: /\.(glsl|ogg|mp3|wav|mpe?g)$/i,
+      test: /\.(glsl|vert|frag)$/i, // Only target GLSL files
+      exclude: /node_modules/, // Avoid processing dependencies
+      use: [
+        {
+          loader: 'raw-loader',
+        },
+        {
+          loader: 'glslify-loader',
+        },
+      ],
+    });
+
+    config.module.rules.push({
+      test: /\.(mp3|wav|mpe?g|png|jpg|gif|svg)$/i, // Media files
       exclude: config.exclude,
       use: [
-        'raw-loader',
-        'glslify-loader',
         {
           loader: require.resolve('url-loader'),
           options: {

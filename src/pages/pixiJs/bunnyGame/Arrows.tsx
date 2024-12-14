@@ -17,14 +17,15 @@ const Arrow = ({ setArrowDown }: { setArrowDown: Function }) => {
 
   return (
     <div
-      className="text-center ml-auto mt-3 sm:mr-auto sm:mt-0 sm:ml-3"
+      className="flex flex-col items-center"
       ref={div}
     >
       <Image
         src="/bunny/arrow.png"
+        alt="arrowUp"
         width={64}
         height={64}
-        className="arrowup"
+        className="rotate-180"
         onTouchStart={e => {
           setArrowDown((prev: string) => 'ArrowUp');
         }}
@@ -34,12 +35,13 @@ const Arrow = ({ setArrowDown }: { setArrowDown: Function }) => {
         onMouseDown={() => setArrowDown((prev: string) => 'ArrowUp')}
         onMouseUp={() => setArrowDown((prev: string) => '')}
       />
-      <div>
+      <div className="grid grid-cols-3">
         <Image
           src="/bunny/arrow.png"
+          alt="arrowLeft"
           width={64}
           height={64}
-          className="arrowleft"
+          className="rotate-90"
           onTouchStart={e => {
             setArrowDown((prev: string) => 'ArrowLeft');
           }}
@@ -51,9 +53,9 @@ const Arrow = ({ setArrowDown }: { setArrowDown: Function }) => {
         />
         <Image
           src="/bunny/arrow.png"
+          alt="arrowDown"
           width={64}
           height={64}
-          className="arrowdown"
           onTouchStart={e => {
             setArrowDown((prev: string) => 'ArrowDown');
           }}
@@ -65,9 +67,10 @@ const Arrow = ({ setArrowDown }: { setArrowDown: Function }) => {
         />
         <Image
           src="/bunny/arrow.png"
+          alt="arrowRight"
           width={64}
           height={64}
-          className="arrowright"
+          className="-rotate-90"
           onTouchStart={e => {
             setArrowDown((prev: string) => 'ArrowRight');
           }}

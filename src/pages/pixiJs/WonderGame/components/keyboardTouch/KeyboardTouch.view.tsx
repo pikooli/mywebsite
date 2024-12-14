@@ -16,40 +16,43 @@ export function KeyboardTouchView(props: KeyboardTouchViewProps) {
   const { pressKey, divRef } = props;
 
   return (
-    <div className="text-center mt-3" ref={divRef}>
+    <div className="mt-3 flex flex-col items-center" ref={divRef}>
       <Image
         src="/wonderGame/arrow.png"
+        alt="arrowUp"
         width={ARROW_WIDTH}
         height={ARROW_HEIGHT}
-        className="arrowup"
+        className="rotate-180"
         onMouseDown={() => {
           pressKey('ArrowUp');
         }}
       />
-      <div>
+      <div className="grid grid-cols-3">
         <Image
           src="/wonderGame/arrow.png"
+          alt="arrowLeft"
           width={ARROW_WIDTH}
           height={ARROW_HEIGHT}
-          className="arrowleft"
+          className="rotate-90"
           onMouseDown={() => {
             pressKey('ArrowLeft');
           }}
         />
         <Image
           src="/wonderGame/arrow.png"
+          alt="arrowDown"
           width={ARROW_WIDTH}
           height={ARROW_HEIGHT}
-          className="arrowdown"
           onMouseDown={() => {
             pressKey('ArrowDown');
           }}
         />
         <Image
           src="/wonderGame/arrow.png"
+          alt="arrowRight"
           width={ARROW_WIDTH}
           height={ARROW_HEIGHT}
-          className="arrowright"
+          className="-rotate-90"
           onMouseDown={() => {
             pressKey('ArrowRight');
           }}
@@ -57,6 +60,7 @@ export function KeyboardTouchView(props: KeyboardTouchViewProps) {
       </div>
       <Image
         src="/wonderGame/spacebar.png"
+        alt="spacebar"
         width={SPACEBAR_WIDTH}
         height={SPACEBAR_HEIGHT}
         className="space_bar"

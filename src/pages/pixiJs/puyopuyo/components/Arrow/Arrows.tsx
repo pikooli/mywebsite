@@ -22,14 +22,15 @@ export function Arrows() {
 
   return (
     <div
-      className="text-center ml-auto mt-3 mr-auto sm:mt-0 sm:ml-3 puyopuyo-arrow"
+      className="ml-auto mt-3 mr-auto sm:mt-0 sm:ml-3 flex flex-col items-center"
       ref={divRef}
     >
       <Image
         src="/bunny/arrow.png"
+        alt="arrow"
         width={64}
         height={64}
-        className="arrowup"
+        className="arrowup rotate-180"
         onTouchStart={e => {
           simulateKeyPress(eventKey.eventArrowUp);
         }}
@@ -37,12 +38,13 @@ export function Arrows() {
           simulateKeyPress(eventKey.eventArrowUp);
         }}
       />
-      <div>
+      <div className="grid grid-cols-3">
         <Image
           src="/bunny/arrow.png"
+          alt="arrowLeft"
           width={64}
           height={64}
-          className="arrowleft"
+          className="rotate-90"
           onTouchStart={e => {
             simulateKeyPress(eventKey.eventArrowLeft);
           }}
@@ -52,9 +54,9 @@ export function Arrows() {
         />
         <Image
           src="/bunny/arrow.png"
+          alt="arrowDown"
           width={64}
           height={64}
-          className="arrowdown"
           onTouchStart={e => {
             simulateKeyPress(eventKey.eventArrowDown);
           }}
@@ -64,9 +66,10 @@ export function Arrows() {
         />
         <Image
           src="/bunny/arrow.png"
+          alt="arrowRight"
           width={64}
           height={64}
-          className="arrowright"
+          className="-rotate-90"
           onTouchStart={e => {
             simulateKeyPress(eventKey.eventArrowRight);
           }}

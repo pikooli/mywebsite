@@ -6,7 +6,7 @@ import {
   Sparkles,
   shaderMaterial,
 } from "@react-three/drei";
-import { useControls } from "leva";
+// import { useControls } from "leva";
 import portalVertexShader from "./shaders/vertex.glsl";
 import portalFragmentShader from "./shaders/fragment.glsl";
 import * as THREE from "three";
@@ -34,7 +34,7 @@ export default function Experience() {
   //   z: { value: 0 },
   // });
   const ref = useRef();
-  useFrame((state, delta) => {
+  useFrame((_, delta) => {
     ref.current.uTime += delta;
   });
 
@@ -73,7 +73,7 @@ export default function Experience() {
             rotation={model.nodes.PortalCircle.rotation}
             scale={model.nodes.PortalCircle.scale}
           >
-            {/* <shaderMaterial
+            <shaderMaterial
               vertexShader={portalVertexShader}
               fragmentShader={portalFragmentShader}
               uniforms={{
@@ -82,7 +82,7 @@ export default function Experience() {
                 uColorEnd: { value: new THREE.Color("#000000") },
               }}
               side={THREE.DoubleSide}
-            /> */}
+            />
             <portalMaterial ref={ref} side={THREE.DoubleSide} />
           </mesh>
 
