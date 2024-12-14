@@ -42,27 +42,27 @@ const CustomLink: React.FC<Props> = ({
     setShowToolTip(prev => false);
   };
   return (
-    <Link href={href || ''} passHref={passHref}>
-      <a
-        target={target}
-        data-cy={datacy}
-        ref={setRefElement}
-        className={`${className || ''}`}
-        style={disabled ? style : undefined}
-        onMouseEnter={toolTipText ? onMouseEnter : undefined}
-        onMouseLeave={toolTipText ? onMouseLeave : undefined}
-      >
-        {children}
-        {text && text}
-        {icon && <FontAwesomeIcon icon={icon} className={iconClassName} />}
-        {toolTipText && showToolTip ? (
-          <PopperJs
-            refElement={refElement}
-            toolTipText={toolTipText}
-            position={toolTipPosition}
-          />
-        ) : null}
-      </a>
+    <Link
+      href={href || ''}
+      passHref={passHref}
+      target={target}
+      data-cy={datacy}
+      ref={setRefElement}
+      className={`${className || ''}`}
+      style={disabled ? style : undefined}
+      onMouseEnter={toolTipText ? onMouseEnter : undefined}
+      onMouseLeave={toolTipText ? onMouseLeave : undefined}
+    >
+      {children}
+      {text && text}
+      {icon && <FontAwesomeIcon icon={icon} className={iconClassName} />}
+      {toolTipText && showToolTip ? (
+        <PopperJs
+          refElement={refElement}
+          toolTipText={toolTipText}
+          position={toolTipPosition}
+        />
+      ) : null}
     </Link>
   );
 };
