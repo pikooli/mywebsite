@@ -13,7 +13,6 @@ const Rock = ({
 }) => {
   return (
     <Sprite
-      interactive
       texture={textures[utils.spriteSheetMapping.rock]}
       {...{ x: posi.x * BLOCKSIZE, y: posi.y * BLOCKSIZE }}
       anchor={[0, 1]}

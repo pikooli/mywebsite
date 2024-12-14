@@ -25,14 +25,17 @@ export function useTextures(props: UseTexturesProps) {
       return;
     }
 
-    spriteSheetPaths.forEach((spriteSheetPath: string, idx: number) => {
-      PIXI.Assets.add(spriteSheetNames[idx], spriteSheetPath);
-    });
+    const loadPromises = spriteSheetPaths.map(async (spriteSheetPath: string, idx: number) =>
+      await PIXI.Assets.load(spriteSheetPath)
+    );
 
-    const texturesPromise = PIXI.Assets.load(spriteSheetNames);
+    const loadedAssets = await Promise.all(loadPromises);
+    const combinedTextures = spriteSheetNames.reduce<any>((acc, name, idx) => {
+      acc[name] = loadedAssets[idx];
+      return acc;
+    }, {});
 
-    const textures = await texturesPromise;
-    setTextures(getTextures(textures, asTextureChain));
+    setTextures(getTextures(combinedTextures, asTextureChain));
   }, [spriteSheetPaths, spriteSheetNames, asTextureChain]);
 
   useEffect(() => {
@@ -41,6 +44,6 @@ export function useTextures(props: UseTexturesProps) {
       loadMultiSpriteSheet();
     }
   }, [spriteSheetPaths, spriteSheetNames]);
-
+  console.log('textures', textures);
   return textures;
 }
