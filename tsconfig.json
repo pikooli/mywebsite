@@ -26,6 +26,6 @@
     "**/*.ts",
     "**/*.tsx",
     "src/components/pixijs/Texture.tsx"
-  ],
+, "src/pages/treejs/portal/Experience.jsx"  ],
   "exclude": ["node_modules"]
 }

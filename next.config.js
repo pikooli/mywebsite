@@ -10,9 +10,11 @@ const nextConfig = {
   webpack(config, options) {
     const { isServer } = options;
     config.module.rules.push({
-      test: /\.(ogg|mp3|wav|mpe?g)$/i,
+      test: /\.(glsl|ogg|mp3|wav|mpe?g)$/i,
       exclude: config.exclude,
       use: [
+        'raw-loader',
+        'glslify-loader',
         {
           loader: require.resolve('url-loader'),
           options: {

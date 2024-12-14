@@ -88,6 +88,13 @@ export default function NavLink() {
         </li>
         <li className="pl-2">
           <Link
+            href="/treejs/portal"
+            text="Portal"
+            className={`nav-link ${active['/treejs/portal']}`}
+          />
+        </li>
+        <li className="pl-2">
+          <Link
             href="/treejs/cube"
             text="Cube"
             className={`nav-link ${active['/treejs/cube']}`}
