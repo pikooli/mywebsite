@@ -2,7 +2,7 @@ import { useCallback, useEffect } from 'react';
 import { Sprite, useTick } from '@pixi/react';
 import { Texture } from '@pixi/core';
 
-import utils, { map, BLOCKSIZE } from 'src/pages/pixiJs/bunnyGame/utils';
+import  { map, BLOCKSIZE ,spriteSheetMapping} from 'src/pages/pixiJs/bunnyGame/utils';
 
 const LIMITUP = 2;
 const LIMITRIGHT = map[0].length - 2;
@@ -113,7 +113,7 @@ const Bunny = ({
 
   return (
     <Sprite
-      texture={textures[utils.spriteSheetMapping.IaUrttj]}
+      texture={textures[spriteSheetMapping.IaUrttj]}
       {...{ x: posi.x * BLOCKSIZE, y: posi.y * BLOCKSIZE }}
       anchor={[0, 1]}
     />
