@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import Header from 'src/components/Header';
 import Navbar from 'src/components/navbar/Navbar';
-import SideBar from 'src/components/navbar/SideBar';
+// import SideBar from 'src/components/navbar/SideBar';
 import AppContext from 'src/context/AppContext';
 
 const Layout = ({
