@@ -21,7 +21,7 @@ const Layout = ({
       <main>
         <Navbar />
         <div className="flex">
-          <SideBar />
+          {/* <SideBar /> */}
           <div className="container px-3 mt-3">{children}</div>
         </div>
       </main>

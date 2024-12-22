@@ -35,7 +35,7 @@ const NavbarTools = ({
   open: boolean;
 }) => {
   return (
-    <ul className="flex justify-end items-center grow ">
+    <ul className="flex justify-end items-center grow md:mr-10">
       <li className="ml-2">
         <a href="https://www.instagram.com/whitepikl/" target="tab">
           <FontAwesomeIcon icon={faInstagram} />
