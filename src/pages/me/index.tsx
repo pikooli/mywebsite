@@ -5,6 +5,13 @@ import GithubIcon from 'src/components/icon/Github';
 
 const projects = [
   {
+    name: 'WipeIt',
+    icon: '👋',
+    description: 'WipeIt is an interactive web-based cleaning game, Nextjs and mediapipe',
+    link: 'https://wipeit.vercel.app/',
+    github: 'https://github.com/pikooli/hand/tree/main/example/wipeIt',
+  },
+  {
     name: 'DoodlAI',
     icon: '🎨',
     description: 'A game to draw with AI, built with React and TransformerJS',
