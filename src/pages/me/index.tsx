@@ -1,5 +1,6 @@
 'use client';
 import Link from 'next/link';
+import { Suspense } from 'react';
 import { useGLTF, OrbitControls } from '@react-three/drei';
 import { Canvas, useFrame } from '@react-three/fiber';
 // import Iam from 'src/pages/me/Iam';
@@ -52,11 +53,13 @@ const Me = () => {
     <div className="max-w-4xl mx-auto px-4">
       <div className="flex flex-wrap items-center gap-12 mb-12">
         <div className="relative group">
-          <Canvas>
-            <OrbitControls makeDefault />
-            <ambientLight intensity={3} />
-            <Test />
-          </Canvas>
+          <Suspense fallback={null}>
+            <Canvas>
+              <OrbitControls makeDefault />
+              <ambientLight intensity={3} />
+              <Test />
+            </Canvas>
+          </Suspense>
         </div>
         {/* <Iam /> */}
         <h1 className="text-4xl font-bold capitalize">in progress...</h1>
