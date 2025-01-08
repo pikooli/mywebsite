@@ -1,13 +1,16 @@
+'use client';
 import Link from 'next/link';
-import Image from 'next/image';
-import Iam from 'src/pages/me/Iam';
+import { useGLTF, OrbitControls } from '@react-three/drei';
+import { Canvas, useFrame } from '@react-three/fiber';
+// import Iam from 'src/pages/me/Iam';
 import GithubIcon from 'src/components/icon/Github';
 
 const projects = [
   {
     name: 'WipeIt',
     icon: '👋',
-    description: 'WipeIt is an interactive web-based cleaning game, Nextjs and mediapipe',
+    description:
+      'WipeIt is an interactive web-based cleaning game, Nextjs and mediapipe',
     link: 'https://wipeit.vercel.app/',
     github: 'https://github.com/pikooli/hand/tree/main/example/wipeIt',
   },
@@ -34,21 +37,30 @@ const projects = [
   },
 ];
 
+const Test = () => {
+  const model = useGLTF('../../cat.glb');
+
+  useFrame((_, delta) => {
+    model.nodes.mesh_0.rotation.y += delta;
+  });
+
+  return <primitive scale={3} object={model.scene} />;
+};
+
 const Me = () => {
   return (
     <div className="max-w-4xl mx-auto px-4">
       <div className="flex flex-wrap items-center gap-12 mb-12">
         <div className="relative group">
-          <Image
-            src="/cat.png"
-            className="rounded-2xl shadow-xl transition-transform duration-300 group-hover:scale-105"
-            width={300}
-            height={300}
-            alt="cat"
-          />
-          <div className="absolute inset-0 rounded-2xl bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+          <Canvas>
+            {/* @ts-expect-error */}
+            <OrbitControls />
+            <ambientLight intensity={3} />
+            <Test />
+          </Canvas>
         </div>
-        <Iam />
+        {/* <Iam /> */}
+        <h1 className="text-4xl font-bold capitalize">in progress...</h1>
       </div>
 
       <ul className="space-y-6">
