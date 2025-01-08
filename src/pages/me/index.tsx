@@ -53,8 +53,7 @@ const Me = () => {
       <div className="flex flex-wrap items-center gap-12 mb-12">
         <div className="relative group">
           <Canvas>
-            {/* @ts-expect-error */}
-            <OrbitControls />
+            <OrbitControls makeDefault />
             <ambientLight intensity={3} />
             <Test />
           </Canvas>
