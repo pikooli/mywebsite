@@ -1,10 +1,18 @@
 'use client';
 import Link from 'next/link';
+import dynamic from 'next/dynamic';
 import { Suspense } from 'react';
-import { useGLTF, OrbitControls } from '@react-three/drei';
-import { Canvas, useFrame } from '@react-three/fiber';
+import { OrbitControls } from '@react-three/drei';
+import { Canvas } from '@react-three/fiber';
 // import Iam from 'src/pages/me/Iam';
 import GithubIcon from 'src/components/icon/Github';
+
+const Cat = dynamic(
+  async () => await import('src/pages/me/Cat').then(mod => mod.Cat),
+  {
+    ssr: false,
+  }
+);
 
 const projects = [
   {
@@ -38,16 +46,6 @@ const projects = [
   },
 ];
 
-const Test = () => {
-  const model = useGLTF('../../cat.glb');
-
-  useFrame((_, delta) => {
-    model.nodes.mesh_0.rotation.y += delta;
-  });
-
-  return <primitive scale={3} object={model.scene} />;
-};
-
 const Me = () => {
   return (
     <div className="max-w-4xl mx-auto px-4">
@@ -57,7 +55,7 @@ const Me = () => {
             <Canvas>
               <OrbitControls makeDefault />
               <ambientLight intensity={3} />
-              <Test />
+              <Cat />
             </Canvas>
           </Suspense>
         </div>
