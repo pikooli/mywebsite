@@ -17,7 +17,7 @@ const Cat = dynamic(
 const projects = [
   {
     name: 'Push-Party',
-    icon: '👋',
+    icon: '🎉',
     description:
       'A fun interactive web game that uses hand tracking to let you push and interact with 3D objects in a virtual space.',
     link: 'https://push-party.vercel.app/',
