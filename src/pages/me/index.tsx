@@ -1,25 +1,14 @@
 'use client';
 import Link from 'next/link';
-import dynamic from 'next/dynamic';
-import { Suspense } from 'react';
-import { OrbitControls } from '@react-three/drei';
-import { Canvas } from '@react-three/fiber';
 // import Iam from 'src/pages/me/Iam';
 import GithubIcon from 'src/components/icon/Github';
-
-const Cat = dynamic(
-  async () => await import('src/pages/me/Cat').then(mod => mod.Cat),
-  {
-    ssr: false,
-  }
-);
 
 const projects = [
   {
     name: 'Push-Party',
     icon: '🎉',
     description:
-      'A fun interactive web game that uses hand tracking to let you push and interact with 3D objects in a virtual space.',
+      'A fun interactive web game that uses hand tracking to let you push and interact with 3D objects in a virtual space, build with NextJS and mediapipe',
     link: 'https://push-party.vercel.app/',
     github: 'https://github.com/pikooli/Push-Party',
   },
@@ -41,7 +30,7 @@ const projects = [
   {
     name: 'Calcule-immo',
     icon: '🏢',
-    description: 'A tool to calculate the price of a mortgage, in NextJS',
+    description: 'A tool to calculate the price of a mortgage, in Svelte',
     link: 'https://calcule-immo.com/',
     github: 'https://github.com/pikooli/calcule-immo',
   },
@@ -56,21 +45,12 @@ const projects = [
 
 const Me = () => {
   return (
-    <div className="max-w-4xl mx-auto px-4">
+    <div className="max-w-4xl mx-auto p-4">
       <div className="flex flex-wrap items-center gap-12 mb-12">
-        <div className="relative group">
-          <Suspense fallback={null}>
-            <Canvas>
-              <OrbitControls makeDefault />
-              <ambientLight intensity={3} />
-              <Cat />
-            </Canvas>
-          </Suspense>
-        </div>
         {/* <Iam /> */}
         <h1 className="text-4xl font-bold capitalize">in progress...</h1>
       </div>
-
+      <h1 className="text-2xl font-bold mb-6">Some of my side project: </h1>
       <ul className="space-y-6">
         {projects.map((project, index) => (
           <li
