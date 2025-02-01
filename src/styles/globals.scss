@@ -1,0 +1,25 @@
+@import 'tailwind.scss';
+@import 'variable.scss';
+@import 'navbar.scss';
+@import 'dark-theme.scss';
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.container {
+  min-height: calc(100vh - var(--navbarHeight));
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
