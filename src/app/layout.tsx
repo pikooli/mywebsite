@@ -3,7 +3,6 @@ import { Geist, Geist_Mono } from 'next/font/google';
 import 'devicon';
 import './globals.css';
 import '@/styles/globals.scss';
-import { Layout } from '@/components/Layout';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -30,7 +29,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Layout>{children}</Layout>
+        {children}
       </body>
     </html>
   );
