@@ -70,7 +70,7 @@ export const Experience = () => {
       {EXPERIENCE.map(experience => (
         <div
           key={experience.company}
-          className="w-full mb-6 last:mb-0 border-2 border-gray-200 rounded-md p-4"
+          className="w-full mb-6 last:mb-0 border-t-2 border-t-gray-200 pt-4"
         >
           <h2 className="text-xl font-semibold text-blue-600 mb-2">
             {experience.company}

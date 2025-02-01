@@ -1,3 +1,4 @@
+'use client';
 import { useState } from 'react';
 import {
   useFloating,
@@ -18,7 +19,9 @@ export const Icon = ({ name, icon }: { name: string; icon: string }) => {
   });
 
   const hover = useHover(context, {
-    enabled: window?.matchMedia('(hover: hover)').matches,
+    enabled:
+      typeof window !== 'undefined' &&
+      window?.matchMedia('(hover: hover)').matches,
   });
   const focus = useFocus(context);
   const click = useClick(context);

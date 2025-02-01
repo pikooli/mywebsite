@@ -14,7 +14,7 @@ export const Certification = () => {
       <h1 className="text-2xl font-bold mb-6">Certifications</h1>
       <div className="flex gap-2 flex-wrap bg-gray-100 p-4 rounded-md">
         {CERTIFICATIONS.map(certification => (
-          <a key={certification.name} href={certification.link}>
+          <a key={certification.name} href={certification.link} target="_blank">
             <Icon name={certification.name} icon={certification.icon} />
           </a>
         ))}
