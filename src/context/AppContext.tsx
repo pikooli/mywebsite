@@ -1,5 +1,5 @@
 'use client';
-import React, { useState, createContext } from 'react';
+import React, { useState, createContext, useEffect } from 'react';
 import { DARK_THEME, LIGHT_THEME } from '@/constants';
 
 interface GlobalContext {
@@ -15,12 +15,14 @@ interface Props {
 }
 
 export const AppProvider: React.FC<Props> = ({ children }) => {
-  const [theme, setTheme] = useState(() => {
+  const [theme, setTheme] = useState(LIGHT_THEME);
+
+  useEffect(() => {
     const isDarkMode = window.matchMedia(
       '(prefers-color-scheme: dark)'
     ).matches;
-    return isDarkMode ? DARK_THEME : LIGHT_THEME;
-  });
+    setTheme(isDarkMode ? DARK_THEME : LIGHT_THEME);
+  }, []);
 
   return (
     <AppContext.Provider
