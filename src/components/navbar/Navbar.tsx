@@ -1,11 +1,6 @@
 import React, { useContext } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import AppContext from '@/context/AppContext';
-import {
-  faGithub,
-  faLinkedin,
-  faInstagram,
-} from '@fortawesome/free-brands-svg-icons';
 import { faSun, faMoon } from '@fortawesome/free-solid-svg-icons';
 import Link from 'next/link';
 import { DARK_THEME, LIGHT_THEME } from '@/constants';
@@ -19,21 +14,6 @@ const NavbarTools = ({
 }) => {
   return (
     <ul className="flex justify-end items-center grow md:mr-10">
-      <li className="ml-2">
-        <a href="https://www.instagram.com/whitepikl/" target="tab">
-          <FontAwesomeIcon icon={faInstagram} />
-        </a>
-      </li>
-      <li className="ml-2">
-        <a href="https://github.com/pikooli" target="tab">
-          <FontAwesomeIcon icon={faGithub} />
-        </a>
-      </li>
-      <li className="ml-2">
-        <a href="https://www.linkedin.com/in/zhang-pascal/" target="tab">
-          <FontAwesomeIcon icon={faLinkedin} />
-        </a>
-      </li>
       <li className="ml-2">
         <div className="flex items-center">
           <FontAwesomeIcon className="mr-2" icon={faSun} />

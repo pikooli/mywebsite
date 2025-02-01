@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <div className={`${value?.theme} w-full h-full`}>
+      <div className={`${value?.theme}`}>
         <Me />
       </div>
     </>
