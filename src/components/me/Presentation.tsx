@@ -42,11 +42,22 @@ export const Presentation = () => {
         </ul>
       </div>
       <div className="border-2 border-gray-200 rounded-xl shadow-md hover:shadow-xl p-6 transition-all duration-300">
-        <p className="">
+        <p>
           I am a fullstack web developer specializing in JS and TS based at
           Paris. With experience in both corporate and private projects, I focus
           on creating efficient, scalable solutions while maintaining high
           standards of quality and user experience.
+          <span className="flex">
+            I am part of the
+            <Image
+              src="/42.png"
+              alt="me"
+              width={24}
+              height={24}
+              className="bg-white mx-2"
+            />
+            school
+          </span>
         </p>
       </div>
     </>
