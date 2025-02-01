@@ -3,6 +3,7 @@ import { Presentation } from '@/components/me/Presentation';
 import { Projects } from '@/components/me/Project';
 import { Tech } from '@/components/me/Tech';
 import { Certification } from '@/components/me/Certification';
+import { Experience } from '@/components/me/Experience';
 
 export const Me = () => {
   return (
@@ -12,6 +13,7 @@ export const Me = () => {
         <Tech />
         <Certification />
       </div>
+      <Experience />
       <h1 className="text-2xl font-bold mb-6">Some of my side project: </h1>
       <Projects />
     </div>
