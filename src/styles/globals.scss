@@ -1,7 +1,7 @@
-@import 'tailwind.scss';
-@import 'variable.scss';
-@import 'navbar.scss';
-@import 'dark-theme.scss';
+@use 'tailwind.scss';
+@use 'variable.scss';
+@use 'navbar.scss';
+@use 'dark-theme.scss';
 
 html,
 body {

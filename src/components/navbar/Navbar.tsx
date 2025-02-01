@@ -8,6 +8,7 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 import { faSun, faMoon } from '@fortawesome/free-solid-svg-icons';
 import Link from 'next/link';
+import { DARK_THEME, LIGHT_THEME } from '@/constants';
 
 const NavbarTools = ({
   changeTheme,
@@ -47,13 +48,13 @@ const NavbarTools = ({
                   className="sr-only"
                   type="checkbox"
                   role="switch"
-                  checked={theme === 'dark-theme'}
+                  checked={theme === DARK_THEME}
                   onChange={changeTheme}
                 />
                 <div className="block bg-gray-600 w-8 h-4 rounded-full"></div>
                 <div
                   className={`absolute top-[0.05px] bg-white w-4 h-4 rounded-full transition ${
-                    theme === 'dark-theme' ? 'translate-x-full' : ''
+                    theme === DARK_THEME ? 'translate-x-full' : ''
                   }`}
                 ></div>
               </div>
@@ -72,12 +73,12 @@ export default function Navbar() {
 
   const changeTheme = () => {
     value?.setTheme((prev: string) =>
-      prev === 'light-theme' ? 'dark-theme' : 'light-theme'
+      prev === LIGHT_THEME ? DARK_THEME : LIGHT_THEME
     );
   };
 
   return (
-    <div className="p-2 navbar">
+    <div className="p-2 px-4 navbar">
       <div className="flex text-white">
         <Link href="/" className="text-2xl uppercase">
           Pascal Zhang
