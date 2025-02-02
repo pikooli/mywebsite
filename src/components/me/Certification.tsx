@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export const CERTIFICATIONS = [
   {
     name: 'threejs-journey - by Bruno Simon',
@@ -12,7 +14,7 @@ export const Certification = () => {
       <h1 className="font-title text-2xl font-bold mb-6">Certifications</h1>
       <div className="flex gap-2 flex-wrap bg-gray-100 p-4 rounded-md">
         {CERTIFICATIONS.map(certification => (
-          <a
+          <Link
             key={certification.name}
             href={certification.link}
             target="_blank"
@@ -24,7 +26,7 @@ export const Certification = () => {
             <p className="font-body text-black capitalize text-sm">
               {certification.name}
             </p>
-          </a>
+          </Link>
         ))}
       </div>
     </div>

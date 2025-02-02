@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Image from 'next/image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
@@ -15,29 +16,29 @@ export const Presentation = () => {
         <Image src="/pascal.png" alt="me" width={150} height={150} />
         <ul className="grid grid-cols-2 gap-2 m-3">
           <li>
-            <a href="https://github.com/pikooli" target="tab">
+            <Link href="https://github.com/pikooli" target="tab">
               <FontAwesomeIcon icon={faGithub} />
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/zhang-pascal/" target="tab">
+            <Link href="https://www.linkedin.com/in/zhang-pascal/" target="tab">
               <FontAwesomeIcon icon={faLinkedin} />
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="https://medium.com/@zhangpascal" target="tab">
+            <Link href="https://medium.com/@zhangpascal" target="tab">
               <FontAwesomeIcon icon={faMedium} />
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="https://www.youtube.com/@TheWorldOfPikl" target="tab">
+            <Link href="https://www.youtube.com/@TheWorldOfPikl" target="tab">
               <FontAwesomeIcon icon={faYoutube} />
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="https://www.instagram.com/thefitpikl//" target="tab">
+            <Link href="https://www.instagram.com/thefitpikl//" target="tab">
               <FontAwesomeIcon icon={faInstagram} />
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
