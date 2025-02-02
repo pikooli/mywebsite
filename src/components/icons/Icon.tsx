@@ -9,7 +9,12 @@ import {
   useDismiss,
 } from '@floating-ui/react';
 
-export const Icon = ({ name, icon }: { name: string; icon: string }) => {
+interface IconProps extends React.HTMLAttributes<HTMLDivElement> {
+  name: string;
+  icon: string;
+}
+
+export const Icon = ({ name, icon, ...props }: IconProps) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const { refs, floatingStyles, context } = useFloating({
@@ -40,7 +45,7 @@ export const Icon = ({ name, icon }: { name: string; icon: string }) => {
   };
 
   return (
-    <div>
+    <div {...props}>
       <i
         ref={refs.setReference}
         className={`${icon} text-2xl`}
