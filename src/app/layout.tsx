@@ -1,17 +1,19 @@
 import type { Metadata } from 'next';
-import { Geist, Geist_Mono } from 'next/font/google';
+import { Merriweather, Open_Sans } from 'next/font/google';
 import 'devicon';
 import './globals.css';
 import '@/styles/globals.scss';
 
-const geistSans = Geist({
-  variable: '--font-geist-sans',
+const merriweather = Merriweather({
+  weight: ['400', '700'],
   subsets: ['latin'],
+  variable: '--font-merriweather',
 });
 
-const geistMono = Geist_Mono({
-  variable: '--font-geist-mono',
+const openSans = Open_Sans({
+  weight: ['400', '700'],
   subsets: ['latin'],
+  variable: '--font-open-sans',
 });
 
 export const metadata: Metadata = {
@@ -27,7 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${merriweather.variable} ${openSans.variable} antialiased`}
       >
         {children}
       </body>

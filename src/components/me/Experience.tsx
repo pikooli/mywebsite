@@ -1,9 +1,9 @@
 export const EXPERIENCE = [
   {
     company: 'Freelance',
-    position: 'Développeur web freelance',
-    period: 'janvier 2021 - Present (4 ans 2 mois)',
-    location: 'Paris',
+    position: 'Full Stack Web Developer',
+    period: `January 2021 - Present`,
+    location: 'Paris, Île-de-France, France',
     description:
       'I design, develop, and deliver tailored websites and mobile applications, ensuring they align with your specific needs and business goals. From concept to launch, I take your project from zero to one, turning ideas into fully functional digital products.',
     achievements: [
@@ -14,8 +14,8 @@ export const EXPERIENCE = [
   },
   {
     company: 'Embleema',
-    position: 'Web Developer',
-    period: 'septembre 2023 - septembre 2024 (1 an 1 mois)',
+    position: 'Full Stack Web Developer',
+    period: 'September 2023 - September 2024',
     location: 'Paris, Île-de-France, France',
     description:
       'Worked for a company collaborating with pharmaceutical groups in America, contributing across frontend, backend, and mobile development.',
@@ -30,9 +30,9 @@ export const EXPERIENCE = [
   },
   {
     company: 'Qare',
-    position: 'Développeur web',
-    period: 'mai 2022 - septembre 2023 (1 an 5 mois)',
-    location: 'Ville de Paris, Île-de-France, France',
+    position: 'Full Stack Web Developer',
+    period: 'May 2022 - September 2023',
+    location: 'Paris, Île-de-France, France',
     description:
       'Worked as a Fullstack Web Developer for the leading teleconsultation platform for doctors in France, contributing across frontend, backend, and mobile development.',
     achievements: [
@@ -49,9 +49,9 @@ export const EXPERIENCE = [
   },
   {
     company: 'Igocreate',
-    position: 'Full Stack Developer',
-    period: 'février 2021 - décembre 2021 (11 mois)',
-    location: 'Ville de Paris, Île-de-France, France',
+    position: 'Full Stack Web Developer',
+    period: 'February 2021 - December 2021',
+    location: 'Paris, Île-de-France, France',
     description:
       'Worked as a Fullstack Web Developer in an agency, collaborating with diverse clients across multiple platforms.',
     achievements: [
@@ -66,19 +66,21 @@ export const EXPERIENCE = [
 export const Experience = () => {
   return (
     <div className="flex flex-col gap-2 border-2 border-gray-200 rounded-xl shadow-md hover:shadow-xl p-6 transition-all duration-300">
-      <h1 className="text-2xl font-bold mb-6">Experience</h1>
+      <h1 className="font-title text-2xl font-bold mb-6">Experience</h1>
       {EXPERIENCE.map(experience => (
         <div
           key={experience.company}
           className="w-full mb-6 last:mb-0 border-t-2 border-t-gray-200 pt-4"
         >
-          <h2 className="text-xl font-semibold text-blue-600 mb-2">
+          <h2 className="font-title text-xl font-semibold text-blue-600 mb-2">
             {experience.company}
           </h2>
-          <p className="font-medium mb-1">{experience.position}</p>
-          <p className="text-sm mb-1">{experience.period}</p>
-          <p className="text-sm mb-3">{experience.location}</p>
-          <p className="mb-3">{experience.description}</p>
+          <p className="font-body mb-1">{experience.position}</p>
+          <p className="font-body text-sm mb-1 capitalize">
+            {experience.period}
+          </p>
+          <p className="font-body text-sm mb-3">{experience.location}</p>
+          <p className="font-body mb-3">{experience.description}</p>
           <ul className="list-disc list-inside space-y-1">
             {experience.achievements.map((achievement, index) => (
               <li key={index}>{achievement}</li>

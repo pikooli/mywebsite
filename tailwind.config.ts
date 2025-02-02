@@ -9,6 +9,10 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        title: ['Merriweather', 'serif'],
+        body: ['Open Sans', 'sans-serif'],
+      },
       colors: {
         background: 'var(--background)',
         foreground: 'var(--foreground)',

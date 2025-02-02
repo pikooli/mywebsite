@@ -58,11 +58,11 @@ export const Projects = () => (
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <h3>{project.name}</h3>
+                <h3 className="font-title">{project.name}</h3>
               </Link>
               <GithubIcon href={project.github} iconClassName="text-xl" />
             </div>
-            <p>{project.description}</p>
+            <p className="font-body">{project.description}</p>
           </div>
         </div>
       </li>

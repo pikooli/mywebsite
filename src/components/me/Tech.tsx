@@ -48,7 +48,7 @@ const TOOLS = [
 export const Tech = () => {
   return (
     <div className="flex flex-col gap-2 border-2 border-gray-200 rounded-xl shadow-md hover:shadow-xl p-6 transition-all duration-300">
-      <h1 className="text-2xl font-bold mb-6">Tech Stack</h1>
+      <h1 className="font-title text-2xl font-bold mb-6">Tech Stack</h1>
       <div className="flex flex-wrap flex-col gap-2 bg-gray-100 p-4 rounded-md">
         <div className="flex flex-wrap gap-2">
           {Languages.map(lang => (
