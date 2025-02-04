@@ -59,7 +59,7 @@ export const Presentation = () => {
               alt="me"
               width={24}
               height={24}
-              className="bg-white mx-2"
+              className="bg-white mx-2 w-auto h-auto"
             />
             school
           </span>

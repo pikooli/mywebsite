@@ -1,11 +1,11 @@
 'use client';
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState, useCallback } from 'react';
 import JSConfetti from 'js-confetti';
 import Confetti from 'react-confetti';
 
 export const JsConfetie = () => {
   const jsConfettiRef = useRef<JSConfetti | null>(null);
-  const [isOpen, setIsOpen] = useState(false);
+  const [numberOfPieces, setNumberOfPieces] = useState(0);
   const [height, setHeight] = useState(0);
   const [width, setWidth] = useState(0);
 
@@ -16,19 +16,18 @@ export const JsConfetie = () => {
     jsConfettiRef.current = jsConfetti;
   }, []);
 
-  useEffect(() => {
-    if (isOpen) {
-      jsConfettiRef.current?.addConfetti();
-    }
+  const triggerConfetti = useCallback(() => {
+    jsConfettiRef.current?.addConfetti();
+    setNumberOfPieces(200);
     setTimeout(() => {
-      setIsOpen(false);
+      setNumberOfPieces(0);
     }, 10000);
-  }, [isOpen]);
+  }, [jsConfettiRef]);
 
   return (
     <>
-      <button onClick={() => setIsOpen(true)}>🎉</button>
-      {isOpen && <Confetti width={width} height={height} />}
+      <button onClick={triggerConfetti}>🎉</button>
+      <Confetti width={width} height={height} numberOfPieces={numberOfPieces} />
     </>
   );
 };
