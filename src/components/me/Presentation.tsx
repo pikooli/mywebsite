@@ -8,6 +8,7 @@ import {
   faYoutube,
   faMedium,
 } from '@fortawesome/free-brands-svg-icons';
+import { JsConfetie } from '@/components/JsConfetie';
 
 export const Presentation = () => {
   return (
@@ -39,6 +40,9 @@ export const Presentation = () => {
             <Link href="https://www.instagram.com/thefitpikl//" target="tab">
               <FontAwesomeIcon icon={faInstagram} />
             </Link>
+          </li>
+          <li>
+            <JsConfetie />
           </li>
         </ul>
       </div>
