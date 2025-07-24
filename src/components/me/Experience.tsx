@@ -82,7 +82,7 @@ export const EXPERIENCE = [
 
 export const Experience = () => {
   return (
-    <div className="flex flex-col gap-2 border-2 border-gray-200 rounded-xl shadow-md hover:shadow-xl p-6 transition-all duration-300">
+    <div className="flex flex-col gap-2 border-2 border-gray-200 rounded-xl shadow-md hover:shadow-xl p-6 transition-all duration-300 ">
       <h1 className="font-title text-2xl font-bold mb-6">Experience</h1>
       {EXPERIENCE.map(experience => (
         <div
