@@ -13,6 +13,23 @@ export const EXPERIENCE = [
     ],
   },
   {
+    company: 'Finny',
+    position: 'Full Stack Web Developer',
+    period: 'January 2025 - July 2025',
+    location: 'Paris, Île-de-France, France',
+    description:
+      'Worked for a financial company, contributing across frontend, backend.',
+    achievements: [
+      'Designed and implemented a complete email campaign analytics dashboard, including backend data aggregation and frontend data visualization.',
+      'Added a rich text editor with formatting and editing capabilities to configure email and message content dynamically.',
+      'Built an interactive onboarding tutorial workflow to guide new users through key features and improve initial engagement.',
+      'Developed and implemented password reset functionality to enhance user account security.',
+      'Set up and integrated a global state management system to optimize application state handling and improve performance.',
+      'Enhanced user experience (UX) and improved user interface (UI) consistency across the platform to streamline campaign creation and tracking.',
+      'Diagnosed and resolved issues across the stack, ensuring smooth functionality and performance on both frontend and backend components.',
+    ],
+  },
+  {
     company: 'Embleema',
     position: 'Full Stack Web Developer',
     period: 'September 2023 - September 2024',
