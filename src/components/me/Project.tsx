@@ -29,14 +29,14 @@ const PROJECTS = [
     name: 'Calcule-immo',
     icon: '🏢',
     description: 'A tool to calculate the price of a mortgage, in Svelte',
-    link: 'https://calcule-immo.com/',
+    link: 'https://calcule-immo-s9ot.vercel.app/',
     github: 'https://github.com/pikooli/calcule-immo',
   },
   {
     name: 'LetterIntention',
     icon: '✉️',
     description: 'A tool to write a letter, with Svelte',
-    link: 'https://www.letterintention.com/',
+    link: 'https://loi-nine.vercel.app/',
     github: 'https://github.com/pikooli/loi',
   },
 ];
