@@ -1,14 +1,14 @@
-import Link from 'next/link';
-import Image from 'next/image';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { JsConfetie } from '@/components/JsConfetie';
 import {
   faGithub,
-  faLinkedin,
   faInstagram,
-  faYoutube,
+  faLinkedin,
   faMedium,
+  faYoutube,
 } from '@fortawesome/free-brands-svg-icons';
-import { JsConfetie } from '@/components/JsConfetie';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Image from 'next/image';
+import Link from 'next/link';
 
 export const Presentation = () => {
   return (
@@ -64,6 +64,15 @@ export const Presentation = () => {
             school
           </span>
         </p>
+        <p className="font-body"> Founded : </p>
+        <ul>
+          <li>
+            <Link href="https://www.homea.tech/" target="tab" className="text-blue-600 hover:text-blue-800">Homea</Link> in 2025, a next-generation AI for the real estate space.
+          </li>
+          <li>
+            <Link href="https://www.alicetales.com/" target="tab" className="text-blue-600 hover:text-blue-800">Alice Tales</Link> in 2025, a platform for parents to find activities for their children.
+          </li>
+        </ul>
       </div>
     </>
   );

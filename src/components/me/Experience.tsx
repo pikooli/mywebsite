@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export const EXPERIENCE = [
   {
     company: 'Freelance',
@@ -11,6 +13,49 @@ export const EXPERIENCE = [
       'Worked on Shopify-hosted websites, enhancing functionality and user experience.',
       'Built PrestaShop websites and developed custom modules to extend platform capabilities.',
     ],
+  },
+  {
+    company: 'Homea',
+    position: 'Founder',
+    period: 'November 2025 - Present',
+    location: 'Paris, Île-de-France, France',
+    description:
+      'Building a next-generation AI for the real estate space',
+    achievements: [
+    ],
+    link: 'https://www.homea.tech/',
+  },
+  {
+    company: 'AliceTales',
+    position: 'Founder',
+    period: 'September 2025 - Paused',
+    location: 'Paris, Île-de-France, France',
+    description:
+      'At Alice tales, we strive to provide meaningful moments for parents and their children.',
+    achievements: [
+    ],
+    link: 'https://www.alicetales.com/',
+  },
+  {
+    company: 'Lemrock',
+    position: 'Full Stack Web Developer',
+    period: 'October 2025 - November 2025',
+    location: 'Paris, Île-de-France, France',
+    description:
+      'Worked for a startup in chatbot advertising, contributing across frontend, backend, AI agent',
+    achievements: [
+      "Redesigned the entire frontend for better performance and maintainability",
+"Migrated the frontend codebase from JavaScript to TypeScript",
+"Set up linting, formatting, and style tools to ensure consistent code quality",
+"Integrated a global state management system to streamline data flow across the chatbot",
+"Researched, proposed, and implemented a new UI for the chatbot",
+"Added a chatbot tooling carousel within the chat interface",
+"Developed backend services to retrieve and index publishers’ articles via Algolia, add it as a tools for agent AI",
+"Contributed to the implementation of a new AI agent using LangGraph",
+"Advocated best practices and mentored junior developers",
+"Improve tracking system"
+    ],
+    link: 'https://lemrock.com/',
   },
   {
     company: 'Finny',
@@ -28,6 +73,7 @@ export const EXPERIENCE = [
       'Enhanced user experience (UX) and improved user interface (UI) consistency across the platform to streamline campaign creation and tracking.',
       'Diagnosed and resolved issues across the stack, ensuring smooth functionality and performance on both frontend and backend components.',
     ],
+    link: 'https://www.finnyai.com/',
   },
   {
     company: 'Embleema',
@@ -44,6 +90,7 @@ export const EXPERIENCE = [
       'Optimizing, debugging, and maintaining the existing codebase to improve performance and reliability.',
       'Researching and proposing new processes and technologies to enhance efficiency and innovation.',
     ],
+    link: 'https://embleema.com/',
   },
   {
     company: 'Qare',
@@ -63,6 +110,7 @@ export const EXPERIENCE = [
       'Leading the migration and integration of a new customer support system.',
       'Researching and introducing new processes and technologies to optimize performance and efficiency.',
     ],
+    link: 'https://qare.fr/',
   },
   {
     company: 'Igocreate',
@@ -77,6 +125,7 @@ export const EXPERIENCE = [
       'Enhanced and optimized the Hermès website, improving performance and user experience.',
       'Contributed to the ferry reservation system, ensuring seamless booking functionality.',
     ],
+    link: 'https://www.igocreate.com/',
   },
 ];
 
@@ -89,9 +138,14 @@ export const Experience = () => {
           key={experience.company}
           className="w-full mb-6 last:mb-0 border-t-2 border-t-gray-200 pt-4"
         >
+          {experience.link ? <Link href={experience.link || ''} target="_blank" className="hover:underline">
           <h2 className="font-title text-xl font-semibold text-blue-600 mb-2">
             {experience.company}
           </h2>
+          </Link> : 
+          <h2 className="font-title text-xl font-semibold  mb-2">
+            {experience.company}
+          </h2>}
           <p className="font-body mb-1">{experience.position}</p>
           <p className="font-body text-sm mb-1 capitalize">
             {experience.period}
