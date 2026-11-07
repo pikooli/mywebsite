@@ -131,34 +131,63 @@ export const EXPERIENCE = [
 
 export const Experience = () => {
   return (
-    <div className="flex flex-col gap-2 border-2 border-gray-200 rounded-xl shadow-md hover:shadow-xl p-6 transition-all duration-300 ">
-      <h1 className="font-title text-2xl font-bold mb-6">Experience</h1>
-      {EXPERIENCE.map(experience => (
-        <div
-          key={experience.company}
-          className="w-full mb-6 last:mb-0 border-t-2 border-t-gray-200 pt-4"
-        >
-          {experience.link ? <Link href={experience.link || ''} target="_blank" className="hover:underline">
-          <h2 className="font-title text-xl font-semibold text-blue-600 mb-2">
-            {experience.company}
-          </h2>
-          </Link> : 
-          <h2 className="font-title text-xl font-semibold  mb-2">
-            {experience.company}
-          </h2>}
-          <p className="font-body mb-1">{experience.position}</p>
-          <p className="font-body text-sm mb-1 capitalize">
-            {experience.period}
-          </p>
-          <p className="font-body text-sm mb-3">{experience.location}</p>
-          <p className="font-body mb-3">{experience.description}</p>
-          <ul className="list-disc list-inside space-y-1">
-            {experience.achievements.map((achievement, index) => (
-              <li key={index}>{achievement}</li>
-            ))}
-          </ul>
-        </div>
-      ))}
-    </div>
+    <section className="panel p-6 md:p-10">
+      <h1 className="section-title mb-8">Experience</h1>
+      <ol className="relative border-l border-line ml-1.5">
+        {EXPERIENCE.map(experience => (
+          <li
+            key={experience.company}
+            className="relative pl-6 md:pl-8 pb-10 last:pb-0"
+          >
+            <span className="absolute -left-[5px] top-2 h-2.5 w-2.5 rounded-full bg-background border-2 border-accent" />
+            <div className="flex flex-col md:flex-row md:items-baseline md:justify-between gap-1 md:gap-6 mb-2">
+              {experience.link ? (
+                <Link
+                  href={experience.link || ''}
+                  target="_blank"
+                  className="group inline-flex items-center gap-2"
+                >
+                  <h2 className="font-title text-xl md:text-2xl font-semibold text-foreground group-hover:text-accent transition-colors">
+                    {experience.company}
+                  </h2>
+                  <span
+                    aria-hidden
+                    className="text-accent opacity-60 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+                  >
+                    ↗
+                  </span>
+                </Link>
+              ) : (
+                <h2 className="font-title text-xl md:text-2xl font-semibold">
+                  {experience.company}
+                </h2>
+              )}
+              <p className="font-mono text-xs uppercase tracking-wider text-muted shrink-0">
+                {experience.period}
+              </p>
+            </div>
+            <div className="flex flex-wrap items-center gap-x-3 gap-y-1 mb-4">
+              <p className="font-body font-medium text-accent">
+                {experience.position}
+              </p>
+              <span className="text-line">•</span>
+              <p className="font-body text-sm text-muted">
+                {experience.location}
+              </p>
+            </div>
+            <p className="font-body mb-4 text-foreground/85">
+              {experience.description}
+            </p>
+            {experience.achievements.length > 0 && (
+              <ul className="achievements space-y-2 text-[0.95rem] text-foreground/75">
+                {experience.achievements.map((achievement, index) => (
+                  <li key={index}>{achievement}</li>
+                ))}
+              </ul>
+            )}
+          </li>
+        ))}
+      </ol>
+    </section>
   );
 };

@@ -46,24 +46,33 @@ export const Projects = () => (
     {PROJECTS.map(project => (
       <li
         key={project.name}
-        className="group border-2 border-gray-200 rounded-xl shadow-md hover:shadow-xl transition-all duration-300"
+        className="panel group p-6 flex gap-5 hover:-translate-y-1"
       >
-        <div className="p-6 flex items-center gap-6">
-          <div className="text-4xl">{project.icon}</div>
-          <div className="flex-1">
-            <div className="flex items-center gap-3 mb-2">
-              <Link
-                className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 font-semibold text-lg group-hover:underline"
-                href={project.link}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <h3 className="font-title">{project.name}</h3>
-              </Link>
-              <GithubIcon href={project.github} iconClassName="text-xl" />
-            </div>
-            <p className="font-body">{project.description}</p>
+        <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-xl border border-line bg-white/[0.03] text-3xl transition-transform duration-300 group-hover:rotate-[-6deg] group-hover:scale-105">
+          {project.icon}
+        </div>
+        <div className="flex-1 min-w-0">
+          <div className="flex items-center justify-between gap-3 mb-2">
+            <Link
+              className="inline-flex items-center gap-2 font-semibold text-lg text-foreground hover:text-accent transition-colors"
+              href={project.link}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h3 className="font-title">{project.name}</h3>
+              <span aria-hidden className="text-accent text-sm opacity-60">
+                ↗
+              </span>
+            </Link>
+            <GithubIcon
+              href={project.github}
+              className="text-muted hover:text-foreground transition-colors"
+              iconClassName="text-xl"
+            />
           </div>
+          <p className="font-body text-[0.95rem] leading-7 text-foreground/70">
+            {project.description}
+          </p>
         </div>
       </li>
     ))}

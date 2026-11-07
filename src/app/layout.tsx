@@ -1,19 +1,25 @@
 import type { Metadata } from 'next';
-import { Merriweather, Open_Sans } from 'next/font/google';
+import { Fraunces, DM_Sans, JetBrains_Mono } from 'next/font/google';
 import 'devicon';
 import './globals.css';
 import '@/styles/globals.scss';
 
-const merriweather = Merriweather({
-  weight: ['400', '700'],
+const fraunces = Fraunces({
+  weight: ['400', '600', '700'],
   subsets: ['latin'],
-  variable: '--font-merriweather',
+  variable: '--font-title',
 });
 
-const openSans = Open_Sans({
-  weight: ['400', '700'],
+const dmSans = DM_Sans({
+  weight: ['400', '500', '700'],
   subsets: ['latin'],
-  variable: '--font-open-sans',
+  variable: '--font-body',
+});
+
+const jetbrains = JetBrains_Mono({
+  weight: ['400', '500'],
+  subsets: ['latin'],
+  variable: '--font-mono',
 });
 
 export const metadata: Metadata = {
@@ -28,11 +34,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      {/* <head>
-        <script src="https://unpkg.com/react-scan/dist/auto.global.js" async />
-      </head> */}
       <body
-        className={`${merriweather.variable} ${openSans.variable} antialiased`}
+        className={`${fraunces.variable} ${dmSans.variable} ${jetbrains.variable} antialiased`}
       >
         {children}
       </body>

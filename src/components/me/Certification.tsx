@@ -10,25 +10,25 @@ export const CERTIFICATIONS = [
 
 export const Certification = () => {
   return (
-    <div className="flex flex-col gap-2 border-2 border-gray-200 rounded-xl shadow-md hover:shadow-xl p-6 transition-all duration-300">
-      <h1 className="font-title text-2xl font-bold mb-6">Certifications</h1>
-      <div className="flex gap-2 flex-wrap bg-gray-100 p-4 rounded-md">
+    <section className="panel p-6 md:p-8 flex flex-col gap-6">
+      <h1 className="section-title">Certifications</h1>
+      <div className="flex flex-col gap-3">
         {CERTIFICATIONS.map(certification => (
           <Link
             key={certification.name}
             href={certification.link}
             target="_blank"
-            className="flex items-center"
+            className="group flex items-center gap-4 rounded-xl border border-line bg-white/[0.02] p-4 transition-colors hover:border-accent/60"
           >
-            <i
-              className={`${certification.icon} text-2xl mr-2 flex item-center`}
-            />
-            <p className="font-body text-black capitalize text-sm">
+            <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg bg-[#f4f1ea]">
+              <i className={`${certification.icon} text-2xl`} />
+            </span>
+            <p className="font-body capitalize text-sm leading-6 text-foreground/90 group-hover:text-foreground">
               {certification.name}
             </p>
           </Link>
         ))}
       </div>
-    </div>
+    </section>
   );
 };

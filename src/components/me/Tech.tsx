@@ -47,30 +47,17 @@ const TOOLS = [
 
 export const Tech = () => {
   return (
-    <div className="flex flex-col gap-2 border-2 border-gray-200 rounded-xl shadow-md hover:shadow-xl p-6 transition-all duration-300">
-      <h1 className="font-title text-2xl font-bold mb-6">Tech Stack</h1>
-      <div className="flex flex-wrap flex-col gap-2 bg-gray-100 p-4 rounded-md">
-        <div className="flex flex-wrap gap-2">
-          {Languages.map(lang => (
-            <Icon key={lang.name} name={lang.name} icon={lang.icon} />
-          ))}
-        </div>
-        <div className="flex flex-wrap gap-2">
-          {FRONTEND_TECH.map(tech => (
-            <Icon key={tech.name} name={tech.name} icon={tech.icon} />
-          ))}
-        </div>
-        <div className="flex flex-wrap gap-2">
-          {BACKEND_TECH.map(tech => (
-            <Icon key={tech.name} name={tech.name} icon={tech.icon} />
-          ))}
-        </div>
-        <div className="flex flex-wrap gap-2">
-          {TOOLS.map(tech => (
-            <Icon key={tech.name} name={tech.name} icon={tech.icon} />
-          ))}
-        </div>
+    <section className="panel p-6 md:p-8 flex flex-col gap-6">
+      <h1 className="section-title">Tech Stack</h1>
+      <div className="flex flex-col gap-3">
+        {[Languages, FRONTEND_TECH, BACKEND_TECH, TOOLS].map((group, i) => (
+          <div key={i} className="flex flex-wrap gap-2">
+            {group.map(tech => (
+              <Icon key={tech.name} name={tech.name} icon={tech.icon} />
+            ))}
+          </div>
+        ))}
       </div>
-    </div>
+    </section>
   );
 };

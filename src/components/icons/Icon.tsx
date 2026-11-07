@@ -45,7 +45,7 @@ export const Icon = ({ name, icon, ...props }: IconProps) => {
   };
 
   return (
-    <div {...props}>
+    <div {...props} className="flex h-11 w-11 items-center justify-center rounded-lg bg-[#f4f1ea] transition-transform duration-200 hover:-translate-y-0.5 hover:shadow-[0_6px_20px_-6px_rgba(255,138,76,0.5)]">
       <i
         ref={refs.setReference}
         className={`${icon} text-2xl`}
@@ -58,7 +58,7 @@ export const Icon = ({ name, icon, ...props }: IconProps) => {
         <div
           ref={refs.setFloating}
           style={floatingStyles}
-          className="bg-gray-800 border border-gray-700 rounded px-2 py-1 text-sm shadow-md"
+          className="z-50 bg-[#0d0e11] text-foreground border border-line rounded-md px-2 py-0.5 text-xs font-mono shadow-lg whitespace-nowrap"
           {...getFloatingProps()}
         >
           {name}
